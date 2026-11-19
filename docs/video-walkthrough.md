@@ -6,7 +6,7 @@ Use your own words and describe your contribution accurately. Only claim you rev
 
 ## Before recording
 
-1. Start the local preview in VS Code: `python -m http.server 8000 --bind 127.0.0.1`.
+1. Open the live website at https://atlas-and-away.vercel.app, or start the local preview in VS Code: `python -m http.server 8000 --bind 127.0.0.1`.
 2. Prepare tabs for Home, Explore, Mauritius, About, Contact and the sources PDF. Keep VS Code open with the Explorer tree visible.
 3. Keep the browser at normal zoom. Hide unrelated tabs and notifications, and check your microphone.
 4. Prepare demo form details: **Demo Visitor**, **demo@example.com**, **Mauritius**, and **I would like to explore the culture and attractions of Mauritius.** Do not use real visitor information.

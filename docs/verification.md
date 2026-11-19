@@ -98,3 +98,12 @@ Website hosting and recording the walkthrough are separate from the source repos
 - Created the public repository https://github.com/kofiannan06/atlas-and-away under the requested account and configured the local `main` branch and remote.
 - Added ignore rules for local secrets and temporary files, and text/binary attributes for consistent Git handling. The local upload review found no credential-pattern matches, secret-file names or files of 50 MiB or more.
 - JavaScript syntax and all nine existing currency tests pass. The source PDF includes the actual repository hyperlink; its updated cover was rendered and visually inspected. The recording URL remains pending.
+
+## Vercel production deployment - 19 November 2026
+
+- Published https://atlas-and-away.vercel.app under the `atlas-and-away` project in `ebenezer-kofi-annans-projects`, using Vercel CLI 66.2.0. The production homepage opens publicly without sign-in.
+- Browser verification covered Explore search/filtering (one Mauritius result), navigation to the Mauritius guide, a loaded country banner, two hotel cards, a live dated USD-to-MUR conversion, the loaded circular About portrait and portfolio link, and correct contact-demo feedback. Synthetic form entries were cleared after checking. No browser console errors were observed.
+- The homepage world map loads, all 31 slideshow links are present, and the default desktop viewport has no horizontal overflow. A screenshot was retained for the handover.
+- The CLI upload review confirmed that `.env.local`, `.vercel`, `.git` and test files are excluded. Local CLI settings and credentials are ignored by Git.
+- This is a manual CLI deployment. GitHub pushes currently update the repository only; Vercel's Git connection belongs to the creator's other GitHub account. `docs/deployment.md` explains the update command.
+- The updated 74-page source PDF includes working live-site and GitHub links. Its cover and hosting-credit page were rendered and visually inspected; the video URL remains pending.

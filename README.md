@@ -4,6 +4,8 @@ A static travel and tourism learning project: 31 country guides across six conti
 
 Project repository: [kofiannan06/atlas-and-away](https://github.com/kofiannan06/atlas-and-away).
 
+Live website: [atlas-and-away.vercel.app](https://atlas-and-away.vercel.app).
+
 Each country guide now includes two official hotel links and its local currency. An on-demand converter uses dated reference rates. Hotel websites handle prices, availability and reservations.
 
 ## Run locally
@@ -60,6 +62,6 @@ Your profile photo, portfolio, LinkedIn and both GitHub profiles are included on
 - Add your walkthrough video URL to the sources document. The project repository link is included.
 - Review and personalise the AI-assisted reference code and text so you can explain your own final submission.
 
-The form demonstrates validation; it does not send an email. Saved destinations and checklists stay in the current browser. A GitHub repository stores the source; website hosting and recording the walkthrough are separate steps.
+The form demonstrates validation; it does not send an email. Saved destinations and checklists stay in the current browser. The live site is hosted on Vercel using a manual CLI deployment. GitHub pushes do not automatically deploy; follow `docs/deployment.md` to publish updates.
 
 Currency calculations and cache/error handling can be checked with Node's built-in runner: `node --test tests/currency.test.cjs`. The converter requires an internet connection for fresh rates; the country facts and hotel links are static HTML.

@@ -100,6 +100,8 @@ Actual follow-up prompts include:
 
 > GIVE ME a 7mins detailed demo walkthorugh on what i did ...to do a video and submit
 
+> Can yiu deploy it on vercel
+
 The expanded specification used as context is preserved in `docs/website-prompt.md`. Earlier image collection and map work is documented in the media metadata. Review the complete conversation for any additional prompts used in your final submission.
 
 ## Country cover refresh - 19 November 2026
@@ -127,3 +129,7 @@ The creator's portfolio at https://kofi-annan.vercel.app/ was inspected as a vis
 ## Walkthrough narration reference
 
 ChatGPT through Codex prepared `docs/video-walkthrough.md` using the current project files. It includes a seven-minute rehearsal script and a complete shorter script targeting 4:55 because the supplied assignment limits the submitted recording to five minutes. The scripts identify what to show, explain actual HTML/CSS choices and acknowledge AI assistance. The student must adapt the narration to accurately reflect their contribution and understanding. No video was recorded, uploaded or linked by this preparation.
+
+## Live website
+
+The production website is https://atlas-and-away.vercel.app. It was published with the official Vercel CLI under the `atlas-and-away` project in `ebenezer-kofi-annans-projects`. The current deployment is manual; GitHub pushes do not trigger deployments because Vercel's Git connection is associated with the creator's other GitHub account. See `docs/deployment.md` for the exact update command. Local CLI credentials and project settings are ignored by both Git and Vercel uploads.

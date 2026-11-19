@@ -1,0 +1,10 @@
+# Only the website and its public resources are needed on the live site.
+.git/
+.vercel/
+node_modules/
+tests/
+.vscode/
+.env*
+*.log
+.DS_Store
+Thumbs.db
