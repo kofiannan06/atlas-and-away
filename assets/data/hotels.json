@@ -1,0 +1,580 @@
+{
+    "countries": {
+        "cameroon": [
+            {
+                "name": "Atlantic Beach Hotel",
+                "city": "Limbe",
+                "description": "Located near Down Beach in central Limbe, this hotel offers several room categories, an on-site restaurant and bar, a swimming pool, and conference facilities.",
+                "officialUrl": "https://atlanticbeachotel.com/",
+                "sourceUrl": "https://atlanticbeachotel.com/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Seme Beach Hotel",
+                "city": "Bakingili, near Limbe",
+                "description": "A beachfront hotel in Bakingili near Limbe, with rooms, suites, apartments, tropical gardens, an oceanfront restaurant, spa facilities, and a private volcanic beach.",
+                "officialUrl": "https://www.semebeach.com/",
+                "sourceUrl": "https://www.semebeach.com/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "mauritius": [
+            {
+                "name": "Labourdonnais Waterfront Hotel",
+                "city": "Port Louis",
+                "description": "A Port Louis hotel on the Caudan Waterfront, with rooms and suites, harbour views, restaurants, an outdoor pool, and a spa and fitness centre.",
+                "officialUrl": "https://www.ninetysixhotels.com/labourdonnais-waterfront-hotel-port-louis-mauritius.html",
+                "sourceUrl": "https://www.ninetysixhotels.com/labourdonnais-waterfront-hotel-port-louis-mauritius.html",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Le Suffren Hotel & Marina",
+                "city": "Port Louis",
+                "description": "A Port Louis hotel overlooking the Caudan Waterfront marina, with nautical-themed rooms, restaurants, a swimming pool, and a wellness club near the city centre.",
+                "officialUrl": "https://www.ninetysixhotels.com/le-suffren-hotel-and-marina-port-louis-mauritius.html",
+                "sourceUrl": "https://www.ninetysixhotels.com/le-suffren-hotel-and-marina-port-louis-mauritius.html",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "tanzania": [
+            {
+                "name": "Zanzibar Serena Hotel",
+                "city": "Stone Town, Zanzibar",
+                "description": "A seafront hotel in Stone Town, Zanzibar, occupying restored historic buildings and offering rooms with Swahili design details, ocean views, and on-site dining.",
+                "officialUrl": "https://www.serenahotels.com/zanzibar",
+                "sourceUrl": "https://www.serenahotels.com/zanzibar",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Park Hyatt Zanzibar",
+                "city": "Stone Town, Zanzibar",
+                "description": "A beachfront hotel on Shangani Street in Stone Town, Zanzibar, with rooms and suites, an ocean-facing pool, spa facilities, and waterfront dining.",
+                "officialUrl": "https://www.hyatt.com/park-hyatt/en-US/znzph-park-hyatt-zanzibar",
+                "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/znzph-park-hyatt-zanzibar",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "ghana": [
+            {
+                "name": "Kempinski Hotel Gold Coast City Accra",
+                "city": "Accra",
+                "description": "Located in central Accra's business district, this hotel offers rooms and suites, multiple dining venues, a swimming pool, and the on-site Resense Spa.",
+                "officialUrl": "https://www.kempinski.com/en/hotel-gold-coast-city",
+                "sourceUrl": "https://www.kempinski.com/en/hotel-gold-coast-city",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Mövenpick Ambassador Hotel Accra",
+                "city": "Accra",
+                "description": "On Independence Avenue in Accra's Ridge district, this hotel offers rooms and suites with garden or city views, restaurants, and a lagoon-style swimming pool.",
+                "officialUrl": "https://movenpick.accor.com/en/hotels/accra/B4P0.html",
+                "sourceUrl": "https://movenpick.accor.com/en/hotels/accra/B4P0.html",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "kenya": [
+            {
+                "name": "Nairobi Serena Hotel",
+                "city": "Nairobi",
+                "description": "Beside Central Park in Nairobi, this hotel has gardens, rooms and suites, restaurants, a heated swimming pool, and the Maisha Spa and Health Club.",
+                "officialUrl": "https://www.serenahotels.com/nairobi",
+                "sourceUrl": "https://www.serenahotels.com/nairobi",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Sarova Stanley",
+                "city": "Nairobi",
+                "description": "A historic hotel at Kenyatta Avenue and Kimathi Street in central Nairobi, offering guestrooms and suites, several dining venues, a rooftop pool, and health club.",
+                "officialUrl": "https://www.sarovahotels.com/stanley-nairobi/",
+                "sourceUrl": "https://www.sarovahotels.com/stanley-nairobi/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "south-africa": [
+            {
+                "name": "Victoria & Alfred Hotel",
+                "city": "Cape Town",
+                "description": "A hotel at Cape Town's V&A Waterfront, offering rooms in a historic setting with views of the harbour and Table Mountain from the property.",
+                "officialUrl": "https://newmarkhotels.com/accommodation/the-victoria-alfred-hotel",
+                "sourceUrl": "https://newmarkhotels.com/accommodation/the-victoria-alfred-hotel",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Cape Grace, A Fairmont Managed Hotel",
+                "city": "Cape Town",
+                "description": "Set on a private quay in Cape Town's V&A Waterfront, this hotel has harbour-facing accommodation, restaurants, a swimming pool, and spa facilities.",
+                "officialUrl": "https://www.fairmont.com/en/hotels/cape-town/cape-grace.html",
+                "sourceUrl": "https://www.fairmont.com/en/hotels/cape-town/cape-grace.html",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "japan": [
+            {
+                "name": "Imperial Hotel, Tokyo",
+                "city": "Tokyo",
+                "description": "A Tokyo hotel in Hibiya, near the Imperial Palace and Ginza, offering guestrooms, suites, restaurants, shops, and indoor fitness and swimming facilities.",
+                "officialUrl": "https://www.imperialhotel.co.jp/en/tokyo",
+                "sourceUrl": "https://www.imperialhotel.co.jp/en/tokyo",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Keio Plaza Hotel Tokyo",
+                "city": "Tokyo",
+                "description": "Located in Tokyo's Nishi-Shinjuku district, this high-rise hotel offers rooms and suites, multiple restaurants, and upper-floor lounges overlooking the surrounding city skyline.",
+                "officialUrl": "https://www.keioplaza.co.jp/en/",
+                "sourceUrl": "https://www.keioplaza.co.jp/en/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "thailand": [
+            {
+                "name": "Chatrium Bangkok Riverside",
+                "city": "Bangkok",
+                "description": "A Bangkok hotel beside the Chao Phraya River, with rooms and suites, river views, dining venues, and an outdoor swimming pool overlooking the river.",
+                "officialUrl": "https://www.chatrium.com/chatriumbangkokriverside",
+                "sourceUrl": "https://www.chatrium.com/chatriumbangkokriverside",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Riva Surya Bangkok",
+                "city": "Bangkok",
+                "description": "On Phra Athit Road in Bangkok, this riverside hotel offers rooms with balconies, a swimming pool, dining, and access to Chao Phraya riverboat services.",
+                "officialUrl": "https://www.snhcollection.com/hotels/riva-surya-bangkok",
+                "sourceUrl": "https://www.snhcollection.com/hotels/riva-surya-bangkok",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "vietnam": [
+            {
+                "name": "Sofitel Legend Metropole Hanoi",
+                "city": "Hanoi",
+                "description": "A historic hotel on Ngo Quyen Street in Hanoi's Hoan Kiem district, with rooms across two wings, several restaurants, a courtyard, and outdoor pool.",
+                "officialUrl": "https://www.sofitel-legend-metropole-hanoi.com/",
+                "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "La Siesta Premium Hang Be",
+                "city": "Hanoi",
+                "description": "On Hang Be Street in Hanoi's Old Quarter, this hotel offers rooms and suites, a restaurant, a rooftop bar, and an on-site spa.",
+                "officialUrl": "https://lasiestahotels.com/hangbe/",
+                "sourceUrl": "https://lasiestahotels.com/hangbe/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "india": [
+            {
+                "name": "The Imperial New Delhi",
+                "city": "New Delhi",
+                "description": "A heritage hotel on Janpath in New Delhi, with rooms and suites, art collections, several restaurants, gardens, and a dedicated spa and wellness offering.",
+                "officialUrl": "https://www.theimperialindia.com/accommodations",
+                "sourceUrl": "https://www.theimperialindia.com/accommodations",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "The Claridges New Delhi",
+                "city": "New Delhi",
+                "description": "Located in New Delhi's Lutyens district, this hotel dates to 1955 and offers rooms and suites, several restaurants, gardens, and a fitness club.",
+                "officialUrl": "https://www.claridges.com/the-claridges-new-delhi/",
+                "sourceUrl": "https://www.claridges.com/the-claridges-new-delhi/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "indonesia": [
+            {
+                "name": "Meliá Purosani Yogyakarta",
+                "city": "Yogyakarta",
+                "description": "In central Yogyakarta near Malioboro, this hotel offers rooms and suites, tropical gardens, a lagoon-style pool, several dining venues, and an on-site spa.",
+                "officialUrl": "https://www.melia.com/en/hotels/indonesia/yogyakarta/melia-purosani-yogyakarta",
+                "sourceUrl": "https://www.melia.com/en/hotels/indonesia/yogyakarta/melia-purosani-yogyakarta",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "The Phoenix Hotel Yogyakarta - Handwritten Collection",
+                "city": "Yogyakarta",
+                "description": "A heritage hotel on Jalan Jenderal Sudirman in central Yogyakarta, combining European, Chinese, and Javanese design influences with guestrooms, dining, and a swimming pool.",
+                "officialUrl": "https://all.accor.com/hotel/5451/index.en.shtml",
+                "sourceUrl": "https://all.accor.com/hotel/5451/index.en.shtml",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "france": [
+            {
+                "name": "Hôtel Le Six",
+                "city": "Paris",
+                "description": "A Paris hotel on Rue Stanislas in the Luxembourg–Montparnasse area, with rooms and suites, a hammam, massage rooms, and access to nearby metro stations.",
+                "officialUrl": "https://www.hotel-le-six.com/en/",
+                "sourceUrl": "https://www.hotel-le-six.com/en/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Hôtel L de Lutèce",
+                "city": "Paris",
+                "description": "A boutique hotel on Île Saint-Louis in Paris, occupying a building with seventeenth-century origins near the Seine, with rooms, a suite, and a wellness studio.",
+                "officialUrl": "https://www.paris-hotel-lutece.com/",
+                "sourceUrl": "https://www.paris-hotel-lutece.com/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "italy": [
+            {
+                "name": "Hotel Artemide",
+                "city": "Rome",
+                "description": "Located on Via Nazionale in central Rome, this hotel offers rooms and suites, the Ambrosia rooftop restaurant, and a spa near the Repubblica and Termini areas.",
+                "officialUrl": "https://www.hotelartemide.it/",
+                "sourceUrl": "https://www.hotelartemide.it/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "iQ Hotel Roma",
+                "city": "Rome",
+                "description": "A Rome hotel overlooking Piazza del Teatro dell’Opera, with rooms, a rooftop restaurant and bar, a gym, and a sauna in the city’s central district.",
+                "officialUrl": "https://www.iqhotelroma.it/",
+                "sourceUrl": "https://www.iqhotelroma.it/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "spain": [
+            {
+                "name": "Hotel Jazz",
+                "city": "Barcelona",
+                "description": "Located on Carrer de Pelai in central Barcelona, Hotel Jazz has a rooftop pool and terrace between Plaça Catalunya, Passeig de Gràcia, and La Rambla.",
+                "officialUrl": "https://www.hoteljazz.com/en",
+                "sourceUrl": "https://www.hoteljazz.com/en",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Hotel 1898",
+                "city": "Barcelona",
+                "description": "A Barcelona hotel at 109 La Rambla, with rooms and suites, a rooftop terrace, and a spa featuring a thermal circuit and an indoor pool.",
+                "officialUrl": "https://www.hotel1898.com/en",
+                "sourceUrl": "https://www.hotel1898.com/en",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "portugal": [
+            {
+                "name": "Heritage Lisboa Plaza Hotel",
+                "city": "Lisbon",
+                "description": "A family-owned Lisbon hotel just off Avenida da Liberdade, open since 1954 and part of Lisbon Heritage Hotels, with rooms in the historic city centre.",
+                "officialUrl": "https://lisbonheritagehotels.com/lisbon-plaza-hotel/",
+                "sourceUrl": "https://lisbonheritagehotels.com/lisbon-plaza-hotel/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Hotel Britania Art Deco",
+                "city": "Lisbon",
+                "description": "An Art Deco hotel in Lisbon near Avenida da Liberdade, with 35 rooms, restored period furnishings, a lounge, and a bar in a historic building.",
+                "officialUrl": "https://www.britanialisboa.com/en/home",
+                "sourceUrl": "https://www.britanialisboa.com/en/home",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "greece": [
+            {
+                "name": "Electra Palace Athens",
+                "city": "Athens",
+                "description": "Located in the Plaka district of Athens, this hotel offers rooms and suites, indoor and seasonal outdoor pools, and a rooftop restaurant overlooking the Acropolis.",
+                "officialUrl": "https://www.electrahotels.gr/hotels/electra-palace-athens/",
+                "sourceUrl": "https://www.electrahotels.gr/hotels/electra-palace-athens/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Herodion Hotel",
+                "city": "Athens",
+                "description": "An Athens hotel near the Acropolis Museum, with 90 guest rooms, restaurants, a bar, and a roof garden featuring views toward the Acropolis archaeological site.",
+                "officialUrl": "https://www.herodion.gr/en/",
+                "sourceUrl": "https://www.herodion.gr/en/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "united-states": [
+            {
+                "name": "Library Hotel",
+                "city": "New York City",
+                "description": "A literature-themed hotel on Madison Avenue at East 41st Street in New York City, with guest rooms, a reading room, and a rooftop lounge.",
+                "officialUrl": "https://www.libraryhotel.com/",
+                "sourceUrl": "https://www.libraryhotel.com/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "citizenM New York Bowery",
+                "city": "New York City",
+                "description": "A New York City hotel in the Bowery area, with tablet-controlled rooms, a rooftop bar, a gym, and street art displayed along its stairwell.",
+                "officialUrl": "https://www.marriott.com/en-us/hotels/nycbo-citizenm-new-york-bowery/overview/",
+                "sourceUrl": "https://www.marriott.com/en-us/hotels/nycbo-citizenm-new-york-bowery/overview/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "canada": [
+            {
+                "name": "Fairmont Le Château Frontenac",
+                "city": "Québec City",
+                "description": "A historic château hotel inside the walls of Old Québec in Québec City, with rooms and suites, several dining venues, and a spa on site.",
+                "officialUrl": "https://www.chateau-frontenac.com/en/",
+                "sourceUrl": "https://www.chateau-frontenac.com/en/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Hôtel Clarendon",
+                "city": "Québec City",
+                "description": "A historic hotel in Old Québec, Québec City, welcoming guests since 1870 and offering rooms within the fortified district near the city’s principal heritage attractions.",
+                "officialUrl": "https://hotelclarendon.com/en/home",
+                "sourceUrl": "https://hotelclarendon.com/en/home",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "mexico": [
+            {
+                "name": "Zócalo Central",
+                "city": "Mexico City",
+                "description": "A Mexico City hotel facing the Metropolitan Cathedral and Plaza de la Constitución, with rooms and suites in a historic building and a terrace.",
+                "officialUrl": "https://www.centralhoteles.com/hotels/zocalo-central/",
+                "sourceUrl": "https://www.centralhoteles.com/hotels/zocalo-central/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Histórico Central",
+                "city": "Mexico City",
+                "description": "A hotel in Mexico City’s historic centre, set in a colonial building near Torre Latinoamericana and the Palace of Fine Arts, with rooms and suites.",
+                "officialUrl": "https://www.centralhoteles.com/hotels/historico-central/",
+                "sourceUrl": "https://www.centralhoteles.com/hotels/historico-central/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "costa-rica": [
+            {
+                "name": "Hotel Presidente",
+                "city": "San José",
+                "description": "A hotel on Central Avenue’s pedestrian boulevard in downtown San José, with guest rooms and the Azotea Calle 7 rooftop restaurant near museums and galleries.",
+                "officialUrl": "https://www.hotel-presidente.com/",
+                "sourceUrl": "https://www.hotel-presidente.com/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Gran Hotel Costa Rica, Curio Collection by Hilton",
+                "city": "San José",
+                "description": "A San José hotel in a building dating to 1930, on Avenida Central near the National Theatre and Gold Museum, with dining and a piano bar.",
+                "officialUrl": "https://www.hilton.com/en/hotels/sjocuqq-gran-hotel-costa-rica/",
+                "sourceUrl": "https://www.hilton.com/en/hotels/sjocuqq-gran-hotel-costa-rica/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "jamaica": [
+            {
+                "name": "The Courtleigh Hotel & Suites",
+                "city": "Kingston",
+                "description": "A hotel in New Kingston, Kingston, with guest rooms, one-bedroom and penthouse suites, and Alexander’s restaurant, close to the district’s business offices and cultural landmarks.",
+                "officialUrl": "https://www.courtleigh.com/",
+                "sourceUrl": "https://www.courtleigh.com/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "The Jamaica Pegasus Hotel",
+                "city": "Kingston",
+                "description": "A high-rise hotel in New Kingston, Kingston, with guest rooms and suites, a swimming pool, a spa, gardens, and spaces for meetings and social events.",
+                "officialUrl": "https://www.jamaicapegasus.com/",
+                "sourceUrl": "https://www.jamaicapegasus.com/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "brazil": [
+            {
+                "name": "Copacabana Palace, A Belmond Hotel",
+                "city": "Rio de Janeiro",
+                "description": "Historic hotel facing Copacabana Beach in Rio de Janeiro, with rooms and suites, an outdoor swimming pool, several restaurants, a spa and tennis courts.",
+                "officialUrl": "https://www.belmond.com/en/hotels/south-america/brazil/copacabana-palace-rio-de-janeiro/accommodation",
+                "sourceUrl": "https://www.belmond.com/en/hotels/south-america/brazil/copacabana-palace-rio-de-janeiro",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Hotel Fasano Rio de Janeiro",
+                "city": "Rio de Janeiro",
+                "description": "Hotel on Ipanema's waterfront in Rio de Janeiro, with interiors by Philippe Starck, a rooftop infinity pool, a spa and an Italian restaurant.",
+                "officialUrl": "https://fasano.com.br/en/hotel/fasano-rio-de-janeiro/",
+                "sourceUrl": "https://fasano.com.br/en/hotel/fasano-rio-de-janeiro/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "peru": [
+            {
+                "name": "Hotel B",
+                "city": "Lima",
+                "description": "Boutique hotel in Lima's Barranco district, occupying a restored mansion from 1914, with contemporary art, a restaurant, a library and an internal courtyard.",
+                "officialUrl": "https://hotelb.pe/en/",
+                "sourceUrl": "https://hotelb.pe/en/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "JW Marriott Hotel Lima",
+                "city": "Lima",
+                "description": "Hotel in Lima's Miraflores district overlooking the Pacific Ocean, with rooms and suites, Peruvian dining, a spa, fitness center and a seasonal outdoor pool.",
+                "officialUrl": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+                "sourceUrl": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "argentina": [
+            {
+                "name": "Alvear Palace Hotel",
+                "city": "Buenos Aires",
+                "description": "Hotel on Avenida Alvear in Buenos Aires, with French-inspired rooms and suites, several restaurants and bars, spa facilities and a rooftop bar.",
+                "officialUrl": "https://alvearpalace.com/en/",
+                "sourceUrl": "https://alvearpalace.com/en/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Palo Santo Hotel",
+                "city": "Buenos Aires",
+                "description": "Boutique hotel in Buenos Aires' Palermo Hollywood neighborhood, with 26 rooms and suites, vertical gardens, a gym and a rooftop with a seasonal hot tub.",
+                "officialUrl": "https://www.palosantohotel.com/en/",
+                "sourceUrl": "https://www.palosantohotel.com/en/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "chile": [
+            {
+                "name": "Hotel Magnolia",
+                "city": "Santiago",
+                "description": "Boutique hotel in central Santiago, near Santa Lucía Hill and Lastarria, with forty rooms and suites, a bistro, rooftop bar, spa and gym.",
+                "officialUrl": "https://hotelmagnolia.cl/en/",
+                "sourceUrl": "https://hotelmagnolia.cl/en/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "The Singular Santiago",
+                "city": "Santiago",
+                "description": "Hotel in Santiago's Lastarria neighborhood, with rooms and suites, a rooftop bar, restaurant and spa offering a sauna, steam room and relaxation areas.",
+                "officialUrl": "https://www.thesingular.com/santiago/",
+                "sourceUrl": "https://www.thesingular.com/santiago/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "colombia": [
+            {
+                "name": "Sofitel Legend Santa Clara Cartagena",
+                "city": "Cartagena",
+                "description": "Hotel within Cartagena's walled city, incorporating a former convent dating to 1621, with colonial courtyards, an outdoor pool, restaurants, bars and spa facilities.",
+                "officialUrl": "https://www.sofitellegendsantaclara.com/",
+                "sourceUrl": "https://www.sofitellegendsantaclara.com/the-legend/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Charleston Santa Teresa Hotel",
+                "city": "Cartagena",
+                "description": "Hotel in Cartagena's historic center, occupying a former seventeenth-century cloister, with colonial courtyards, rooms and suites, rooftop dining and a spa.",
+                "officialUrl": "https://www.hotelcharlestonsantateresa.com/",
+                "sourceUrl": "https://www.hotelcharlestonsantateresa.com/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "australia": [
+            {
+                "name": "The Grace Hotel",
+                "city": "Sydney",
+                "description": "Hotel in central Sydney, inside a restored heritage building with Neo-Gothic architecture and Art Deco interiors, offering rooms and suites near Town Hall.",
+                "officialUrl": "https://www.gracehotel.com.au/",
+                "sourceUrl": "https://www.gracehotel.com.au/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Four Seasons Hotel Sydney",
+                "city": "Sydney",
+                "description": "Hotel at Circular Quay in Sydney, with rooms and suites offering city or harbor views, Mode Kitchen & Bar, Grain Bar and spa facilities.",
+                "officialUrl": "https://www.fourseasons.com/sydney/",
+                "sourceUrl": "https://www.fourseasons.com/sydney/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "new-zealand": [
+            {
+                "name": "Bolton Hotel",
+                "city": "Wellington",
+                "description": "Independent hotel in central Wellington, near Parliament and the waterfront, with rooms and suites, a restaurant, fitness center, lap pool, sauna and spa pool.",
+                "officialUrl": "https://www.boltonhotel.co.nz/",
+                "sourceUrl": "https://www.boltonhotel.co.nz/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "InterContinental Wellington",
+                "city": "Wellington",
+                "description": "Hotel between Wellington's waterfront and city center, with 236 rooms, restaurants, a lobby lounge, spa and health club, plus rooms overlooking the harbor.",
+                "officialUrl": "https://wellington.intercontinental.com/",
+                "sourceUrl": "https://wellington.intercontinental.com/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "fiji": [
+            {
+                "name": "Grand Pacific Hotel",
+                "city": "Suva",
+                "description": "Heritage hotel on Suva's waterfront beside the business district, with 113 rooms including suites, restaurants, a pool bar, day spa and executive lounge.",
+                "officialUrl": "https://grandpacifichotel.com.fj/hotel/",
+                "sourceUrl": "https://grandpacifichotel.com.fj/hotel/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Holiday Inn Suva",
+                "city": "Suva",
+                "description": "Hotel on Victoria Parade in central Suva, with harbor views, private balconies, an outdoor pool, restaurants, bars and meeting rooms overlooking the waterfront.",
+                "officialUrl": "https://holidayinnsuva.com.fj/",
+                "sourceUrl": "https://holidayinnsuva.com.fj/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "samoa": [
+            {
+                "name": "Tanoa Tusitala Hotel",
+                "city": "Apia",
+                "description": "Hotel in Apia's Sogi area, set among tropical gardens, with Samoan fale architecture, rooms with balconies or patios, outdoor pools, restaurants and tennis courts.",
+                "officialUrl": "https://www.tanoahotels.com/samoa-tusitala-hotel/",
+                "sourceUrl": "https://www.tanoahotels.com/samoa-tusitala-hotel/",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Sheraton Samoa Aggie Grey's Hotel & Bungalows",
+                "city": "Apia",
+                "description": "Historic hotel on Main Beach Road in Apia, offering guestrooms and bungalows, restaurants, an outdoor pool and a fitness center near the city's waterfront.",
+                "officialUrl": "https://www.marriott.com/en-us/hotels/apwsi-sheraton-samoa-aggie-greys-hotel-and-bungalows/overview/",
+                "sourceUrl": "https://www.marriott.com/en-us/hotels/apwsi-sheraton-samoa-aggie-greys-hotel-and-bungalows/overview/",
+                "checkedOn": "2026-11-18"
+            }
+        ],
+        "vanuatu": [
+            {
+                "name": "Warwick Le Lagon - Vanuatu",
+                "city": "Port Vila",
+                "description": "Resort beside Erakor Lagoon in Port Vila, with rooms and bungalows, tropical gardens, swimming pools, restaurants, a spa and facilities for water activities.",
+                "officialUrl": "https://www.warwickhotels.com/warwick-le-lagon-vanuatu",
+                "sourceUrl": "https://www.warwickhotels.com/warwick-le-lagon-vanuatu",
+                "checkedOn": "2026-11-18"
+            },
+            {
+                "name": "Nasama Resort",
+                "city": "Port Vila",
+                "description": "Resort on Pango Road in Port Vila, offering apartments with kitchens and balconies or terraces, an infinity pool, beach access and two restaurants.",
+                "officialUrl": "https://nasamaresort.com/",
+                "sourceUrl": "https://nasamaresort.com/",
+                "checkedOn": "2026-11-18"
+            }
+        ]
+    },
+    "antarctica": [
+        {
+            "name": "Quark Expeditions",
+            "city": "Antarctic expedition voyages",
+            "description": "Explore Antarctic voyages and expedition ships, then check departure dates and request a quote from the operator.",
+            "officialUrl": "https://www.quarkexpeditions.com/antarctic",
+            "sourceUrl": "https://www.quarkexpeditions.com/antarctic",
+            "checkedOn": "2026-11-18"
+        },
+        {
+            "name": "National Geographic-Lindblad Expeditions",
+            "city": "Antarctic expedition voyages",
+            "description": "Browse Antarctic voyages and ships with expedition teams, then review departure options and contact the operator about accommodation.",
+            "officialUrl": "https://world.expeditions.com/en/destinations/antarctica",
+            "sourceUrl": "https://world.expeditions.com/en/destinations/antarctica",
+            "checkedOn": "2026-11-18"
+        }
+    ]
+}

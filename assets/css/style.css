@@ -1,0 +1,940 @@
+/* Foundations: these variables keep shared colors and spacing in one place. */
+:root {
+    --color-background: #ffffff;
+    --color-text: #111111;
+    --color-muted: #626262;
+    --color-surface: #f5f5f5;
+    --color-border: #e4e4e4;
+    --font-body: "Inter", Arial, sans-serif;
+    --font-heading: "Instrument Serif", Georgia, serif;
+    --page-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    margin: 0;
+    color: var(--color-text);
+    background: var(--color-background);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+figure,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: var(--font-heading);
+    font-weight: 400;
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+}
+
+h1 {
+    font-size: clamp(48px, 6.4vw, 86px);
+}
+
+h2 {
+    font-size: clamp(40px, 4.8vw, 62px);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-text);
+    outline-offset: 5px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+.page-width {
+    width: min(var(--page-width), calc(100% - 80px));
+    margin-inline: auto;
+}
+
+.section-spacing {
+    padding-block: 90px;
+}
+
+.eyebrow {
+    margin-bottom: 18px;
+    color: var(--color-muted);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* This text stays available to screen readers while being visually hidden. */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    clip-path: inset(50%);
+}
+
+.skip-link {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    z-index: 10;
+    padding: 10px 16px;
+    color: var(--color-background);
+    background: var(--color-text);
+    transform: translateY(-150%);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+/* Header: Flexbox aligns the logo, navigation, and secondary link. */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-background);
+}
+
+.header-inner {
+    display: flex;
+    min-height: 86px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.wordmark {
+    white-space: nowrap;
+    font-family: var(--font-heading);
+    font-size: 31px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+
+.wordmark-ampersand {
+    font-style: italic;
+}
+
+.primary-navigation,
+.footer-navigation {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navigation-link,
+.header-link {
+    padding-block: 8px;
+    font-size: 14px;
+    transition: color 180ms ease;
+}
+
+.navigation-link {
+    color: var(--color-muted);
+}
+
+.navigation-link[aria-current="page"],
+.navigation-link:hover {
+    color: var(--color-text);
+}
+
+.navigation-link[aria-current="page"] {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.header-link span {
+    margin-left: 8px;
+}
+
+.menu-toggle {
+    display: none;
+    align-items: center;
+    gap: 12px;
+    min-height: 44px;
+    padding: 6px 0;
+    border: 0;
+    color: var(--color-text);
+    background: transparent;
+}
+
+/* World map: labels sit over verified geographic positions on large screens. */
+.map-section {
+    padding-top: 32px;
+}
+
+.world-map {
+    position: relative;
+}
+
+.world-map-image {
+    width: 100%;
+}
+
+.continent-pin {
+    position: absolute;
+    top: var(--pin-y);
+    left: var(--pin-x);
+    display: grid;
+    justify-items: center;
+    min-height: 44px;
+    padding: 3px 6px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
+
+.pin-dot {
+    width: 8px;
+    height: 8px;
+    margin-bottom: 4px;
+    border: 2px solid var(--color-background);
+    border-radius: 50%;
+    background: var(--color-text);
+    box-shadow: 0 0 0 1px var(--color-text);
+    transition: transform 180ms ease;
+}
+
+.pin-count {
+    color: #494949;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.continent-pin:hover .pin-dot,
+.continent-pin:focus-visible .pin-dot {
+    transform: scale(1.5);
+}
+
+/* Positions are percentages calculated from the same projection as the map. */
+.pin-north-america {
+    --pin-x: 30.13%;
+    --pin-y: 24.30%;
+}
+
+.pin-south-america {
+    --pin-x: 38.03%;
+    --pin-y: 60.74%;
+}
+
+.pin-europe {
+    --pin-x: 53.17%;
+    --pin-y: 17.92%;
+}
+
+.pin-africa {
+    --pin-x: 53.70%;
+    --pin-y: 46.42%;
+}
+
+.pin-asia {
+    --pin-x: 68.84%;
+    --pin-y: 24.89%;
+}
+
+.pin-oceania {
+    --pin-x: 78.72%;
+    --pin-y: 65.54%;
+}
+
+.pin-antarctica {
+    --pin-x: 50%;
+    --pin-y: 94.45%;
+}
+
+.map-caption {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    margin-top: 22px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-muted);
+    font-size: 12px;
+}
+
+.map-caption a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* Welcome: two columns give the introduction and search equal room. */
+.welcome-section {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: end;
+    gap: 72px;
+    padding-block: 62px 88px;
+}
+
+.welcome-details {
+    display: grid;
+    gap: 28px;
+    padding-bottom: 4px;
+}
+
+.intro-copy {
+    max-width: 46ch;
+    color: var(--color-muted);
+}
+
+.destination-search label {
+    display: block;
+    margin-bottom: 9px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.search-controls {
+    display: flex;
+    min-height: 55px;
+    border: 1px solid var(--color-text);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.search-controls input {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 2px;
+    color: var(--color-text);
+    background: transparent;
+    font-size: 14px;
+}
+
+.search-controls input::placeholder {
+    color: var(--color-muted);
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    min-height: 46px;
+    width: fit-content;
+    padding: 11px 18px;
+    border: 1px solid var(--color-text);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    transition: background-color 180ms ease, color 180ms ease;
+}
+
+.button-primary {
+    color: var(--color-background);
+    background: var(--color-text);
+}
+
+.button-primary:hover {
+    color: var(--color-text);
+    background: var(--color-background);
+}
+
+/* Destination spotlight: the photograph and three reasons form one section. */
+.feature-section {
+    background: var(--color-surface);
+}
+
+.feature-layout {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.feature-image {
+    position: relative;
+    height: 100%;
+    min-height: 600px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 42% center;
+}
+
+.feature-image figcaption {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background: var(--color-background);
+    font-size: 12px;
+}
+
+.feature-copy > p:not(.eyebrow) {
+    margin-top: 22px;
+    color: var(--color-muted);
+}
+
+.visit-reasons {
+    display: grid;
+    gap: 18px;
+    margin-block: 28px 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.visit-reasons li {
+    padding-top: 16px;
+    border-top: 1px solid #d8d8d8;
+}
+
+.visit-reasons h3 {
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+
+.visit-reasons p {
+    color: var(--color-muted);
+    font-size: 16px;
+}
+
+/* Destination cards: each card is one link, which keeps keyboard navigation clear. */
+.section-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 34px;
+}
+
+.section-heading > p {
+    max-width: 28ch;
+    color: var(--color-muted);
+}
+
+.text-link {
+    display: inline-flex;
+    gap: 18px;
+    align-items: center;
+    min-height: 44px;
+    font-size: 14px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.destination-track {
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - 72px) / 4);
+    gap: 24px;
+    padding-block: 6px 18px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #b8b8b8 transparent;
+}
+
+.destination-track .destination-card {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.destination-track .destination-card:focus-visible {
+    outline-offset: -2px;
+}
+
+.carousel-hint {
+    margin-bottom: 16px;
+    color: var(--color-muted);
+    font-size: 13px;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.carousel-counter {
+    color: var(--color-muted);
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.06em;
+}
+
+.carousel-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carousel-arrow,
+.carousel-playback {
+    display: grid;
+    min-height: 44px;
+    place-items: center;
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    background: var(--color-background);
+    transition: background-color 180ms ease, border-color 180ms ease;
+}
+
+.carousel-arrow {
+    width: 44px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.carousel-playback {
+    min-width: 76px;
+    padding-inline: 12px;
+    border-radius: 24px;
+    font-size: 12px;
+}
+
+.carousel-arrow:hover,
+.carousel-playback:hover:not(:disabled) {
+    border-color: var(--color-text);
+    background: var(--color-surface);
+}
+
+.carousel-playback:disabled {
+    color: var(--color-muted);
+    cursor: default;
+}
+
+.destination-card {
+    display: block;
+    min-width: 0;
+    border-radius: 4px;
+}
+
+.card-image {
+    position: relative;
+    aspect-ratio: 4 / 5;
+    margin-bottom: 17px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: var(--color-surface);
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 250ms ease;
+}
+
+.card-arrow {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    display: grid;
+    width: 36px;
+    height: 36px;
+    place-items: center;
+    border-radius: 50%;
+    color: var(--color-text);
+    background: var(--color-background);
+    transition: transform 180ms ease;
+}
+
+.destination-card:hover .card-image img,
+.destination-card:focus-visible .card-image img {
+    transform: scale(1.04);
+}
+
+.destination-card:hover .card-arrow,
+.destination-card:focus-visible .card-arrow {
+    transform: translate(2px, -2px);
+}
+
+.card-continent {
+    margin-bottom: 3px;
+    color: var(--color-muted);
+    font-size: 12px;
+}
+
+.destination-card h3 {
+    margin-bottom: 4px;
+    font-family: var(--font-heading);
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.destination-card > p:last-child {
+    color: var(--color-muted);
+    font-size: 16px;
+}
+
+/* The continent directory is a second, text-based route through the site. */
+.continents-section {
+    background: var(--color-background);
+}
+
+/* Each desktop section becomes a new sheet sliding over the one before it. */
+.destinations-section {
+    background: var(--color-background);
+}
+
+@media (min-width: 681px) and (prefers-reduced-motion: no-preference) {
+    .home-panels-enabled .home-panel {
+        position: sticky;
+        top: var(--panel-top, 86px);
+        z-index: var(--panel-order, 1);
+        border-radius: 28px 28px 0 0;
+        box-shadow: 0 -18px 40px -30px rgb(0 0 0 / 30%);
+    }
+
+    /* Ordinary flow keeps focused links clear of overlapping sheets. */
+    .home-panels-enabled:has(.home-panel :focus-visible) .home-panel {
+        position: relative;
+        top: auto;
+    }
+}
+
+.continent-directory {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 52px;
+}
+
+.continent-directory > a {
+    display: flex;
+    min-height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-top: 1px solid var(--color-border);
+}
+
+.continent-directory > a > span:first-child {
+    font-family: var(--font-heading);
+    font-size: 28px;
+}
+
+.continent-directory > a > span:last-child {
+    color: var(--color-muted);
+    font-size: 12px;
+}
+
+.continent-directory > a > span:last-child > span {
+    margin-left: 13px;
+    color: var(--color-text);
+}
+
+/* Footer: personal details can be added after the About page is written. */
+.site-footer {
+    position: relative;
+    z-index: 4;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-surface);
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding-block: 46px;
+}
+
+.footer-inner p {
+    margin-top: 14px;
+    color: var(--color-muted);
+    font-size: 12px;
+}
+
+.footer-navigation {
+    flex-wrap: wrap;
+    gap: 12px 26px;
+    font-size: 13px;
+}
+
+/* JavaScript adds this class only for off-screen elements, keeping the initial view visible. */
+.will-reveal {
+    opacity: 0;
+    transform: translateY(16px);
+}
+
+.will-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms ease, transform 500ms ease;
+}
+
+/* Short delays follow the card columns and reset to zero for a single column. */
+.destination-card:nth-child(4n + 2).will-reveal.is-visible {
+    transition-delay: 60ms;
+}
+
+.destination-card:nth-child(4n + 3).will-reveal.is-visible {
+    transition-delay: 120ms;
+}
+
+.destination-card:nth-child(4n + 4).will-reveal.is-visible {
+    transition-delay: 180ms;
+}
+
+/* Tablet: tighter spacing and two image columns keep content comfortable. */
+@media (max-width: 980px) {
+    .header-link {
+        display: none;
+    }
+
+    .welcome-section,
+    .feature-layout {
+        gap: 36px;
+    }
+
+    .welcome-section {
+        align-items: center;
+    }
+
+    .feature-image {
+        min-height: 640px;
+    }
+
+    .destination-track {
+        grid-auto-columns: calc((100% - 24px) / 2);
+    }
+
+    .card-image {
+        aspect-ratio: 4 / 3;
+    }
+
+    .destination-card:nth-child(odd).will-reveal.is-visible {
+        transition-delay: 0ms;
+    }
+
+    .destination-card:nth-child(even).will-reveal.is-visible {
+        transition-delay: 60ms;
+    }
+}
+
+/* Phones: map links move into normal document flow so touch targets stay clear. */
+@media (max-width: 680px) {
+    html {
+        scroll-padding-top: 86px;
+    }
+
+    .page-width {
+        width: calc(100% - 40px);
+    }
+
+    .section-spacing {
+        padding-block: 55px;
+    }
+
+    .header-inner {
+        min-height: 74px;
+        flex-wrap: wrap;
+        gap: 0 16px;
+    }
+
+    .wordmark {
+        font-size: 28px;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+    }
+
+    .primary-navigation {
+        width: 100%;
+        justify-content: space-between;
+        gap: 12px;
+        padding-block: 0 16px;
+    }
+
+    .js-enabled .primary-navigation {
+        display: none;
+    }
+
+    .js-enabled .primary-navigation.is-open {
+        display: flex;
+    }
+
+    .map-section {
+        padding-top: 24px;
+    }
+
+    .continent-pins {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 20px;
+    }
+
+    .continent-pin {
+        position: static;
+        display: flex;
+        gap: 7px;
+        justify-content: center;
+        padding: 8px 10px;
+        border: 1px solid var(--color-border);
+        border-radius: 3px;
+        transform: none;
+    }
+
+    .pin-count,
+    .pin-dot {
+        display: none;
+    }
+
+    .map-caption {
+        gap: 8px;
+        margin-top: 18px;
+        padding-bottom: 18px;
+        font-size: 11px;
+    }
+
+    .welcome-section,
+    .feature-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 30px;
+    }
+
+    .welcome-section {
+        padding-block: 42px 55px;
+    }
+
+    .welcome-details {
+        gap: 22px;
+    }
+
+    .search-controls input {
+        font-size: 16px;
+    }
+
+    .search-controls input::placeholder {
+        font-size: 12px;
+    }
+
+    .feature-image {
+        min-height: 0;
+        height: 360px;
+    }
+
+    .feature-copy .eyebrow {
+        margin-bottom: 13px;
+    }
+
+    .section-heading {
+        align-items: start;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 24px;
+    }
+
+    .destination-track {
+        grid-auto-columns: 86%;
+        gap: 18px;
+    }
+
+    .card-image {
+        aspect-ratio: 5 / 4;
+    }
+
+    .destination-card.will-reveal.is-visible {
+        transition-delay: 0ms;
+    }
+
+    .continent-directory {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .footer-inner {
+        align-items: start;
+        flex-direction: column;
+        gap: 26px;
+        padding-block: 36px;
+    }
+}
+
+/* Honor the device preference for less motion, including anchor scrolling. */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        transition-delay: 0ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .will-reveal {
+        opacity: 1;
+        transform: none;
+    }
+}

@@ -1,0 +1,15 @@
+# Local system files and editor backups.
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Local secrets and temporary output do not belong in the repository.
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+node_modules/

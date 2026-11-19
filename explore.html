@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Browse 31 countries and five Antarctic expedition stops. Filter by continent or interest and save your favourite destinations.">
+        <title>
+            Explore destinations | Atlas &amp; Away
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/pages.css">
+        <!-- Deferred scripts enhance the existing HTML after it is parsed. -->
+        <script src="assets/js/home.js" defer>
+        </script>
+        <script src="assets/js/storage.js" defer>
+        </script>
+        <script src="assets/js/explore.js" defer>
+        </script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main-content">
+            Skip to main content
+        </a>
+        <!-- Every page shares the same navigation and mobile menu controls. -->
+        <header class="site-header">
+            <div class="header-inner page-width">
+                <a class="wordmark" href="index.html" aria-label="Atlas and Away home">
+                    atlas
+                    <span class="wordmark-ampersand">
+                        &amp;
+                    </span>
+                    away.
+                </a>
+                <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" hidden>
+                    Menu
+                    <span aria-hidden="true">
+                        +
+                    </span>
+                </button>
+                <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+                    <a class="navigation-link" href="index.html">
+                        Home
+                    </a>
+                    <a class="navigation-link" href="explore.html" aria-current="page">
+                        Explore
+                    </a>
+                    <a class="navigation-link" href="about.html">
+                        About
+                    </a>
+                    <a class="navigation-link" href="contact.html">
+                        Contact
+                    </a>
+                </nav>
+                <a class="header-link" href="explore.html?saved=true">
+                    Saved places
+                    <span aria-hidden="true">
+                        ♡
+                    </span>
+                </a>
+            </div>
+        </header>
+        <main id="main-content">
+            <section class="page-intro page-width">
+                <p class="eyebrow">
+                    31 countries · 7 continents · endless curiosity
+                </p>
+                <h1>
+                    The world is
+                    <br>
+                    yours to
+                    <em>
+                        explore.
+                    </em>
+                </h1>
+                <p>
+                    Start with a place, follow an interest, or save somewhere for later. Every guide brings together local culture, food and a little adventure.
+                </p>
+            </section>
+            <section class="page-width" aria-label="Find a destination">
+                <nav class="continent-tabs" aria-label="Continent guides">
+                    <a class="text-link" href="continents/africa.html">
+                        Africa
+                    </a>
+                    <a class="text-link" href="continents/asia.html">
+                        Asia
+                    </a>
+                    <a class="text-link" href="continents/europe.html">
+                        Europe
+                    </a>
+                    <a class="text-link" href="continents/north-america.html">
+                        North America
+                    </a>
+                    <a class="text-link" href="continents/south-america.html">
+                        South America
+                    </a>
+                    <a class="text-link" href="continents/oceania.html">
+                        Oceania
+                    </a>
+                    <a class="text-link" href="continents/antarctica.html">
+                        Antarctica
+                    </a>
+                </nav>
+                <!-- Filtering enhances these static cards; all guides remain linked without JavaScript. -->
+                <form class="filter-panel" id="directory-filters" action="explore.html" method="get">
+                    <div class="form-field">
+                        <label for="search-query">
+                            Search countries or attractions
+                        </label>
+                        <input id="search-query" name="q" type="search" maxlength="80" placeholder="Try Ghana, Eiffel Tower…">
+                    </div>
+                    <div class="form-field">
+                        <label for="continent-filter">
+                            Continent
+                        </label>
+                        <select id="continent-filter" name="continent">
+                            <option value="">
+                                All continents
+                            </option>
+                            <option value="africa">
+                                Africa
+                            </option>
+                            <option value="asia">
+                                Asia
+                            </option>
+                            <option value="europe">
+                                Europe
+                            </option>
+                            <option value="north-america">
+                                North America
+                            </option>
+                            <option value="south-america">
+                                South America
+                            </option>
+                            <option value="oceania">
+                                Oceania
+                            </option>
+                            <option value="antarctica">
+                                Antarctica
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="interest-filter">
+                            Your interest
+                        </label>
+                        <select id="interest-filter" name="interest">
+                            <option value="">
+                                All interests
+                            </option>
+                            <option value="nature">
+                                Nature
+                            </option>
+                            <option value="beaches">
+                                Beaches
+                            </option>
+                            <option value="heritage">
+                                Heritage
+                            </option>
+                            <option value="food">
+                                Food
+                            </option>
+                            <option value="cities">
+                                Cities
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="sort-filter">
+                            Sort by
+                        </label>
+                        <select id="sort-filter" name="sort">
+                            <option value="az">
+                                Name: A–Z
+                            </option>
+                            <option value="za">
+                                Name: Z–A
+                            </option>
+                        </select>
+                    </div>
+                    <div class="filter-actions">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="saved" value="true">
+                            Saved destinations only
+                        </label>
+                        <button class="quiet-button" type="submit">
+                            Find destinations
+                        </button>
+                        <button class="quiet-button" type="button" data-reset-filters>
+                            Clear filters
+                        </button>
+                    </div>
+                </form>
+                <noscript>
+                    <p class="notice">
+                        All destinations are shown below. Enable JavaScript to use live filters and saved places.
+                    </p>
+                </noscript>
+                <p class="status-message" id="save-status" role="status" aria-live="polite">
+                </p>
+                <div class="directory-meta">
+                    <p id="result-count" role="status" aria-live="polite" tabindex="-1">
+                        32 destinations
+                    </p>
+                    <p>
+                        Antarctica is one guide with five expedition stops.
+                    </p>
+                </div>
+                <div class="destination-grid directory-grid" id="directory-grid">
+                    <article class="destination-card directory-card" data-destination="antarctica" data-name="Antarctica" data-continent="antarctica" data-interests="nature heritage" data-search="Antarctica Antarctica Five expedition stops among ice, wildlife and historic sites  nature heritage">
+                        <a class="destination-card-link" href="continents/antarctica.html" data-guide-url="continents/antarctica.html">
+                            <div class="card-image">
+                                <img class="" src="assets/images/antarctica/hero/antarctic-peninsula.webp" alt="Antarctic Peninsula. 00 Kopie Eisberge in der Gerlache Straße (Antarktis)" width="1280" height="850" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Antarctica
+                                </p>
+                                <h2>
+                                    Antarctica
+                                </h2>
+                                <p>
+                                    Five expedition stops among ice, wildlife and historic sites
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 expedition stops
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="antarctica" data-destination-name="Antarctica" aria-pressed="false" aria-label="Save Antarctica to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="argentina" data-name="Argentina" data-continent="south-america" data-interests="nature heritage food cities" data-search="Argentina South America Tango streets, Andean vineyards and Patagonia&#x27;s vast landscapes Plaza de Mayo Caminito Perito Moreno Glacier Recoleta Cemetery Iguazu National Park nature heritage food cities">
+                        <a class="destination-card-link" href="countries/argentina.html" data-guide-url="countries/argentina.html">
+                            <div class="card-image">
+                                <img src="assets/images/south-america/argentina/attractions/perito-moreno-glacier.webp" alt="Blue-white ice along the face of Perito Moreno Glacier beneath mountain peaks." width="1280" height="549" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    South America
+                                </p>
+                                <h2>
+                                    Argentina
+                                </h2>
+                                <p>
+                                    Tango streets, Andean vineyards and Patagonia's vast landscapes
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="argentina" data-destination-name="Argentina" aria-pressed="false" aria-label="Save Argentina to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="australia" data-name="Australia" data-continent="oceania" data-interests="nature beaches heritage food cities" data-search="Australia Oceania Harbour cities, coral reefs and ancient connections to Country Sydney Opera House Bondi Beach Great Barrier Reef Sydney Harbour Bridge Kakadu National Park nature beaches heritage food cities">
+                        <a class="destination-card-link" href="countries/australia.html" data-guide-url="countries/australia.html">
+                            <div class="card-image">
+                                <img src="assets/images/oceania/australia/attractions/sydney-opera-house.webp" alt="White sail-shaped roofs of the Sydney Opera House against blue sky and water." width="1280" height="846" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Oceania
+                                </p>
+                                <h2>
+                                    Australia
+                                </h2>
+                                <p>
+                                    Harbour cities, coral reefs and ancient connections to Country
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="australia" data-destination-name="Australia" aria-pressed="false" aria-label="Save Australia to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="brazil" data-name="Brazil" data-continent="south-america" data-interests="nature beaches heritage food cities" data-search="Brazil South America Coastal cities, forest landscapes and the rhythms of samba Christ the Redeemer (statue) Copacabana, Rio de Janeiro Iguazu Falls Brasília Cathedral Escadaria Selarón nature beaches heritage food cities">
+                        <a class="destination-card-link" href="countries/brazil.html" data-guide-url="countries/brazil.html">
+                            <div class="card-image">
+                                <img src="assets/images/south-america/brazil/attractions/copacabana-rio-de-janeiro.webp" alt="Copacabana’s curved shoreline and blue Atlantic waters beside Rio de Janeiro." width="1023" height="682" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    South America
+                                </p>
+                                <h2>
+                                    Brazil
+                                </h2>
+                                <p>
+                                    Coastal cities, forest landscapes and the rhythms of samba
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="brazil" data-destination-name="Brazil" aria-pressed="false" aria-label="Save Brazil to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="cameroon" data-name="Cameroon" data-continent="africa" data-interests="nature beaches heritage food" data-search="Cameroon Africa Volcanic mountains, coastal waterfalls and living royal heritage Lobé Falls Foumban Royal Palace Limbe Botanic Garden Down Beach, Limbe Mount Cameroon nature beaches heritage food">
+                        <a class="destination-card-link" href="countries/cameroon.html" data-guide-url="countries/cameroon.html">
+                            <div class="card-image">
+                                <img src="assets/images/africa/cameroon/attractions/lobe-falls.webp" alt="White cascades of Lobé Falls flowing across a green, tree-lined river near Kribi." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Africa
+                                </p>
+                                <h2>
+                                    Cameroon
+                                </h2>
+                                <p>
+                                    Volcanic mountains, coastal waterfalls and living royal heritage
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="cameroon" data-destination-name="Cameroon" aria-pressed="false" aria-label="Save Cameroon to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="canada" data-name="Canada" data-continent="north-america" data-interests="nature cities heritage food" data-search="Canada North America Historic riverfronts, striking skylines and room to roam Château Frontenac Citadelle of Quebec Niagara Falls CN Tower Gros Morne National Park nature cities heritage food">
+                        <a class="destination-card-link" href="countries/canada.html" data-guide-url="countries/canada.html">
+                            <div class="card-image">
+                                <img src="assets/images/north-america/canada/hero/canada-scenic-cover.webp" alt="Turquoise Lake Louise surrounded by evergreen forests and mountain peaks in Banff National Park." width="1280" height="853" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    North America
+                                </p>
+                                <h2>
+                                    Canada
+                                </h2>
+                                <p>
+                                    Historic riverfronts, striking skylines and room to roam
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="canada" data-destination-name="Canada" aria-pressed="false" aria-label="Save Canada to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="chile" data-name="Chile" data-continent="south-america" data-interests="nature heritage food cities" data-search="Chile South America Desert skies, Pacific culture and Patagonia&#x27;s granite peaks Santa Lucía Hill Plaza de Armas, Santiago Torres del Paine National Park Rapa Nui National Park Salar de Atacama nature heritage food cities">
+                        <a class="destination-card-link" href="countries/chile.html" data-guide-url="countries/chile.html">
+                            <div class="card-image">
+                                <img src="assets/images/south-america/chile/attractions/torres-del-paine-national-park.webp" alt="Sunset light on the granite peaks of Torres del Paine in Patagonia." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    South America
+                                </p>
+                                <h2>
+                                    Chile
+                                </h2>
+                                <p>
+                                    Desert skies, Pacific culture and Patagonia's granite peaks
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="chile" data-destination-name="Chile" aria-pressed="false" aria-label="Save Chile to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="colombia" data-name="Colombia" data-continent="south-america" data-interests="nature beaches heritage food cities" data-search="Colombia South America Caribbean fortresses, mountain cities and many regional flavours Castillo San Felipe de Barajas Salt Cathedral of Zipaquirá Monserrate Ciudad Perdida Cartagena Cathedral nature beaches heritage food cities">
+                        <a class="destination-card-link" href="countries/colombia.html" data-guide-url="countries/colombia.html">
+                            <div class="card-image">
+                                <img src="assets/images/south-america/colombia/hero/colombia-scenic-cover.webp" alt="Blue water and green islands in the Guatapé reservoir, viewed from El Peñón." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    South America
+                                </p>
+                                <h2>
+                                    Colombia
+                                </h2>
+                                <p>
+                                    Caribbean fortresses, mountain cities and many regional flavours
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="colombia" data-destination-name="Colombia" aria-pressed="false" aria-label="Save Colombia to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="costa-rica" data-name="Costa Rica" data-continent="north-america" data-interests="nature beaches food heritage" data-search="Costa Rica North America Cloud forests, volcanic landscapes and a pura vida welcome Manuel Antonio National Park Monteverde Cloud Forest Reserve Tortuguero National Park La Fortuna Waterfall Poás Volcano National Park nature beaches food heritage">
+                        <a class="destination-card-link" href="countries/costa-rica.html" data-guide-url="countries/costa-rica.html">
+                            <div class="card-image">
+                                <img src="assets/images/north-america/costa-rica/attractions/la-fortuna-waterfall.webp" alt="La Fortuna Waterfall dropping into a green forested valley in Costa Rica." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    North America
+                                </p>
+                                <h2>
+                                    Costa Rica
+                                </h2>
+                                <p>
+                                    Cloud forests, volcanic landscapes and a pura vida welcome
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="costa-rica" data-destination-name="Costa Rica" aria-pressed="false" aria-label="Save Costa Rica to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="fiji" data-name="Fiji" data-continent="oceania" data-interests="nature beaches heritage food" data-search="Fiji Oceania Island reefs, garden paths and shared cultural traditions Fiji Museum Thurston Gardens Sri Siva Subramaniya Temple Garden of the Sleeping Giant Albert Park, Suva nature beaches heritage food">
+                        <a class="destination-card-link" href="countries/fiji.html" data-guide-url="countries/fiji.html">
+                            <div class="card-image">
+                                <img src="assets/images/oceania/fiji/hero/fiji-scenic-cover.webp" alt="A palm-covered island with a pale sandy shoreline surrounded by blue water in Fiji’s Mamanuca Islands." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Oceania
+                                </p>
+                                <h2>
+                                    Fiji
+                                </h2>
+                                <p>
+                                    Island reefs, garden paths and shared cultural traditions
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="fiji" data-destination-name="Fiji" aria-pressed="false" aria-label="Save Fiji to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="france" data-name="France" data-continent="europe" data-interests="heritage food cities nature" data-search="France Europe Art-filled cities, Alpine slopes and a taste of regional France Louvre Eiffel Tower Palace of Versailles Notre-Dame de Paris Sainte-Chapelle heritage food cities nature">
+                        <a class="destination-card-link" href="countries/france.html" data-guide-url="countries/france.html">
+                            <div class="card-image">
+                                <img src="assets/images/europe/france/hero/france-scenic-cover.webp" alt="The Eiffel Tower above the fountains and gardens of Trocadéro beneath a blue Paris sky." width="1280" height="823" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Europe
+                                </p>
+                                <h2>
+                                    France
+                                </h2>
+                                <p>
+                                    Art-filled cities, Alpine slopes and a taste of regional France
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="france" data-destination-name="France" aria-pressed="false" aria-label="Save France to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="ghana" data-name="Ghana" data-continent="africa" data-interests="nature heritage food cities beaches" data-search="Ghana Africa Coastal history, forest canopies and the energy of Accra Kwame Nkrumah Mausoleum Independence Arch National Museum of Ghana Elmina Castle Cape Coast Castle nature heritage food cities beaches">
+                        <a class="destination-card-link" href="countries/ghana.html" data-guide-url="countries/ghana.html">
+                            <div class="card-image">
+                                <img src="assets/images/africa/ghana/attractions/cape-coast-castle.webp" alt="White walls and the open courtyard of Cape Coast Castle beside the Atlantic Ocean." width="1280" height="848" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Africa
+                                </p>
+                                <h2>
+                                    Ghana
+                                </h2>
+                                <p>
+                                    Coastal history, forest canopies and the energy of Accra
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="ghana" data-destination-name="Ghana" aria-pressed="false" aria-label="Save Ghana to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="greece" data-name="Greece" data-continent="europe" data-interests="heritage beaches food cities nature" data-search="Greece Europe Ancient stones, island coves and tables made for sharing Acropolis of Athens Acropolis Museum Ancient Agora of Athens Delphi Knossos heritage beaches food cities nature">
+                        <a class="destination-card-link" href="countries/greece.html" data-guide-url="countries/greece.html">
+                            <div class="card-image">
+                                <img src="assets/images/europe/greece/activities/navagio-beach.webp" alt="Turquoise water and a pale beach below steep cliffs at Navagio, Zakynthos." width="1280" height="591" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Europe
+                                </p>
+                                <h2>
+                                    Greece
+                                </h2>
+                                <p>
+                                    Ancient stones, island coves and tables made for sharing
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="greece" data-destination-name="Greece" aria-pressed="false" aria-label="Save Greece to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="india" data-name="India" data-continent="asia" data-interests="nature beaches heritage food cities" data-search="India Asia Mughal monuments, living bazaars and regional journeys Humayun&#x27;s Tomb India Gate Jama Masjid, Delhi Red Fort Qutb Minar nature beaches heritage food cities">
+                        <a class="destination-card-link" href="countries/india.html" data-guide-url="countries/india.html">
+                            <div class="card-image">
+                                <img src="assets/images/asia/india/hero/india-scenic-cover.webp" alt="The Taj Mahal and neighbouring buildings reflected in the Yamuna River beneath a cloud-filled blue sky." width="1280" height="848" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Asia
+                                </p>
+                                <h2>
+                                    India
+                                </h2>
+                                <p>
+                                    Mughal monuments, living bazaars and regional journeys
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="india" data-destination-name="India" aria-pressed="false" aria-label="Save India to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="indonesia" data-name="Indonesia" data-continent="asia" data-interests="nature beaches heritage food cities" data-search="Indonesia Asia Island volcanoes, royal Java and remarkable temple landscapes Taman Sari (Yogyakarta) Kraton Ngayogyakarta Hadiningrat Borobudur Prambanan Komodo National Park nature beaches heritage food cities">
+                        <a class="destination-card-link" href="countries/indonesia.html" data-guide-url="countries/indonesia.html">
+                            <div class="card-image">
+                                <img src="assets/images/asia/indonesia/activities/tegallalang-rice-terrace.webp" alt="Green rice terraces and palms at Tegallalang in Bali." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Asia
+                                </p>
+                                <h2>
+                                    Indonesia
+                                </h2>
+                                <p>
+                                    Island volcanoes, royal Java and remarkable temple landscapes
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="indonesia" data-destination-name="Indonesia" aria-pressed="false" aria-label="Save Indonesia to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="italy" data-name="Italy" data-continent="europe" data-interests="heritage food cities nature" data-search="Italy Europe Ancient streets, Renaissance art and regional flavors Colosseum Roman Forum Pantheon, Rome Uffizi Pompeii heritage food cities nature">
+                        <a class="destination-card-link" href="countries/italy.html" data-guide-url="countries/italy.html">
+                            <div class="card-image">
+                                <img src="assets/images/europe/italy/attractions/colosseum.webp" alt="Illuminated arches of the Colosseum in Rome at dusk." width="1280" height="806" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Europe
+                                </p>
+                                <h2>
+                                    Italy
+                                </h2>
+                                <p>
+                                    Ancient streets, Renaissance art and regional flavors
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="italy" data-destination-name="Italy" aria-pressed="false" aria-label="Save Italy to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="jamaica" data-name="Jamaica" data-continent="north-america" data-interests="beaches nature heritage food" data-search="Jamaica North America Reggae roots, waterfall country and Caribbean flavor Dunn&#x27;s River Falls Hope Botanical Gardens Bob Marley Museum Devon House Port Royal beaches nature heritage food">
+                        <a class="destination-card-link" href="countries/jamaica.html" data-guide-url="countries/jamaica.html">
+                            <div class="card-image">
+                                <img src="assets/images/north-america/jamaica/activities/doctor-s-cave-beach-club.webp" alt="Pale sand, calm blue water and beachfront trees at Doctor’s Cave Beach, Jamaica." width="1011" height="529" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    North America
+                                </p>
+                                <h2>
+                                    Jamaica
+                                </h2>
+                                <p>
+                                    Reggae roots, waterfall country and Caribbean flavor
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="jamaica" data-destination-name="Jamaica" aria-pressed="false" aria-label="Save Jamaica to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="japan" data-name="Japan" data-continent="asia" data-interests="nature heritage food cities" data-search="Japan Asia Temple paths, city lights and regional flavours Sensō-ji Meiji Shrine Shibuya Crossing Fushimi Inari-taisha Kinkaku-ji nature heritage food cities">
+                        <a class="destination-card-link" href="countries/japan.html" data-guide-url="countries/japan.html">
+                            <div class="card-image">
+                                <img src="assets/images/asia/japan/attractions/fushimi-inari-taisha.webp" alt="A curving path through rows of vivid red torii gates at Fushimi Inari-taisha in Kyoto." width="1280" height="853" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Asia
+                                </p>
+                                <h2>
+                                    Japan
+                                </h2>
+                                <p>
+                                    Temple paths, city lights and regional flavours
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="japan" data-destination-name="Japan" aria-pressed="false" aria-label="Save Japan to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="kenya" data-name="Kenya" data-continent="africa" data-interests="nature heritage beaches cities food" data-search="Kenya Africa Wildlife plains, Rift Valley scenery and Swahili coastal heritage Nairobi National Park Karen Blixen Museum Amboseli National Park Lake Nakuru National Park Fort Jesus nature heritage beaches cities food">
+                        <a class="destination-card-link" href="countries/kenya.html" data-guide-url="countries/kenya.html">
+                            <div class="card-image">
+                                <img src="assets/images/africa/kenya/hero/kenya-scenic-cover.webp" alt="Elephants among green grass and flowers in Amboseli National Park, Kenya, with Mount Kilimanjaro behind them." width="1280" height="853" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Africa
+                                </p>
+                                <h2>
+                                    Kenya
+                                </h2>
+                                <p>
+                                    Wildlife plains, Rift Valley scenery and Swahili coastal heritage
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="kenya" data-destination-name="Kenya" aria-pressed="false" aria-label="Save Kenya to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="mauritius" data-name="Mauritius" data-continent="africa" data-interests="nature beaches heritage food" data-search="Mauritius Africa Island lagoons, forest trails and the flavours of Port Louis Aapravasi Ghat Blue Penny Museum Seven Coloured Earths Black River Gorges National Park Sir Seewoosagur Ramgoolam Botanical Garden nature beaches heritage food">
+                        <a class="destination-card-link" href="countries/mauritius.html" data-guide-url="countries/mauritius.html">
+                            <div class="card-image">
+                                <img src="assets/images/africa/mauritius/activities/blue-bay-marine-park.webp" alt="Clear turquoise water and a distant shoreline at Blue Bay Marine Park in Mauritius." width="750" height="1000" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Africa
+                                </p>
+                                <h2>
+                                    Mauritius
+                                </h2>
+                                <p>
+                                    Island lagoons, forest trails and the flavours of Port Louis
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="mauritius" data-destination-name="Mauritius" aria-pressed="false" aria-label="Save Mauritius to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="mexico" data-name="Mexico" data-continent="north-america" data-interests="heritage food cities nature beaches" data-search="Mexico North America Ancient cities, vivid art and flavors rooted in place Palacio de Bellas Artes Templo Mayor Zócalo Chichén Itzá Teotihuacan heritage food cities nature beaches">
+                        <a class="destination-card-link" href="countries/mexico.html" data-guide-url="countries/mexico.html">
+                            <div class="card-image">
+                                <img src="assets/images/north-america/mexico/activities/gran-cenote-tulum.webp" alt="Clear blue water and green vegetation inside Gran Cenote near Tulum." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    North America
+                                </p>
+                                <h2>
+                                    Mexico
+                                </h2>
+                                <p>
+                                    Ancient cities, vivid art and flavors rooted in place
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="mexico" data-destination-name="Mexico" aria-pressed="false" aria-label="Save Mexico to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="new-zealand" data-name="New Zealand" data-continent="oceania" data-interests="nature heritage food cities" data-search="New Zealand Oceania Māori heritage, alpine scenery and imaginative journeys Museum of New Zealand Te Papa Tongarewa Wellington Botanic Garden Waitomo Glowworm Caves Hobbiton Movie Set Aoraki / Mount Cook nature heritage food cities">
+                        <a class="destination-card-link" href="countries/new-zealand.html" data-guide-url="countries/new-zealand.html">
+                            <div class="card-image">
+                                <img src="assets/images/oceania/new-zealand/attractions/aoraki-mount-cook.webp" alt="The snow-covered summit of Aoraki / Mount Cook beneath a clear blue sky." width="1280" height="895" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Oceania
+                                </p>
+                                <h2>
+                                    New Zealand
+                                </h2>
+                                <p>
+                                    Māori heritage, alpine scenery and imaginative journeys
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="new-zealand" data-destination-name="New Zealand" aria-pressed="false" aria-label="Save New Zealand to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="peru" data-name="Peru" data-continent="south-america" data-interests="nature heritage food cities" data-search="Peru South America Andean stonework, coastal flavours and living traditions Plaza Mayor, Lima Larco Museum Machu Picchu Sacsayhuamán Nazca Lines nature heritage food cities">
+                        <a class="destination-card-link" href="countries/peru.html" data-guide-url="countries/peru.html">
+                            <div class="card-image">
+                                <img src="assets/images/south-america/peru/hero/peru-scenic-cover.webp" alt="Sunlit stone terraces at Machu Picchu with the green peak of Huayna Picchu behind them." width="1600" height="1067" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    South America
+                                </p>
+                                <h2>
+                                    Peru
+                                </h2>
+                                <p>
+                                    Andean stonework, coastal flavours and living traditions
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="peru" data-destination-name="Peru" aria-pressed="false" aria-label="Save Peru to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="portugal" data-name="Portugal" data-continent="europe" data-interests="heritage food cities nature beaches" data-search="Portugal Europe Atlantic light, tiled streets and a soundtrack of fado Jerónimos Monastery Belém Tower Praça do Comércio Pena Palace University of Coimbra heritage food cities nature beaches">
+                        <a class="destination-card-link" href="countries/portugal.html" data-guide-url="countries/portugal.html">
+                            <div class="card-image">
+                                <img src="assets/images/europe/portugal/attractions/belem-tower.webp" alt="Belém Tower beside the water beneath a clear blue Lisbon sky." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Europe
+                                </p>
+                                <h2>
+                                    Portugal
+                                </h2>
+                                <p>
+                                    Atlantic light, tiled streets and a soundtrack of fado
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="portugal" data-destination-name="Portugal" aria-pressed="false" aria-label="Save Portugal to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="samoa" data-name="Samoa" data-continent="oceania" data-interests="nature beaches heritage food" data-search="Samoa Oceania Volcanic landscapes and the living traditions of Fa&#x27;a Samoa Robert Louis Stevenson Museum (Samoa) To-Sua Ocean Trench Piula Cave Pool Saleaula Lava Fields Sopoaga Falls nature beaches heritage food">
+                        <a class="destination-card-link" href="countries/samoa.html" data-guide-url="countries/samoa.html">
+                            <div class="card-image">
+                                <img src="assets/images/oceania/samoa/attractions/to-sua-ocean-trench.webp" alt="Turquoise water inside the lush green walls of To-Sua Ocean Trench." width="1280" height="853" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Oceania
+                                </p>
+                                <h2>
+                                    Samoa
+                                </h2>
+                                <p>
+                                    Volcanic landscapes and the living traditions of Fa'a Samoa
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="samoa" data-destination-name="Samoa" aria-pressed="false" aria-label="Save Samoa to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="south-africa" data-name="South Africa" data-continent="africa" data-interests="nature beaches heritage cities food" data-search="South Africa Africa Cape mountains, wildlife country and stories that shape a nation Table Mountain Bo-Kaap Kruger National Park Robben Island Cape of Good Hope nature beaches heritage cities food">
+                        <a class="destination-card-link" href="countries/south-africa.html" data-guide-url="countries/south-africa.html">
+                            <div class="card-image">
+                                <img src="assets/images/africa/south-africa/attractions/bo-kaap.webp" alt="Brightly coloured houses and rooftops in Bo-Kaap, Cape Town." width="1280" height="724" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Africa
+                                </p>
+                                <h2>
+                                    South Africa
+                                </h2>
+                                <p>
+                                    Cape mountains, wildlife country and stories that shape a nation
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="south-africa" data-destination-name="South Africa" aria-pressed="false" aria-label="Save South Africa to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="spain" data-name="Spain" data-continent="europe" data-interests="heritage food cities beaches" data-search="Spain Europe Gaudí&#x27;s curves, Andalusian courtyards and lively local tables Sagrada Família Park Güell Alhambra Mezquita of Córdoba Casa Batlló heritage food cities beaches">
+                        <a class="destination-card-link" href="countries/spain.html" data-guide-url="countries/spain.html">
+                            <div class="card-image">
+                                <img src="assets/images/europe/spain/attractions/park-guell.webp" alt="Colourful mosaic benches overlooking Barcelona from Park Güell." width="1280" height="853" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Europe
+                                </p>
+                                <h2>
+                                    Spain
+                                </h2>
+                                <p>
+                                    Gaudí's curves, Andalusian courtyards and lively local tables
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="spain" data-destination-name="Spain" aria-pressed="false" aria-label="Save Spain to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="tanzania" data-name="Tanzania" data-continent="africa" data-interests="nature beaches heritage food" data-search="Tanzania Africa Serengeti plains, volcanic highlands and Zanzibar&#x27;s Swahili coast Old Fort of Zanzibar Serengeti National Park Ngorongoro Conservation Area Stone Town Jozani Chwaka Bay National Park nature beaches heritage food">
+                        <a class="destination-card-link" href="countries/tanzania.html" data-guide-url="countries/tanzania.html">
+                            <div class="card-image">
+                                <img src="assets/images/africa/tanzania/attractions/stone-town.webp" alt="Stone Town’s waterfront buildings beside turquoise water in Zanzibar." width="1280" height="640" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Africa
+                                </p>
+                                <h2>
+                                    Tanzania
+                                </h2>
+                                <p>
+                                    Serengeti plains, volcanic highlands and Zanzibar's Swahili coast
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="tanzania" data-destination-name="Tanzania" aria-pressed="false" aria-label="Save Tanzania to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="thailand" data-name="Thailand" data-continent="asia" data-interests="nature beaches heritage food cities" data-search="Thailand Asia Riverside temples, historic capitals and regional Thai cooking Grand Palace Wat Arun Wat Pho Ayutthaya Historical Park Sukhothai Historical Park nature beaches heritage food cities">
+                        <a class="destination-card-link" href="countries/thailand.html" data-guide-url="countries/thailand.html">
+                            <div class="card-image">
+                                <img src="assets/images/asia/thailand/attractions/grand-palace.webp" alt="Golden roofs and white façades beneath a blue sky at Bangkok’s Grand Palace." width="1280" height="720" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Asia
+                                </p>
+                                <h2>
+                                    Thailand
+                                </h2>
+                                <p>
+                                    Riverside temples, historic capitals and regional Thai cooking
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="thailand" data-destination-name="Thailand" aria-pressed="false" aria-label="Save Thailand to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="united-states" data-name="United States" data-continent="north-america" data-interests="cities nature heritage food" data-search="United States North America Big-city energy, vast landscapes and regional stories Central Park Statue of Liberty Grand Canyon National Park Golden Gate Bridge Rockefeller Center cities nature heritage food">
+                        <a class="destination-card-link" href="countries/united-states.html" data-guide-url="countries/united-states.html">
+                            <div class="card-image">
+                                <img src="assets/images/north-america/united-states/attractions/statue-of-liberty.webp" alt="The Statue of Liberty on its island beneath a blue, cloud-streaked sky." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    North America
+                                </p>
+                                <h2>
+                                    United States
+                                </h2>
+                                <p>
+                                    Big-city energy, vast landscapes and regional stories
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="united-states" data-destination-name="United States" aria-pressed="false" aria-label="Save United States to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="vanuatu" data-name="Vanuatu" data-continent="oceania" data-interests="nature beaches heritage food" data-search="Vanuatu Oceania Blue holes, island coastlines and the traditions of kastom National Museum of Vanuatu Mele Cascades Chief Roi Mata&#x27;s Domain Champagne Beach (Vanuatu) Erakor Island nature beaches heritage food">
+                        <a class="destination-card-link" href="countries/vanuatu.html" data-guide-url="countries/vanuatu.html">
+                            <div class="card-image">
+                                <img src="assets/images/oceania/vanuatu/attractions/champagne-beach-vanuatu.webp" alt="White sand and turquoise water beside green trees at Champagne Beach, Vanuatu." width="1280" height="960" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Oceania
+                                </p>
+                                <h2>
+                                    Vanuatu
+                                </h2>
+                                <p>
+                                    Blue holes, island coastlines and the traditions of kastom
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="vanuatu" data-destination-name="Vanuatu" aria-pressed="false" aria-label="Save Vanuatu to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="destination-card directory-card" data-destination="vietnam" data-name="Vietnam" data-continent="asia" data-interests="nature beaches heritage food cities" data-search="Vietnam Asia Limestone waterways, living craft traditions and memorable street food Temple of Literature, Hanoi Imperial Citadel of Thăng Long Hoàn Kiếm Lake Hanoi Opera House Hội An nature beaches heritage food cities">
+                        <a class="destination-card-link" href="countries/vietnam.html" data-guide-url="countries/vietnam.html">
+                            <div class="card-image">
+                                <img src="assets/images/asia/vietnam/attractions/hoi-an.webp" alt="Yellow heritage buildings along a street in Hội An under a blue sky." width="1280" height="823" loading="lazy" decoding="async">
+                                <span class="card-arrow" aria-hidden="true">
+                                    ↗
+                                </span>
+                            </div>
+                            <div class="card-copy">
+                                <p class="eyebrow">
+                                    Asia
+                                </p>
+                                <h2>
+                                    Vietnam
+                                </h2>
+                                <p>
+                                    Limestone waterways, living craft traditions and memorable street food
+                                </p>
+                            </div>
+                        </a>
+                        <div class="card-tools">
+                            <span>
+                                5 attractions
+                            </span>
+                            <button class="save-button" type="button" data-save-destination="vietnam" data-destination-name="Vietnam" aria-pressed="false" aria-label="Save Vietnam to saved destinations">
+                                <span class="save-icon" aria-hidden="true">
+                                    ♡
+                                </span>
+                                <span class="save-label">
+                                    Save
+                                </span>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+                <div class="empty-state" id="empty-results" hidden>
+                    <h2>
+                        No places found.
+                    </h2>
+                    <p>
+                        Try a different search or clear your filters to see every destination.
+                    </p>
+                    <button class="quiet-button" type="button" data-reset-filters>
+                        Show all destinations
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-inner page-width">
+                <div>
+                    <a class="wordmark" href="index.html">
+                        atlas
+                        <span class="wordmark-ampersand">
+                            &amp;
+                        </span>
+                        away.
+                    </a>
+                    <p>
+                        A travel project by Ebenezer Kofi Annan.
+                    </p>
+                </div>
+                <nav class="footer-navigation" aria-label="Footer navigation">
+                    <a href="explore.html">
+                        Explore
+                    </a>
+                    <a href="about.html">
+                        About the creator
+                    </a>
+                    <a href="contact.html">
+                        Get in touch
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>

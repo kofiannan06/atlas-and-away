@@ -1,0 +1,165 @@
+{
+    "countries": {
+        "cameroon": {
+            "name": "Central African CFA franc",
+            "code": "XAF"
+        },
+        "mauritius": {
+            "name": "Mauritian rupee",
+            "code": "MUR"
+        },
+        "tanzania": {
+            "name": "Tanzanian shilling",
+            "code": "TZS"
+        },
+        "ghana": {
+            "name": "Ghanaian cedi",
+            "code": "GHS"
+        },
+        "kenya": {
+            "name": "Kenyan shilling",
+            "code": "KES"
+        },
+        "south-africa": {
+            "name": "South African rand",
+            "code": "ZAR"
+        },
+        "japan": {
+            "name": "Japanese yen",
+            "code": "JPY"
+        },
+        "thailand": {
+            "name": "Thai baht",
+            "code": "THB"
+        },
+        "vietnam": {
+            "name": "Vietnamese đồng",
+            "code": "VND"
+        },
+        "india": {
+            "name": "Indian rupee",
+            "code": "INR"
+        },
+        "indonesia": {
+            "name": "Indonesian rupiah",
+            "code": "IDR"
+        },
+        "france": {
+            "name": "Euro",
+            "code": "EUR"
+        },
+        "italy": {
+            "name": "Euro",
+            "code": "EUR"
+        },
+        "spain": {
+            "name": "Euro",
+            "code": "EUR"
+        },
+        "portugal": {
+            "name": "Euro",
+            "code": "EUR"
+        },
+        "greece": {
+            "name": "Euro",
+            "code": "EUR"
+        },
+        "united-states": {
+            "name": "US dollar",
+            "code": "USD"
+        },
+        "canada": {
+            "name": "Canadian dollar",
+            "code": "CAD"
+        },
+        "mexico": {
+            "name": "Mexican peso",
+            "code": "MXN"
+        },
+        "costa-rica": {
+            "name": "Costa Rican colón",
+            "code": "CRC"
+        },
+        "jamaica": {
+            "name": "Jamaican dollar",
+            "code": "JMD"
+        },
+        "brazil": {
+            "name": "Brazilian real",
+            "code": "BRL"
+        },
+        "peru": {
+            "name": "Sol",
+            "code": "PEN"
+        },
+        "argentina": {
+            "name": "Argentine peso",
+            "code": "ARS"
+        },
+        "chile": {
+            "name": "Chilean peso",
+            "code": "CLP"
+        },
+        "colombia": {
+            "name": "Colombian peso",
+            "code": "COP"
+        },
+        "australia": {
+            "name": "Australian dollar",
+            "code": "AUD"
+        },
+        "new-zealand": {
+            "name": "New Zealand dollar",
+            "code": "NZD"
+        },
+        "fiji": {
+            "name": "Fijian dollar",
+            "code": "FJD"
+        },
+        "samoa": {
+            "name": "Samoan tālā",
+            "code": "WST"
+        },
+        "vanuatu": {
+            "name": "Vatu",
+            "code": "VUV"
+        }
+    },
+    "options": {
+        "GBP": "Pound sterling",
+        "XAF": "Central African CFA franc",
+        "MUR": "Mauritian rupee",
+        "TZS": "Tanzanian shilling",
+        "GHS": "Ghanaian cedi",
+        "KES": "Kenyan shilling",
+        "ZAR": "South African rand",
+        "JPY": "Japanese yen",
+        "THB": "Thai baht",
+        "VND": "Vietnamese đồng",
+        "INR": "Indian rupee",
+        "IDR": "Indonesian rupiah",
+        "EUR": "Euro",
+        "USD": "US dollar",
+        "CAD": "Canadian dollar",
+        "MXN": "Mexican peso",
+        "CRC": "Costa Rican colón",
+        "JMD": "Jamaican dollar",
+        "BRL": "Brazilian real",
+        "PEN": "Sol",
+        "ARS": "Argentine peso",
+        "CLP": "Chilean peso",
+        "COP": "Colombian peso",
+        "AUD": "Australian dollar",
+        "NZD": "New Zealand dollar",
+        "FJD": "Fijian dollar",
+        "WST": "Samoan tālā",
+        "VUV": "Vatu"
+    },
+    "provider": {
+        "name": "ExchangeRate-API",
+        "url": "https://www.exchangerate-api.com/",
+        "documentation": "https://www.exchangerate-api.com/docs/free",
+        "endpoint": "https://open.er-api.com/v6/latest/USD",
+        "refresh": "daily"
+    }
+}

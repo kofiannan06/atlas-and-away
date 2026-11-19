@@ -1,0 +1,2580 @@
+{
+    "cameroon": {
+        "intro": "Cameroon stretches from the Atlantic coast to northern savannahs, with volcanic mountains and rainforest between them. Explore Bamoun royal heritage in Foumban, coastal life in Limbe and the cascades where the Lobé River meets the sea.",
+        "tagline": "Volcanic mountains, coastal waterfalls and living royal heritage",
+        "capital": "Yaoundé",
+        "currency": "Central African CFA franc (XAF)",
+        "languages": "French and English; many local languages",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://mintoul.gov.cm/",
+        "tourismLabel": "Cameroon Ministry of Tourism and Leisure",
+        "sources": [
+            {
+                "title": "Cameroon Ministry of Tourism and Leisure",
+                "url": "https://mintoul.gov.cm/"
+            },
+            {
+                "title": "Cameroon Embassy: Prepare your trip",
+                "url": "https://www.ambacam.de/en/prepare-your-trip-to-cameroon/"
+            },
+            {
+                "title": "UNESCO: Cultural landscape of Lobé Falls",
+                "url": "https://whc.unesco.org/en/tentativelists/6330/"
+            },
+            {
+                "title": "BGCI: Limbe Botanic Garden",
+                "url": "https://tools.bgci.org/garden.php?id=319"
+            },
+            {
+                "title": "La Route des Chefferies: Foumban royal museum",
+                "url": "https://routedeschefferies.com/destinations/le-nouveau-musee-royal-bamoun-ville-de-foumban/"
+            },
+            {
+                "title": "Limbe City Council: Tourist potential",
+                "url": "https://www.limbe.cm/index.php?action=pjActionView&controller=pjListings&id=3"
+            },
+            {
+                "title": "Mount Cameroon National Park: Visiting",
+                "url": "https://mtcameroonnationalpark.org/visit-the-park/"
+            },
+            {
+                "title": "UNESCO: Ngondo traditions of the Sawa",
+                "url": "https://ich.unesco.org/en/RL/ngondo-worship-of-water-oracles-and-associated-cultural-traditions-among-the-sawa-02140"
+            },
+            {
+                "title": "WIPO: Cameroonian culinary traditions study",
+                "url": "https://www.wipo.int/documents/d/development-agenda/docs-en-scoping-study-cameroon.pdf"
+            },
+            {
+                "title": "Limbe Wildlife Centre: Visit us",
+                "url": "https://limbewildlife.org/visit/"
+            },
+            {
+                "title": "Wetland Link International: Ebogo",
+                "url": "https://wli.wwt.org.uk/?member=site-eco-touristique-ebogo"
+            }
+        ],
+        "attractionDescriptions": {
+            "Lobé Falls": "Near Kribi, the Lobé River breaks into cascades as it reaches the Atlantic Ocean. The surrounding cultural landscape has deep significance for coastal communities, including the Batanga.",
+            "Foumban Royal Palace": "Foumban's royal palace is a landmark of the Bamoun sultanate and the reign of King Ibrahim Njoya. The nearby royal museum presents the kingdom's art, objects and written heritage.",
+            "Limbe Botanic Garden": "Founded in 1892, this coastal botanical garden combines tropical vegetation with collections of native and introduced plants. Its landscaped grounds, forest paths and research collections reveal Cameroon's rich plant life.",
+            "Down Beach, Limbe": "Down Beach is a seafront gathering place in central Limbe, associated with fishing and its fish market. The waterfront offers a glimpse of everyday coastal life beside the Atlantic.",
+            "Mount Cameroon": "Mount Cameroon is an active volcano rising above the Gulf of Guinea. Its national park protects landscapes ranging from tropical forest to higher volcanic terrain, with distinctive plants and wildlife."
+        },
+        "cultureIntro": "Ngondo traditions connect the Sawa communities with the Wouri River through ceremonies and public celebrations. Foumban's Bamoun heritage and Kapsiki architecture in Rhumsiki show other strands of the country's cultural life.",
+        "foodIntro": "Groundnuts, leafy vegetables, cassava and cocoyam feature in dishes whose ingredients and preparation vary across Cameroon's regions.",
+        "activitiesIntro": "Forest conservation, volcanic hiking and river journeys offer different ways to encounter Cameroon's landscapes.",
+        "nightlifeIntro": "Douala's Wouri River skyline and Yaoundé's evening city lights offer urban perspectives after a day of exploring.",
+        "activityDescriptions": {
+            "Hiking Mount Cameroon": "Explore forest and volcanic terrain on a hike arranged through an authorised local operator; the national park requires visitors to be accompanied by a registered guide.",
+            "Limbe Wildlife Centre": "Learn how rescued primates and other wildlife are cared for at this rehabilitation and conservation education centre, following its visitor rules around the animals.",
+            "Canoeing in Ebogo": "Take a locally guided canoe outing on the Nyong River to observe the forested banks and learn about Ebogo's wetland conservation."
+        },
+        "foodDescriptions": {
+            "Ndolè": "Ndolè combines bitter leaves with ground peanuts, often with meat, fish or shrimp.",
+            "Fufu and eru": "Eru is a leafy stew commonly prepared with palm oil and fish or meat, served with soft cassava fufu.",
+            "Koki beans": "Koki is a steamed preparation of ground black-eyed peas and red palm oil, traditionally wrapped in leaves.",
+            "Achu soup": "Achu pairs pounded cocoyam with a yellow, spiced palm-oil soup, often accompanied by meat."
+        }
+    },
+    "mauritius": {
+        "intro": "Mauritius pairs Indian Ocean lagoons with forested uplands, volcanic scenery and a capital shaped by migration. In Port Louis, markets and museums connect the island's food, trading history and diverse communities.",
+        "tagline": "Island lagoons, forest trails and the flavours of Port Louis",
+        "capital": "Port Louis",
+        "currency": "Mauritian rupee (MUR)",
+        "languages": "Mauritian Creole, French and English are widely spoken",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://mauritiusnow.com/",
+        "tourismLabel": "Mauritius Tourism Promotion Authority",
+        "sources": [
+            {
+                "title": "Mauritius Now: The island of Mauritius",
+                "url": "https://mauritiusnow.com/mauritius-island/"
+            },
+            {
+                "title": "Mauritius Now: Useful tips",
+                "url": "https://mauritiusnow.com/useful-tips/"
+            },
+            {
+                "title": "Mauritius Now: Aapravasi Ghat",
+                "url": "https://mauritiusnow.com/blog/things-to-do/aapravasi-ghat/"
+            },
+            {
+                "title": "Blue Penny Museum",
+                "url": "https://bluepenny.museum/"
+            },
+            {
+                "title": "Mauritius Now: Seven Coloured Earth",
+                "url": "https://mauritiusnow.com/blog/things-to-do/7-coloured-earth/"
+            },
+            {
+                "title": "Mauritius Now: Black River Gorges National Park",
+                "url": "https://mauritiusnow.com/blog/things-to-do/black-river-gorges-national-park/"
+            },
+            {
+                "title": "SSR Botanic Garden: Lily and lotus ponds",
+                "url": "https://ssrbg.govmu.org/ssrbg/?page_id=1873"
+            },
+            {
+                "title": "Mauritius Now: Mauritian food",
+                "url": "https://mauritiusnow.com/blog/things-to-do/mauritian-food/"
+            },
+            {
+                "title": "L'Express: Traditional Sino-Mauritian pastries",
+                "url": "https://lexpress.mu/s/transmettre-un-pan-de-la-culture-chinoise-a-travers-sa-patisserie-traditionnelle-554412"
+            },
+            {
+                "title": "Mauritius Now: Le Pouce",
+                "url": "https://mauritiusnow.com/blog/things-to-do/le-pouce/"
+            },
+            {
+                "title": "Mauritius Now: Île aux Aigrettes",
+                "url": "https://mauritiusnow.com/blog/things-to-do/ile-aux-aigrettes/"
+            },
+            {
+                "title": "Mauritius Now: Blue Bay Beach",
+                "url": "https://mauritiusnow.com/fr/blog/things-to-do/plage-de-blue-bay/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Aapravasi Ghat": "This former immigration depot in Port Louis records the arrival of indentured labourers, mainly from India. Its surviving buildings and interpretation help explain a major chapter of Mauritian history.",
+            "Blue Penny Museum": "At Le Caudan Waterfront, this museum explores Mauritian art and history. Its celebrated collections include rare nineteenth-century Post Office stamps, alongside material about the island's past.",
+            "Seven Coloured Earths": "At Chamarel, exposed dunes display bands of red, violet, brown and other colours. Viewing this compact geological landscape offers a different perspective on the island's volcanic terrain.",
+            "Black River Gorges National Park": "Forested hills, deep valleys and waterfalls define this protected area in southwest Mauritius. Trails and viewpoints introduce native plants and rare birds, including species found only on the island.",
+            "Sir Seewoosagur Ramgoolam Botanical Garden": "In Pamplemousses, this historic garden is known for palms and its pond of giant Amazon water lilies. Native and introduced plants reflect a long history of botanical collection."
+        },
+        "cultureIntro": "Sega music and dance carry the island's Creole heritage, while Port Louis's Chinatown reflects generations of Sino-Mauritian life. Markets bring the island's languages and food traditions together.",
+        "foodIntro": "Mauritian cooking draws on Indian, African, Chinese and European influences, from split-pea snacks to curries and bakery sweets.",
+        "activitiesIntro": "Explore coral gardens, mountain scenery and conservation reserves across the island.",
+        "nightlifeIntro": "Port Louis's waterfront offers evening dining and harbour views, while the island's music traditions add rhythm to a night out.",
+        "activityDescriptions": {
+            "Blue Bay Marine Park": "Explore the marine park's coral and fish on an authorised glass-bottom boat trip or guided snorkelling outing, respecting the protected reef.",
+            "Le Pouce": "Hike the thumb-shaped mountain for views across Port Louis and the surrounding landscape, choosing a route suited to the rocky terrain and current conditions.",
+            "Île aux Aigrettes": "Join a guided conservation visit to this offshore nature reserve to learn about restored ebony forest and rare Mauritian plants and birds."
+        },
+        "foodDescriptions": {
+            "Dholl puri": "Dholl puri is a thin flatbread filled with ground yellow split peas, usually served with savoury curries, chutney and pickles.",
+            "Gâteau piment": "Gâteau piment are crisp split-pea fritters seasoned with chilli and herbs.",
+            "Napolitaine": "A napolitaine sandwiches jam between two shortbread biscuits beneath a layer of icing.",
+            "Poutou Chinois": "Poutou Chinois is a traditional steamed cake found in Sino-Mauritian bakeries, often associated with festive sweets."
+        }
+    },
+    "tanzania": {
+        "intro": "Tanzania links the plains of the Serengeti and the volcanic highlands with the Swahili coast and Zanzibar. Wildlife landscapes, trading towns and community-led cultural visits reveal different sides of this East African country.",
+        "tagline": "Serengeti plains, volcanic highlands and Zanzibar's Swahili coast",
+        "capital": "Dodoma",
+        "currency": "Tanzanian shilling (TZS)",
+        "languages": "Swahili, English and many local languages",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://tanzaniatourism.go.tz/",
+        "tourismLabel": "Tanzania Tourist Board",
+        "sources": [
+            {
+                "title": "Tanzania Tourist Board",
+                "url": "https://tanzaniatourism.go.tz/"
+            },
+            {
+                "title": "Danish Ministry of Foreign Affairs: Tanzania country facts",
+                "url": "https://um.dk/tanzania/en/about-denmark-in-tanzania/tanzania-country-facts/"
+            },
+            {
+                "title": "UNESCO: Serengeti National Park",
+                "url": "https://whc.unesco.org/en/list/156/"
+            },
+            {
+                "title": "UNESCO: Ngorongoro Conservation Area",
+                "url": "https://whc.unesco.org/en/list/39/"
+            },
+            {
+                "title": "UNESCO: Stone Town of Zanzibar",
+                "url": "https://whc.unesco.org/en/list/173/"
+            },
+            {
+                "title": "UNESCO: Jozani Chwaka Bay Conservation Area",
+                "url": "https://whc.unesco.org/en/tentativelists/850/"
+            },
+            {
+                "title": "Sauti za Busara: The festival",
+                "url": "https://busaramusic.org/the-festival/"
+            },
+            {
+                "title": "Tanzania Bureau of Standards: Street food",
+                "url": "https://www.tbs.go.tz/uploads/publications/en-1713954628-newsletter%202024%20JAN-%20MARCH%20.pdf"
+            },
+            {
+                "title": "Materuni Village Experience",
+                "url": "https://materuni.com/about/"
+            },
+            {
+                "title": "Mto wa Mbu Cultural Tourism",
+                "url": "https://mtowambuculturaltourism.org/mission-poverty-alleviation-in-rural-communities-while-maintaining-gender-balance-and-raising-local-community-participation-in-the-tourism-in-order-to-enhance-economic-empowerment-ecological-cult/"
+            },
+            {
+                "title": "Makasa: Tanzanian food",
+                "url": "https://makasatanzania.com/knowledge-base/tanzania/tanzanian-food/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Old Fort of Zanzibar": "Facing the waterfront in Stone Town, the Old Fort is a reminder of Zanzibar's Omani period. Its stone walls form part of the town's layered Swahili trading heritage.",
+            "Serengeti National Park": "The Serengeti protects vast savannah plains and the seasonal movement of wildebeest, zebras and other herbivores. Predators and changing grasslands make this a remarkable ecosystem throughout the year.",
+            "Ngorongoro Conservation Area": "This conservation landscape includes the large Ngorongoro volcanic caldera and important archaeological sites. Wildlife habitats and Maasai pastoral traditions form part of the area's complex natural and cultural history.",
+            "Stone Town": "Zanzibar's historic Stone Town grew through Indian Ocean trade. Its narrow streets, coral-stone buildings and carved doors reflect connections among African, Arab, Indian and European communities.",
+            "Jozani Chwaka Bay National Park": "On Unguja island, Jozani protects forest and mangrove habitats associated with the Zanzibar red colobus monkey. Nature trails introduce the island's plants and its distinctive coastal ecosystem."
+        },
+        "cultureIntro": "Swahili culture shapes Zanzibar's architecture, language and music, including taarab. Sauti za Busara brings African musical traditions to Stone Town, while mainland communities maintain many different cultural practices.",
+        "foodIntro": "Tanzanian meals range from grilled skewers and maize staples to coastal rice dishes, coconut flavours and small sweet cakes.",
+        "activitiesIntro": "Combine waterfall walks and agricultural village visits with a different view of the Serengeti's open plains.",
+        "nightlifeIntro": "Stone Town's waterfront and Forodhani Gardens are associated with evening gatherings and food stalls beside the sea.",
+        "activityDescriptions": {
+            "Materuni Waterfalls": "Walk with a local guide through the foothills near Moshi to Materuni's waterfall, with opportunities to learn about Chagga coffee growing and preparation.",
+            "Mto wa Mbu": "Join a local cultural walking tour to visit farms and craft workshops and learn about the town's diverse communities near Lake Manyara.",
+            "Serengeti balloon safari": "View the Serengeti's grasslands from a licensed balloon flight when conditions allow; routes and wildlife sightings depend on wind and seasonal movement."
+        },
+        "foodDescriptions": {
+            "Mishkaki": "Mishkaki are skewers of marinated meat cooked over a grill.",
+            "Chipsi mayai": "Chipsi mayai combines fried potato chips and eggs in a thick omelette.",
+            "Vitumbua": "Vitumbua are small rice-and-coconut cakes cooked in rounded moulds.",
+            "Kachumbari": "Kachumbari is a fresh salad of tomatoes and onions, often sharpened with citrus and chilli."
+        }
+    },
+    "ghana": {
+        "intro": "Ghana's coast holds fishing towns, historic forts and the capital, Accra, while forest landscapes lie inland. Markets, festivals and food connect visitors with a country whose heritage includes both independence and the painful history of the Atlantic slave trade.",
+        "tagline": "Coastal history, forest canopies and the energy of Accra",
+        "capital": "Accra",
+        "currency": "Ghanaian cedi (GHS)",
+        "languages": "English is official; Akan languages, Ewe, Ga and others are widely spoken",
+        "tags": [
+            "nature",
+            "heritage",
+            "food",
+            "cities",
+            "beaches"
+        ],
+        "tourismUrl": "https://visitghana.com/",
+        "tourismLabel": "Ghana Tourism Authority",
+        "sources": [
+            {
+                "title": "Visit Ghana: Greater Accra",
+                "url": "https://visitghana.com/greater-accra/"
+            },
+            {
+                "title": "Visit Ghana: Kwame Nkrumah Memorial Park",
+                "url": "https://visitghana.com/kwame-nkrumah-memorial-park-2/"
+            },
+            {
+                "title": "Visit Ghana: Independence Square",
+                "url": "https://visitghana.com/independence-square/"
+            },
+            {
+                "title": "Ghana Ministry of Tourism: Tourist sites",
+                "url": "https://www.motcca.gov.gh/tourist-sites/"
+            },
+            {
+                "title": "Visit Ghana: Kakum National Park",
+                "url": "https://visitghana.com/kakum-national-park/"
+            },
+            {
+                "title": "Visit Ghana: Eastern Region",
+                "url": "https://visitghana.com/eastern-region/"
+            },
+            {
+                "title": "Visit Ghana: Boabeng-Fiema heritage",
+                "url": "https://visitghana.com/brong-ahafo-region/"
+            },
+            {
+                "title": "Ghana Tourism Authority: Food and culture brochure",
+                "url": "https://visitghana.com/wp-content/uploads/2024/04/Glitz-See-Ghana-Brochure.pdf"
+            },
+            {
+                "title": "Ghana Tourism Authority: Greater Accra guide",
+                "url": "https://visitghana.com/wp-content/uploads/2021/05/This-Is-Ghana-Magazine-2.pdf"
+            },
+            {
+                "title": "Ghana High Commission: Country profile",
+                "url": "https://london.mfa.gov.gh/ghana/country-profile?lang=en"
+            },
+            {
+                "title": "Ghana National Commission on Culture: Festivals",
+                "url": "https://ghanaculture.gov.gh/festivals/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Kwame Nkrumah Mausoleum": "In central Accra, this memorial honours Ghana's first president and his role in independence. The mausoleum and museum introduce Nkrumah's life, political work and Pan-African vision.",
+            "Independence Arch": "The Independence Arch forms part of Accra's Independence Square, near the Gulf of Guinea. The surrounding monuments and ceremonial space commemorate Ghana's independence and national identity.",
+            "National Museum of Ghana": "Accra's National Museum presents archaeology, ethnography and art from Ghana and beyond. Its collections offer an introduction to the country's material heritage and the communities that have shaped it.",
+            "Elmina Castle": "Founded by the Portuguese in 1482, Elmina Castle became a major site in the transatlantic slave trade. Its courtyards and dungeons preserve evidence of a deeply painful history.",
+            "Cape Coast Castle": "This coastal fortress was central to the trade in enslaved Africans under European rule. Its museum and guided interpretation explore captivity, forced journeys and the castle's continuing historical significance."
+        },
+        "cultureIntro": "The Ga Homowo festival remembers the overcoming of famine, while Asante Akwasidae ceremonies honour ancestors and royal heritage. In Accra, Makola Market reveals the daily work of traders and makers.",
+        "foodIntro": "Fermented maize, cassava, rice, beans and plantain underpin many Ghanaian meals, with sauces and accompaniments varying by region.",
+        "activitiesIntro": "Explore rainforest canopy bridges, historic botanical collections and community-protected forest wildlife.",
+        "nightlifeIntro": "Accra's Osu area and Labadi waterfront bring together evening food, music and social life.",
+        "activityDescriptions": {
+            "Kakum canopy walkway": "Follow the suspended walkway through the rainforest canopy, then join a guided forest walk to learn about the plants and ecology below.",
+            "Aburi Botanical Gardens": "Walk among established tree collections and royal palms in the Aburi hills, learning about the garden's botanical history and useful plants.",
+            "Boabeng-Fiema Monkey Sanctuary": "Visit with a local guide to learn how community traditions protect the sanctuary's monkeys and forest, observing wildlife without feeding or approaching it."
+        },
+        "foodDescriptions": {
+            "Waakye": "Waakye cooks rice and beans together, commonly served with pepper sauce and a choice of accompaniments.",
+            "Kenkey": "Kenkey is a fermented maize dough dumpling, wrapped and steamed, often eaten with fish and pepper sauce.",
+            "Kelewele": "Kelewele is ripe plantain cut into pieces, seasoned with spices and fried.",
+            "Banku": "Banku is a smooth cooked dough made from fermented maize and cassava, served with soup, stew or fish."
+        }
+    },
+    "kenya": {
+        "intro": "Kenya rises from the Indian Ocean coast to highlands and Rift Valley landscapes rich in wildlife. Nairobi connects urban museums and conservation projects with national parks, while Mombasa preserves centuries of coastal history.",
+        "tagline": "Wildlife plains, Rift Valley scenery and Swahili coastal heritage",
+        "capital": "Nairobi",
+        "currency": "Kenyan shilling (KES)",
+        "languages": "Swahili and English are official; many local languages",
+        "tags": [
+            "nature",
+            "heritage",
+            "beaches",
+            "cities",
+            "food"
+        ],
+        "tourismUrl": "https://magicalkenya.com/",
+        "tourismLabel": "Kenya Tourism Board",
+        "sources": [
+            {
+                "title": "Magical Kenya: Official destination website",
+                "url": "https://magicalkenya.com/"
+            },
+            {
+                "title": "Kenya Embassy: Country facts",
+                "url": "https://kenyaembassyparis.fr/kenya-at-a-glance/"
+            },
+            {
+                "title": "Kenya Wildlife Service: National parks",
+                "url": "https://kws.go.ke/parks/"
+            },
+            {
+                "title": "Kenya Wildlife Service: Amboseli",
+                "url": "https://reservations.kws.go.ke/location/amboseli-national-park"
+            },
+            {
+                "title": "Kenya Wildlife Service: Hell's Gate",
+                "url": "https://kws.go.ke/park/hells-gate-national-park/"
+            },
+            {
+                "title": "National Museums of Kenya",
+                "url": "https://museums.or.ke/"
+            },
+            {
+                "title": "UNESCO: Fort Jesus, Mombasa",
+                "url": "https://whc.unesco.org/en/list/1295/"
+            },
+            {
+                "title": "Giraffe Centre",
+                "url": "https://www.giraffecentre.org/"
+            },
+            {
+                "title": "Sheldrick Wildlife Trust: Nairobi Nursery",
+                "url": "https://www.sheldrickwildlifetrust.org/nursery-visit"
+            },
+            {
+                "title": "Kenyan food traditions",
+                "url": "https://en.wikipedia.org/wiki/Culture_of_Kenya"
+            }
+        ],
+        "attractionDescriptions": {
+            "Nairobi National Park": "Just beyond Nairobi's urban edge, this national park protects open grassland and wildlife habitats. Game drives may reveal rhinos, giraffes and other animals with the city skyline in the distance.",
+            "Karen Blixen Museum": "This museum occupies the former home of Danish author Karen Blixen in Nairobi's Karen area. Rooms and grounds introduce her life in Kenya and the setting associated with Out of Africa.",
+            "Amboseli National Park": "Amboseli is known for elephants, open plains and wetlands below the distant profile of Kilimanjaro. Its habitats include woodland, marshes and the seasonally dry bed of Lake Amboseli.",
+            "Lake Nakuru National Park": "A Rift Valley lake, wooded escarpments and open grassland create varied habitats within this park. It is an important place for rhino conservation and for observing changing birdlife.",
+            "Fort Jesus": "Built by the Portuguese in the late sixteenth century, Fort Jesus overlooks Mombasa's harbour. The fortress and museum illuminate the coastal city's history of trade, conflict and cultural exchange."
+        },
+        "cultureIntro": "Swahili coastal heritage, Maasai beadwork and the traditions of Kenya's many communities shape its cultural life. Bomas of Kenya and Nairobi's craft markets introduce different forms of performance and making.",
+        "foodIntro": "Kenyan cooking includes maize staples, beans, leafy greens and grilled meats, with distinct coastal and inland traditions.",
+        "activitiesIntro": "Conservation centres and Rift Valley trails add learning and outdoor exploration to a Kenyan journey.",
+        "nightlifeIntro": "Nairobi offers evening restaurants, music and shopping, with gathering places such as The Village Market adding to the city's social life.",
+        "activityDescriptions": {
+            "Giraffe Centre": "Learn about giraffe conservation at this education centre near Nairobi, observing the animals from its visitor platforms and following staff guidance.",
+            "Sheldrick Wildlife Trust": "Attend an advance-booked Nairobi Nursery visit to learn from keepers about orphaned elephants and the trust's rescue and rehabilitation work.",
+            "Hell's Gate National Park": "Explore designated cycling or walking routes through a Rift Valley landscape of cliffs and volcanic formations, following current park instructions and access guidance."
+        },
+        "foodDescriptions": {
+            "Nyama choma": "Nyama choma is grilled meat, often goat or beef, commonly shared with accompaniments such as ugali and kachumbari.",
+            "Kenyan ugali": "Ugali is a firm maize-meal staple cooked with water and served alongside vegetables, fish, meat or stew.",
+            "Sukuma wiki": "Sukuma wiki is a dish of cooked leafy greens, often prepared with onions and tomatoes.",
+            "Githeri": "Githeri combines maize and beans, a dish associated with Kikuyu cooking and eaten widely in Kenya."
+        }
+    },
+    "south-africa": {
+        "intro": "South Africa brings together Cape coastal scenery, inland wildlife reserves and cities shaped by many communities. Cape Town's neighbourhoods and museums offer a close view of cultural life and the country's difficult, changing history.",
+        "tagline": "Cape mountains, wildlife country and stories that shape a nation",
+        "capital": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)",
+        "currency": "South African rand (ZAR)",
+        "languages": "12 official languages, including isiZulu, isiXhosa, Afrikaans, English and South African Sign Language",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "cities",
+            "food"
+        ],
+        "tourismUrl": "https://www.southafrica.net/",
+        "tourismLabel": "South African Tourism",
+        "sources": [
+            {
+                "title": "South African Government: Country at a glance",
+                "url": "https://www.gov.za/about-sa/south-africa-glance"
+            },
+            {
+                "title": "Cape Town Tourism: Table Mountain",
+                "url": "https://www.capetown.travel/how-to-spend-the-day-on-table-mountain/"
+            },
+            {
+                "title": "SANParks: Cape of Good Hope and Cape Point",
+                "url": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/cape-of-good-hope-cape-point"
+            },
+            {
+                "title": "SANParks: Table Mountain visitor map",
+                "url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
+            },
+            {
+                "title": "Cape Town Tourism: Scenic drives",
+                "url": "https://www.capetown.travel/scenic-drives-cape-town/"
+            },
+            {
+                "title": "South African Tourism: Iconic foods",
+                "url": "https://www.southafrica.net/gl/en/travel/article/iconic-south-african-foods-taste-all-the-flavours-of-the-rainbow-nation"
+            },
+            {
+                "title": "UNESCO: Robben Island",
+                "url": "https://whc.unesco.org/en/list/916"
+            },
+            {
+                "title": "Cape Town Tourism: Bo-Kaap",
+                "url": "https://www.capetown.travel/the-travellers-guide-to-bo-kaap/"
+            },
+            {
+                "title": "Cape Town Tourism: District Six Museum",
+                "url": "https://www.capetown.travel/your-neighbourhood-guide-to-the-east-city-precinct/"
+            },
+            {
+                "title": "South African National Parks",
+                "url": "https://www.sanparks.org/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Table Mountain": "Cape Town's flat-topped mountain rises above the city and Table Bay. Its slopes and summit form part of Table Mountain National Park, with distinctive fynbos vegetation and expansive views.",
+            "Bo-Kaap": "On the slopes of Signal Hill, Bo-Kaap is known for colourful houses and longstanding Muslim communities. The neighbourhood's architecture, mosques and food traditions reflect Cape Town's layered social history.",
+            "Kruger National Park": "In northeastern South Africa, Kruger protects extensive savannah landscapes and a wide variety of wildlife. Its network of roads, camps and guided experiences introduces different habitats across the park.",
+            "Robben Island": "Across Table Bay from Cape Town, Robben Island is closely associated with political imprisonment under apartheid. Nelson Mandela was among those held here, and its museum interprets the island's history.",
+            "Cape of Good Hope": "This rocky headland lies within Table Mountain National Park on the Cape Peninsula. Coastal paths, fynbos and wildlife surround a landscape long associated with maritime journeys around southern Africa."
+        },
+        "cultureIntro": "Cape Malay food traditions and the Cape Town Minstrel Carnival reflect the city's layered heritage. The District Six Museum preserves memories of a community displaced by apartheid's forced removals.",
+        "foodIntro": "South African food includes Cape spiced dishes, Durban curries and the shared cooking traditions of the braai.",
+        "activitiesIntro": "Mountain viewpoints and the Cape Peninsula's coastal roads offer several ways to explore Cape Town's landscape.",
+        "nightlifeIntro": "Cape Town's restaurants and music venues extend the day into evening, while the V&A Waterfront combines dining with harbour views.",
+        "activityDescriptions": {
+            "Table Mountain Aerial Cableway": "Ride the cableway to explore summit paths and views over Cape Town and Table Bay when weather and operating conditions permit.",
+            "Lion's Head (Cape Town)": "Explore the mountain's hiking routes for views toward Table Mountain and the Atlantic coast, choosing an option suited to fitness and conditions.",
+            "Chapman's Peak Drive": "Travel the coastal road between Hout Bay and Noordhoek, stopping at designated viewpoints to appreciate cliffs, bays and the Cape Peninsula."
+        },
+        "foodDescriptions": {
+            "Bobotie": "Bobotie is a baked dish of spiced minced meat topped with an egg custard.",
+            "Bunny chow": "Bunny chow serves curry inside a hollowed-out loaf of bread, a speciality associated with Durban.",
+            "Boerewors": "Boerewors is a coiled spiced sausage, commonly cooked over a braai.",
+            "Biltong": "Biltong is seasoned meat preserved by air-drying and usually eaten in thin slices."
+        }
+    },
+    "japan": {
+        "intro": "Japan's cities bring temple precincts, neighbourhood food stalls and contemporary skylines into the same journey. Beyond Tokyo and Kyoto, mountain landscapes and regional cooking invite a closer look at the country's varied local traditions.",
+        "tagline": "Temple paths, city lights and regional flavours",
+        "capital": "Tokyo",
+        "currency": "Japanese yen (JPY)",
+        "languages": "Japanese",
+        "tags": [
+            "nature",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.japan.travel/en/",
+        "tourismLabel": "Japan National Tourism Organization",
+        "sources": [
+            {
+                "title": "JNTO: Travel planning and practical information",
+                "url": "https://www.japan.travel/en/plan/"
+            },
+            {
+                "title": "JNTO: Frequently asked questions",
+                "url": "https://www.japan.travel/en/faq/"
+            },
+            {
+                "title": "JNTO: Sensō-ji",
+                "url": "https://www.japan.travel/en/spot/1691/"
+            },
+            {
+                "title": "JNTO: Meiji-jingu Shrine",
+                "url": "https://www.japan.travel/en/spot/1666/"
+            },
+            {
+                "title": "JNTO: Shibuya Crossing",
+                "url": "https://www.japan.travel/en/spot/2177/"
+            },
+            {
+                "title": "JNTO: Fushimi Inari Taisha",
+                "url": "https://www.japan.travel/en/spot/1128/"
+            },
+            {
+                "title": "JNTO: Kinkakuji",
+                "url": "https://www.japan.travel/en/spot/1152/"
+            },
+            {
+                "title": "JNTO: Regional cooking in western Japan",
+                "url": "https://www.japan.travel/en/gastronomy/local-cuisine-western-japan/"
+            },
+            {
+                "title": "JNTO: Ten Japanese dishes",
+                "url": "https://www.japan.travel/en/au/experience/cuisine/10-dishes-you-shouldnt-leave-japan-without-trying/"
+            },
+            {
+                "title": "JNTO: Arashiyama Bamboo Grove",
+                "url": "https://www.japan.travel/en/spot/1141/"
+            },
+            {
+                "title": "JNTO: Jigokudani Monkey Park",
+                "url": "https://www.japan.travel/en/spot/1344/"
+            },
+            {
+                "title": "JNTO: Gion Festival",
+                "url": "https://www.japan.travel/en/spot/83/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Sensō-ji": "In Tokyo's Asakusa district, Sensō-ji is a Buddhist temple dedicated to Kannon. Its great gates and Nakamise shopping approach lead into a precinct rooted in the city's early history.",
+            "Meiji Shrine": "This Shinto shrine honours Emperor Meiji and Empress Shōken within a large wooded precinct in central Tokyo. Broad gravel paths and torii gates create a distinctive setting beside Harajuku.",
+            "Shibuya Crossing": "Outside Shibuya Station, crowds cross in several directions when traffic stops. Surrounded by screens, shops and rail connections, the crossing captures the pace and visual energy of contemporary Tokyo.",
+            "Fushimi Inari-taisha": "Kyoto's Fushimi Inari shrine is dedicated to Inari, associated with harvests and business prosperity. Thousands of donated vermilion torii mark paths and smaller sacred spaces on Mount Inari.",
+            "Kinkaku-ji": "Kyoto's Golden Pavilion stands beside a pond in a landscaped garden. The upper storeys are covered in gold leaf, creating the reflections for which this Zen temple is known."
+        },
+        "cultureIntro": "Kyoto's Gion Matsuri brings ceremonial floats through the city, while tea ceremony expresses a carefully learned art of hospitality. Sumo has its own rituals and a major home at Tokyo's Ryōgoku Kokugikan.",
+        "foodIntro": "Regional specialities give Japanese travel a strong food dimension, from Kyushu's pork-broth ramen to Osaka's griddle cooking.",
+        "activitiesIntro": "City observation decks, bamboo paths and mountain wildlife offer contrasting views of Japan.",
+        "nightlifeIntro": "Osaka's Dōtonbori pairs illuminated signs with restaurants, while Tokyo's Shinjuku Golden Gai is known for narrow lanes of small bars.",
+        "activityDescriptions": {
+            "Tokyo Skytree": "Visit the tower's observation decks for a wide view across Tokyo and the Sumida River, with the distant landscape depending on visibility.",
+            "Arashiyama Bamboo Grove": "Walk the public paths beneath tall bamboo in Kyoto's Sagano area, allowing time for the surrounding temple district and seasonal scenery.",
+            "Jigokudani Monkey Park": "Follow the woodland approach to observe Japanese macaques in the mountain valley, keeping a respectful distance and following the park's wildlife rules."
+        },
+        "foodDescriptions": {
+            "Sushi": "Sushi centres on seasoned vinegared rice, paired with ingredients such as seafood, egg or vegetables.",
+            "Tonkotsu ramen": "Tonkotsu ramen serves noodles in a rich broth made by simmering pork bones.",
+            "Okonomiyaki": "Okonomiyaki is a savoury griddle-cooked dish of batter and cabbage with assorted toppings and sauce.",
+            "Takoyaki": "Takoyaki are round batter snacks containing pieces of octopus, cooked in special moulds and finished with savoury toppings."
+        }
+    },
+    "thailand": {
+        "intro": "Thailand's river cities and former capitals preserve royal buildings, Buddhist temples and distinctive regional traditions. From Bangkok's Chao Phraya waterfront to the northern mountains, markets and cooking add everyday texture to the journey.",
+        "tagline": "Riverside temples, historic capitals and regional Thai cooking",
+        "capital": "Bangkok",
+        "currency": "Thai baht (THB)",
+        "languages": "Thai; regional and minority languages are also spoken",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.tourismthailand.org/",
+        "tourismLabel": "Tourism Authority of Thailand",
+        "sources": [
+            {
+                "title": "Tourism Authority of Thailand",
+                "url": "https://www.tourismthailand.org/"
+            },
+            {
+                "title": "Thai Consulate: Thailand in brief",
+                "url": "https://thaiconsulatela.thaiembassy.org/en/page/thailand-in-brief?g2_fromNavId=x6aed6014"
+            },
+            {
+                "title": "TAT: The Grand Palace",
+                "url": "https://www.tourismthailand.org/Attraction/the-grand-palace"
+            },
+            {
+                "title": "TAT: Bangkok temples",
+                "url": "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime"
+            },
+            {
+                "title": "TAT Malaysia: Thai food",
+                "url": "https://www.tourismthailand.my/about_thaifood.php"
+            },
+            {
+                "title": "Thailand Department of Tourism: Food guide",
+                "url": "https://tfo.dot.go.th/about-thailand/tips/"
+            },
+            {
+                "title": "TAT: Inthanon landscape and activities",
+                "url": "https://www.tourismthailand.org/Attraction/the-royal-agricultural-station-inthanon"
+            },
+            {
+                "title": "UNESCO: Historic City of Ayutthaya",
+                "url": "https://whc.unesco.org/en/list/576"
+            },
+            {
+                "title": "UNESCO: Historic Town of Sukhothai",
+                "url": "https://whc.unesco.org/en/list/574/"
+            },
+            {
+                "title": "Chao Phraya Express Boat: Routes",
+                "url": "https://www.chaophrayaexpressboat.com/chaophrayaexpressboat"
+            }
+        ],
+        "attractionDescriptions": {
+            "Grand Palace": "Established in Bangkok under Rama I, the Grand Palace combines royal residences, halls and sacred buildings. Its complex includes Wat Phra Kaew, the Temple of the Emerald Buddha.",
+            "Wat Arun": "On the west bank of the Chao Phraya, Wat Arun is distinguished by its tall central prang. Ceramic decoration and riverside views make the Temple of Dawn a Bangkok landmark.",
+            "Wat Pho": "Near the Grand Palace, Wat Pho is known for its large reclining Buddha and extensive temple grounds. The complex is also associated with traditional Thai massage and learning.",
+            "Ayutthaya Historical Park": "The remains of temples and palaces mark the former Siamese capital north of Bangkok. Brick prang towers and Buddha images reveal a city once connected to extensive international trade.",
+            "Sukhothai Historical Park": "Temple ruins, Buddha statues and lotus ponds occupy the landscape of an early Thai capital. The park preserves monuments associated with the distinctive art and architecture of the Sukhothai kingdom."
+        },
+        "cultureIntro": "Songkran marks the Thai New Year with water-related customs, family gatherings and respect for elders. Bangkok's silk heritage and Muay Thai traditions offer other ways to encounter Thai cultural life.",
+        "foodIntro": "Thai regional cooking brings together rice, noodles, fresh herbs and combinations of sour, sweet, salty and spicy flavours.",
+        "activitiesIntro": "River transport, large markets and northern forest landscapes offer different ways to explore Thailand.",
+        "nightlifeIntro": "Bangkok's Khaosan Road is associated with a busy evening restaurant and bar scene, while Chiang Mai's Night Bazaar centres on shopping and food.",
+        "activityDescriptions": {
+            "Chao Phraya Express Boat": "Travel along Bangkok's working river on an express boat, using the published route and pier information to connect waterfront neighbourhoods and landmarks.",
+            "Chatuchak Weekend Market": "Browse the market's many sections for clothing, crafts, homewares and food, checking the trading days of the section you want to visit.",
+            "Doi Inthanon National Park": "Explore permitted forest trails, waterfalls and highland viewpoints around Thailand's highest mountain, following current park guidance for seasonal routes."
+        },
+        "foodDescriptions": {
+            "Pad thai": "Pad thai stir-fries rice noodles with a tangy sauce, egg and other ingredients, often finished with peanuts and lime.",
+            "Tom yum goong": "Tom yum goong is a hot-and-sour shrimp soup scented with herbs such as lemongrass, galangal and makrut lime leaves.",
+            "Som tam": "Som tam is a pounded green papaya salad with a sharp, spicy dressing, strongly associated with northeastern Thailand.",
+            "Khao soi": "Khao soi is a northern Thai curry noodle dish, usually combining a creamy broth with soft and crisp egg noodles."
+        }
+    },
+    "vietnam": {
+        "intro": "Vietnam stretches from northern mountains and limestone waterways to central trading towns and the Mekong Delta. In Hanoi, lakes, temples and streets of small food shops offer an introduction to the country's history and everyday life.",
+        "tagline": "Limestone waterways, living craft traditions and memorable street food",
+        "capital": "Hanoi",
+        "currency": "Vietnamese đồng (VND)",
+        "languages": "Vietnamese; many ethnic minority languages",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://vietnam.travel/",
+        "tourismLabel": "Vietnam National Authority of Tourism",
+        "sources": [
+            {
+                "title": "Vietnam's official tourism website",
+                "url": "https://vietnam.travel/"
+            },
+            {
+                "title": "Vietnam Ministry of Foreign Affairs: Country facts",
+                "url": "https://mofa.gov.vn/en/web/consulate-general/gioi-thieu"
+            },
+            {
+                "title": "Vietnam Tourism: Hanoi heritage sites",
+                "url": "https://vietnam.travel/things-to-do/hanoi-six-heritage-sites/"
+            },
+            {
+                "title": "Vietnam Tourism: Hanoi attractions",
+                "url": "https://vietnam.travel/things-to-do/11-must-see-attractions-ha-noi/"
+            },
+            {
+                "title": "UNESCO: Hội An Ancient Town",
+                "url": "https://whc.unesco.org/en/list/948/"
+            },
+            {
+                "title": "UNESCO: Tràng An Landscape Complex",
+                "url": "https://whc.unesco.org/en/list/1438"
+            },
+            {
+                "title": "Vietnam Tourism: Twenty-one Vietnamese dishes",
+                "url": "https://vietnam.travel/things-to-do/21-must-try-vietnamese-dishes/"
+            },
+            {
+                "title": "Vietnam Tourism: Dining in the Mekong Delta",
+                "url": "https://vietnam.travel/things-to-do/dining-mekong-delta/"
+            },
+            {
+                "title": "Vietnam Tourism: Fansipan",
+                "url": "https://vietnam.travel/things-to-do/why-fansipan-must-do-sa-pa/"
+            },
+            {
+                "title": "Vietnam Tourism: Water puppetry",
+                "url": "https://vietnam.travel/vi/things-to-do/all-about-vietnamese-water-puppets"
+            }
+        ],
+        "attractionDescriptions": {
+            "Temple of Literature, Hanoi": "Founded in 1070 and associated with Vietnam's early imperial academy, this Confucian complex honours scholarship. Courtyards, gardens and stone stelae recall generations of students and mandarins.",
+            "Imperial Citadel of Thăng Long": "This Hanoi site preserves traces of the political centre established by the Lý dynasty. Archaeological remains and surviving structures reveal successive periods of Vietnamese imperial history.",
+            "Hoàn Kiếm Lake": "A central gathering place in Hanoi, Hoàn Kiếm Lake is linked to the legend of a returned sword. Ngọc Sơn Temple stands on an island near its northern shore.",
+            "Hanoi Opera House": "Built during the French colonial period, Hanoi's Opera House anchors a formal square near the city's centre. Its ornate façade reflects European architectural influences in early twentieth-century Hanoi.",
+            "Hội An": "Hội An's old town preserves the streets and buildings of a historic trading port. Merchant houses, temples and assembly halls reflect connections between Vietnamese, Chinese and Japanese communities."
+        },
+        "cultureIntro": "Water puppetry grew from village traditions of the Red River Delta. Đông Hồ printing and Bát Tràng pottery demonstrate the continued importance of skilled craft in northern Vietnam.",
+        "foodIntro": "Vietnamese cooking pairs rice and noodles with broths, herbs, vegetables and sauces, with distinctive dishes in each region.",
+        "activitiesIntro": "Explore limestone landscapes by boat, river commerce in the Mekong Delta and mountain views around Sa Pa.",
+        "nightlifeIntro": "Hanoi's weekend market streets offer evening browsing, while Hồ Chí Minh City's Bùi Viện area is known for its lively restaurant and bar scene.",
+        "activityDescriptions": {
+            "Tràng An Scenic Landscape Complex": "Take an authorised rowing-boat route through limestone scenery, waterways and caves, learning how the area's landscape and human history are connected.",
+            "Cái Răng Floating Market": "Join a local boat trip near Cần Thơ to observe river trading and food boats, with the level of activity varying by day and season.",
+            "Fansipan cable car": "Ride toward the Fansipan summit area for views of mountain ridges and the valleys around Sa Pa when cloud and weather conditions allow."
+        },
+        "foodDescriptions": {
+            "Phở": "Phở is a rice-noodle soup with fragrant broth, commonly served with beef or chicken and fresh accompaniments.",
+            "Bánh mì": "Bánh mì combines a crisp baguette with savoury fillings, pickled vegetables, herbs and condiments.",
+            "Bún chả": "Bún chả pairs grilled pork with rice vermicelli, herbs and a sweet-sour dipping sauce, and is closely associated with Hanoi.",
+            "Bánh xèo": "Bánh xèo is a crisp savoury rice-batter pancake, commonly filled with ingredients such as pork, shrimp and bean sprouts."
+        }
+    },
+    "india": {
+        "intro": "India's regions offer a vast range of landscapes, languages, faiths and food traditions. In Delhi, Mughal monuments and crowded bazaars sit alongside the avenues and memorials of the modern capital.",
+        "tagline": "Mughal monuments, living bazaars and regional journeys",
+        "capital": "New Delhi",
+        "currency": "Indian rupee (INR)",
+        "languages": "Hindi and English serve Union government business; regional languages vary across India",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.incredibleindia.gov.in/en",
+        "tourismLabel": "Incredible India, Ministry of Tourism",
+        "sources": [
+            {
+                "title": "Incredible India: Official tourism website",
+                "url": "https://www.incredibleindia.gov.in/en"
+            },
+            {
+                "title": "Embassy of India: Country fact sheet",
+                "url": "https://www.eoiriga.gov.in/page/fact-sheet-of-india/"
+            },
+            {
+                "title": "BRICS Agricultural Research Platform: India profile",
+                "url": "https://barp.org.in/node/2981"
+            },
+            {
+                "title": "Incredible India: Delhi",
+                "url": "https://www.incredibleindia.gov.in/en/delhi/delhi"
+            },
+            {
+                "title": "Incredible India: India Gate",
+                "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/india-gate"
+            },
+            {
+                "title": "Incredible India: Jama Masjid",
+                "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/jama-masjid"
+            },
+            {
+                "title": "UNESCO: Qutb Minar",
+                "url": "https://whc.unesco.org/en/list/233"
+            },
+            {
+                "title": "UNESCO: Red Fort Complex",
+                "url": "https://whc.unesco.org/en/list/231"
+            },
+            {
+                "title": "Incredible India: Delhi food",
+                "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/a-captivating-journey-of-flavours"
+            },
+            {
+                "title": "Karnataka Tourism: Dosa varieties",
+                "url": "https://karnatakatourism.org/en/experiences/neer-dosa"
+            },
+            {
+                "title": "Incredible India: Hyderabad cooking",
+                "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/hyderabad/food-and-cuisine.html"
+            },
+            {
+                "title": "Incredible India: Kumarakom houseboats",
+                "url": "https://www.incredibleindia.gov.in/en/kerala/kumarakom/kumarakom-houseboat-cruise"
+            },
+            {
+                "title": "Incredible India: Darjeeling Himalayan Railway",
+                "url": "https://www.incredibleindia.gov.in/en/west-bengal/siliguri/darjeeling-himalayan-railway"
+            }
+        ],
+        "attractionDescriptions": {
+            "Humayun's Tomb": "This sixteenth-century Mughal mausoleum places Emperor Humayun's tomb within a formal garden. Its red sandstone, white marble and symmetrical design helped establish an influential tradition of garden-tomb architecture.",
+            "India Gate": "Designed by Edwin Lutyens, India Gate is a monumental war memorial in New Delhi. The arch commemorates Indian soldiers who died in the First World War and related campaigns.",
+            "Jama Masjid, Delhi": "Commissioned by Shah Jahan, Jama Masjid is one of Old Delhi's major mosques. Red sandstone, marble, domes and minarets surround a large courtyard above the surrounding market streets.",
+            "Red Fort": "Shah Jahan's seventeenth-century palace-fort formed the centre of Mughal Shahjahanabad. Behind its red sandstone walls, halls and pavilions reveal the court's architecture, ceremonial life and water-based garden design.",
+            "Qutb Minar": "This tall, fluted minaret rises above an archaeological complex in southern Delhi. The surrounding monuments, including the Quwwat-ul-Islam mosque and Iron Pillar, record several periods of the city's history."
+        },
+        "cultureIntro": "Durga Puja in Kolkata combines religious celebration with temporary artistic installations, while Rajasthan's Pushkar Fair has its own local traditions. Delhi's Dilli Haat introduces crafts and food from across the country.",
+        "foodIntro": "Indian cooking is deeply regional, with Delhi's rich gravies, southern fermented-batter dishes and Hyderabad's aromatic rice offering only a small introduction.",
+        "activitiesIntro": "Browse Old Delhi's bazaars, travel Kerala's backwaters and experience a historic Himalayan railway.",
+        "nightlifeIntro": "Mumbai's Marine Drive and Kolkata's Park Street offer two different settings for an evening walk, food and city views.",
+        "activityDescriptions": {
+            "Chandni Chowk": "Explore Old Delhi's bazaar lanes for textiles, jewellery, spices and food, taking time to observe the different trading streets and historic surroundings.",
+            "Kerala backwaters houseboat": "Travel by houseboat through Kerala's interconnected waterways to observe waterside villages, coconut palms and agricultural landscapes.",
+            "Darjeeling Himalayan Railway": "Ride an available service on this narrow-gauge heritage railway to experience the engineering and hillside setting that made it famous."
+        },
+        "foodDescriptions": {
+            "Butter chicken": "Butter chicken serves cooked chicken in a rich, spiced tomato-based gravy enriched with butter and cream.",
+            "Masala dosa": "Masala dosa is a thin fermented rice-and-lentil crêpe served with a spiced potato filling.",
+            "Hyderabadi biryani": "Hyderabadi biryani layers fragrant rice and spiced meat, traditionally finished by slow dum cooking.",
+            "Chole bhature": "Chole bhature pairs a spiced chickpea curry with puffed, deep-fried bread."
+        }
+    },
+    "indonesia": {
+        "intro": "Indonesia's islands bring volcanic landscapes, rice-growing valleys and rich maritime ecosystems into one archipelago. Around Yogyakarta, royal buildings, batik and monumental temples offer a close view of Java's cultural heritage.",
+        "tagline": "Island volcanoes, royal Java and remarkable temple landscapes",
+        "capital": "Jakarta; Nusantara is being developed as the future capital",
+        "currency": "Indonesian rupiah (IDR)",
+        "languages": "Indonesian (Bahasa Indonesia) is official; many regional languages",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.indonesia.travel/gb/en/home",
+        "tourismLabel": "Wonderful Indonesia, Ministry of Tourism",
+        "sources": [
+            {
+                "title": "Wonderful Indonesia: Official tourism website",
+                "url": "https://www.indonesia.travel/gb/en/home"
+            },
+            {
+                "title": "Wonderful Indonesia: General information",
+                "url": "https://www.indonesia.travel/gb/en/general-information"
+            },
+            {
+                "title": "Constitutional Court: Capital relocation and presidential decree",
+                "url": "https://en.mkri.id/news/details/2026-05-12/Capital_Relocation_Depends_on_Issuance_of_Presidential_Decree"
+            },
+            {
+                "title": "Wonderful Indonesia: The Kraton",
+                "url": "https://www.indonesia.travel/id/id/destination/java/yogyakarta/yogyakarta---the-kraton"
+            },
+            {
+                "title": "Wonderful Indonesia: Taman Sari",
+                "url": "https://www.indonesia.travel/id/id/destination/java/yogyakarta/yogyakarta---tamansari-water-castle"
+            },
+            {
+                "title": "UNESCO: Borobudur Temple Compounds",
+                "url": "https://whc.unesco.org/en/list/592"
+            },
+            {
+                "title": "UNESCO: Prambanan Temple Compounds",
+                "url": "https://whc.unesco.org/en/list/642"
+            },
+            {
+                "title": "Wonderful Indonesia: Traditional dishes",
+                "url": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/hobi-wisata-kuliner-10-makanan-khas-indonesia-ini-wajib-kamu-coba"
+            },
+            {
+                "title": "Wonderful Indonesia: Rendang",
+                "url": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/lezatnya-rendang-minangkabau-yang-mendunia"
+            },
+            {
+                "title": "Wonderful Indonesia: Tegallalang rice terraces",
+                "url": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/bali/ubud---tegallalang-rice-terrace-a-charm-of-the-green-in-ubud"
+            },
+            {
+                "title": "UNESCO: Komodo National Park",
+                "url": "https://whc.unesco.org/en/list/609/"
+            },
+            {
+                "title": "Wonderful Indonesia: Kawah Ijen",
+                "url": "https://www.indonesia.travel/gb/en/destination/java/east-java/kawah-ijen"
+            }
+        ],
+        "attractionDescriptions": {
+            "Taman Sari (Yogyakarta)": "Near Yogyakarta's Kraton, Taman Sari preserves parts of an eighteenth-century royal garden and bathing complex. Pools and gateways recall the sultanate's leisure spaces and distinctive architectural traditions.",
+            "Kraton Ngayogyakarta Hadiningrat": "Yogyakarta's Kraton remains the ceremonial heart of the sultanate. Its courtyards, pavilions and collections introduce Javanese court culture, with architecture arranged according to a carefully planned symbolic order.",
+            "Borobudur": "Built in the eighth and ninth centuries in Central Java, Borobudur is a major Buddhist monument. Relief-covered terraces rise to circular platforms and perforated stupas containing Buddha images.",
+            "Prambanan": "This ninth-century temple compound is one of Java's great Hindu monuments. Its soaring towers honour Shiva, Vishnu and Brahma, while carved reliefs relate stories including the Ramayana.",
+            "Komodo National Park": "This island and marine national park protects the habitat of the Komodo dragon. Dry hillsides, beaches and surrounding coral-rich waters form an important landscape of terrestrial and marine biodiversity."
+        },
+        "cultureIntro": "Yogyakarta's batik makers and wayang kulit puppeteers sustain skilled Javanese traditions. Performances of the Ramayana at Prambanan connect classical storytelling with one of the region's great temple settings.",
+        "foodIntro": "Indonesian food reflects many island and regional traditions, from Minangkabau rendang to Yogyakarta's sweet young-jackfruit gudeg.",
+        "activitiesIntro": "Markets, cultivated rice terraces and volcanic landscapes offer different perspectives on life across Java and Bali.",
+        "nightlifeIntro": "Yogyakarta's Alun-Alun Kidul is associated with evening food and gathering, while Seminyak's beachfront offers sunset views and restaurants.",
+        "activityDescriptions": {
+            "Beringharjo Market": "Browse Yogyakarta's traditional market for batik, textiles and everyday goods, observing the trading life close to Malioboro and the royal district.",
+            "Tegallalang Rice Terrace": "View the terraced fields near Ubud and walk only on paths open to visitors, learning about the collective water-management traditions of Bali's subak system.",
+            "Mount Ijen": "Explore the volcanic landscape from currently permitted visitor areas with appropriate local guidance, checking official access and volcanic conditions before planning a visit."
+        },
+        "foodDescriptions": {
+            "Nasi goreng": "Nasi goreng is Indonesian fried rice, commonly seasoned with sweet soy sauce and served with varied accompaniments.",
+            "Rendang": "Rendang is a Minangkabau dish in which meat is slowly cooked with coconut milk and spices until deeply flavoured.",
+            "Gado-gado": "Gado-gado combines vegetables and other ingredients, often tofu, tempeh and egg, with a peanut sauce.",
+            "Gudeg": "Gudeg is young jackfruit slowly cooked with coconut milk and seasonings, a sweet-savoury speciality of Yogyakarta."
+        }
+    },
+    "france": {
+        "intro": "France brings together Gothic cathedrals, royal gardens and mountain landscapes. In Paris, the Seine links museum collections, neighborhood cafés and some of the country's best-known monuments.",
+        "tagline": "Art-filled cities, Alpine slopes and a taste of regional France",
+        "capital": "Paris",
+        "currency": "Euro (EUR)",
+        "languages": "French",
+        "tags": [
+            "heritage",
+            "food",
+            "cities",
+            "nature"
+        ],
+        "tourismUrl": "https://www.france.fr/en/",
+        "tourismLabel": "Explore France",
+        "sources": [
+            {
+                "title": "European Union: France facts",
+                "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/france_en"
+            },
+            {
+                "title": "Explore France: Paris",
+                "url": "https://www.france.fr/en/destination/paris/"
+            },
+            {
+                "title": "Palace of Versailles: history",
+                "url": "https://en.chateauversailles.fr/discover/history"
+            },
+            {
+                "title": "Sainte-Chapelle: history",
+                "url": "https://www.sainte-chapelle.fr/en/discover/history-of-the-sainte-chapelle"
+            },
+            {
+                "title": "Louvre: Tuileries Garden",
+                "url": "https://www.louvre.fr/decouvrir/le-palais/du-jardin-royal-au-jardin-public"
+            },
+            {
+                "title": "Explore France: Nice Carnival",
+                "url": "https://www.france.fr/en/event/nice-carnival/"
+            },
+            {
+                "title": "Explore France: Burgundy specialties",
+                "url": "https://www.france.fr/fr/article/specialites-bourgogne/"
+            },
+            {
+                "title": "Explore France: Provençal seafood",
+                "url": "https://www.france.fr/fr/article/les-produits-de-la-mer-le-sel-de-la-cuisine-provencale/"
+            },
+            {
+                "title": "Explore France: Alsace and Lorraine",
+                "url": "https://www.france.fr/fr/article/alsace-que-faire-que-voir/"
+            },
+            {
+                "title": "Eiffel Tower: official history",
+                "url": "https://www.toureiffel.paris/en/the-monument/history"
+            },
+            {
+                "title": "Paris tourism: Pont Neuf",
+                "url": "https://parisjetaime.com/eng/transport/pont-neuf-p1877"
+            },
+            {
+                "title": "Chamonix tourism: winter skiing",
+                "url": "https://www.chamonix.com/activites/hiver/ski"
+            }
+        ],
+        "attractionDescriptions": {
+            "Louvre": "A former royal palace beside the Seine houses collections spanning ancient civilizations and European painting. Leonardo da Vinci's Mona Lisa is among its best-known works.",
+            "Eiffel Tower": "Built for the 1889 Exposition Universelle, this iron tower stands beside the Champ de Mars. Its observation levels offer different perspectives on Paris and the curve of the Seine.",
+            "Palace of Versailles": "Louis XIV transformed his father's hunting retreat into a royal residence and seat of government. The Hall of Mirrors and formal gardens express the scale of the French court.",
+            "Notre-Dame de Paris": "This Gothic cathedral occupies the Île de la Cité in the Seine. Its restored interior reopened in 2024 following the 2019 fire, revealing vaulted spaces and stained glass.",
+            "Sainte-Chapelle": "Louis IX commissioned this 13th-century royal chapel to house Christian relics. In the upper chapel, fifteen tall stained-glass windows tell biblical stories in richly colored panels."
+        },
+        "cultureIntro": "Nice Carnival fills the Riviera city with decorated floats and flower parades. Paris's Palais Garnier and the Festival d'Avignon offer other windows into France's performing arts.",
+        "foodIntro": "Regional cooking ranges from Burgundy's wine-braised beef to Marseille's fish soup and Lorraine's savory custard tart.",
+        "activitiesIntro": "Combine Paris's riverside walks and formal gardens with seasonal skiing in the Chamonix valley.",
+        "nightlifeIntro": "Paris evenings can include cabaret at the Moulin Rouge, theater performances and views of illuminated monuments along the Seine.",
+        "activityDescriptions": {
+            "Tuileries Garden": "Walk the tree-lined paths and sculpture-filled lawns between the Louvre and Place de la Concorde, pausing beside the garden's ornamental ponds.",
+            "Pont Neuf": "Cross Paris's oldest surviving bridge for views along the Seine and toward the Île de la Cité, where the bridge joins both riverbanks.",
+            "Chamonix skiing": "Explore the valley's ski areas beneath the Mont Blanc massif during the winter season, choosing terrain appropriate to your experience and current mountain conditions."
+        },
+        "foodDescriptions": {
+            "Croissant": "This crescent-shaped pastry gets its flaky layers from dough repeatedly folded with butter before baking.",
+            "Boeuf bourguignon": "Burgundy's beef stew slowly cooks meat in red wine with vegetables, often including carrots, onions and mushrooms.",
+            "Bouillabaisse": "This Marseille specialty brings several kinds of fish together in an aromatic broth, traditionally accompanied by croutons and rouille.",
+            "Quiche Lorraine": "Lorraine's savory tart combines an egg-and-cream filling with lardons inside a pastry crust."
+        }
+    },
+    "italy": {
+        "intro": "Italy's cities place ancient streets beside Renaissance paintings and lively public squares. Beyond Rome and Florence, Venice's canals and Liguria's coastal paths reveal very different landscapes.",
+        "tagline": "Ancient streets, Renaissance art and regional flavors",
+        "capital": "Rome",
+        "currency": "Euro (EUR)",
+        "languages": "Italian",
+        "tags": [
+            "heritage",
+            "food",
+            "cities",
+            "nature"
+        ],
+        "tourismUrl": "https://www.italia.it/en",
+        "tourismLabel": "Italia.it",
+        "sources": [
+            {
+                "title": "European Union: Italy facts",
+                "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/italy_en"
+            },
+            {
+                "title": "Italia.it: Rome",
+                "url": "https://www.italia.it/en/lazio/rome/guide-history-facts"
+            },
+            {
+                "title": "Italia.it: Pompeii Archaeological Park",
+                "url": "https://www.italia.it/en/campania/pompeii-archaeological-site"
+            },
+            {
+                "title": "Italia.it: Uffizi Gallery",
+                "url": "https://www.italia.it/en/tuscany/florence/uffizi-galleries"
+            },
+            {
+                "title": "Italia.it: Venice Carnival",
+                "url": "https://www.italia.it/en/veneto/venice/things-to-do/venice-carnival"
+            },
+            {
+                "title": "Italia.it: Venice city break",
+                "url": "https://www.italia.it/en/veneto/venice/things-to-do/venice-weekend-breaks"
+            },
+            {
+                "title": "Italia.it: Sentiero Azzurro",
+                "url": "https://www.italia.it/it/liguria/la-spezia/sentiero-azzurro"
+            },
+            {
+                "title": "Italia.it: Appian Way",
+                "url": "https://www.italia.it/en/lazio/things-to-do/itinerary-along-the-appian-way"
+            },
+            {
+                "title": "Italia.it: pizza styles",
+                "url": "https://www.italia.it/en/italy/things-to-do/types-of-pizza-italy"
+            },
+            {
+                "title": "Italia.it: Sicilian specialties",
+                "url": "https://www.italia.it/en/sicily/things-to-do/typical-sicilian-products-dishes"
+            },
+            {
+                "title": "Italia.it: Milanese cooking",
+                "url": "https://www.italia.it/en/lombardy/milan/things-to-do/prodotti-tipici-dei-castelli-romani-itinerario"
+            }
+        ],
+        "attractionDescriptions": {
+            "Colosseum": "Rome's vast Flavian amphitheater hosted gladiatorial contests and other public spectacles. Its surviving arcades and arena structures show how imperial builders organized entertainment for a large urban audience.",
+            "Roman Forum": "Temples, basilicas and ceremonial arches mark the civic center of ancient Rome. Walking among the ruins helps connect the city's political, commercial and religious life.",
+            "Pantheon, Rome": "This ancient Roman temple later became a Christian church. Its immense concrete dome has a central oculus, an open circular window that brings daylight into the interior.",
+            "Uffizi": "Florence's Uffizi displays paintings by Botticelli, Leonardo da Vinci, Michelangelo and other major artists. The collections grew from the Medici family's patronage and include ancient sculpture.",
+            "Pompeii": "Buried by the eruption of Vesuvius in AD 79, Pompeii preserves streets, houses and public buildings. Frescoes and everyday spaces reveal details of life in a Roman city."
+        },
+        "cultureIntro": "Venice's masked Carnival draws on a long tradition of costume and public spectacle. Opera at Milan's La Scala and Siena's neighborhood loyalties around the Palio reflect other local traditions.",
+        "foodIntro": "Italian cooking changes by region, from Naples's soft-centered pizza to Milan's saffron risotto and Sicily's fried rice snacks.",
+        "activitiesIntro": "Discover canal views in Venice, Roman roadside monuments and walking routes between the Cinque Terre villages.",
+        "nightlifeIntro": "Rome's Piazza Navona and Venice's Rialto waterfront offer evening walks among illuminated buildings, cafés and restaurants.",
+        "activityDescriptions": {
+            "Venice gondolas": "Take a gondola ride through Venice's canals to see waterside entrances, bridges and palaces from the city's traditional rowing boats.",
+            "Sentiero Azzurro": "Walk open sections of the coastal trail connecting the Cinque Terre villages for sea views, vineyards and hillside paths; check the park's current route status.",
+            "Appian Way": "Follow stretches of the ancient road through Rome's southern outskirts, looking for paving stones, tombs and monuments such as the tomb of Caecilia Metella."
+        },
+        "foodDescriptions": {
+            "Neapolitan pizza": "Naples's pizza is cooked quickly in a very hot wood-fired oven, producing a soft center and a raised, airy rim.",
+            "Carbonara": "This Roman pasta dish combines eggs, guanciale, pecorino cheese and black pepper into a rich sauce.",
+            "Risotto alla milanese": "Milan's saffron-scented risotto has a distinctive golden color and is often served alongside ossobuco.",
+            "Arancini": "These Sicilian fried rice balls or cones enclose savory fillings, which vary from meat ragù to cheese and vegetables."
+        }
+    },
+    "spain": {
+        "intro": "Spain connects Barcelona's Modernist architecture with the Islamic palaces and courtyards of Andalusia. Regional festivals, food markets and Mediterranean beaches add different rhythms to a journey.",
+        "tagline": "Gaudí's curves, Andalusian courtyards and lively local tables",
+        "capital": "Madrid",
+        "currency": "Euro (EUR)",
+        "languages": "Spanish; Catalan, Galician, Basque and other regional languages",
+        "tags": [
+            "heritage",
+            "food",
+            "cities",
+            "beaches"
+        ],
+        "tourismUrl": "https://www.spain.info/en/about-spain/",
+        "tourismLabel": "Spain's official tourism portal",
+        "sources": [
+            {
+                "title": "Spain.info: country information",
+                "url": "https://www.spain.info/en/about-spain/"
+            },
+            {
+                "title": "Spanish employment service: working in Spain",
+                "url": "https://www.sepe.es/HomeSepe/en/que-es-el-sepe/comunicacion-institucional/publicaciones/publicaciones-oficiales/listado-pub-eures/trabajar-en-espana.html?param1=HomeSepe%2F"
+            },
+            {
+                "title": "Spain.info: Barcelona weekend",
+                "url": "https://www.spain.info/en/discover-spain/barcelona-weekend-visit/"
+            },
+            {
+                "title": "Spain.info: Alhambra",
+                "url": "https://www.spain.info/en/places-of-interest/alhambra/"
+            },
+            {
+                "title": "Spain.info: Mosque-Cathedral of Córdoba",
+                "url": "https://www.spain.info/en/places-of-interest/mosque/"
+            },
+            {
+                "title": "Spain.info: Fallas of Valencia",
+                "url": "https://www.spain.info/es/agenda/fallas-san-jose/"
+            },
+            {
+                "title": "Spain.info: Feria de Abril",
+                "url": "https://www.spain.info/es/agenda/feria-abril/"
+            },
+            {
+                "title": "Spain.info: traditional cuisine",
+                "url": "https://www.spain.info/en/discover-spain/dishes-traditional-cuisine-spain/"
+            },
+            {
+                "title": "Spain.info: pulpo a feira recipe",
+                "url": "https://www.spain.info/es/receta/pulpo-feira/"
+            },
+            {
+                "title": "Spain.info: gazpacho recipe",
+                "url": "https://www.spain.info/es/receta/gazpacho/"
+            },
+            {
+                "title": "Spain.info: Caminito del Rey",
+                "url": "https://www.spain.info/es/actividades/caminito-rey-recogida-malaga/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Sagrada Família": "Antoni Gaudí's Barcelona basilica combines sculpted biblical façades with branching interior columns and colored light. Its design draws heavily on forms found in nature.",
+            "Park Güell": "Gaudí designed this hillside complex as a residential development that became a public park. Mosaic decoration, curved structures and elevated terraces connect architecture with Barcelona's landscape.",
+            "Alhambra": "Granada's hilltop palace and fortress complex preserves the architecture of the Nasrid rulers. Ornate courtyards, intricate plasterwork and flowing water shape its palaces and adjoining gardens.",
+            "Mezquita of Córdoba": "Córdoba's Mosque-Cathedral began as an eighth-century mosque and grew through later expansions. Its rows of double arches surround a Christian cathedral inserted into the earlier building.",
+            "Casa Batlló": "Gaudí remodeled this house on Barcelona's Passeig de Gràcia with a colorful façade and flowing shapes. Its sculptural balconies and curved roof are distinctive examples of Catalan Modernism."
+        },
+        "cultureIntro": "Valencia's Fallas combine large satirical sculptures, music and fire, while Seville's Feria de Abril celebrates dancing and Andalusian dress. Barcelona's Palau de la Música Catalana reflects Catalan Modernist design.",
+        "foodIntro": "Regional dishes range from Andalusian gazpacho and Galician octopus to Catalonia's caramel-topped custard.",
+        "activitiesIntro": "Browse Barcelona's market stalls, walk beside the Mediterranean and explore the dramatic gorge route of the Caminito del Rey.",
+        "nightlifeIntro": "Barcelona's Plaça Reial gathers restaurants and evening venues, while Madrid's Teatro Real presents opera and other performances.",
+        "activityDescriptions": {
+            "La Boqueria": "Explore the covered market beside La Rambla, looking for produce, seafood and prepared food among its long-established stalls.",
+            "Barceloneta Beach": "Walk the waterfront promenade or spend time on Barcelona's Mediterranean shore, close to the historic fishing neighborhood of Barceloneta.",
+            "Caminito del Rey": "Follow the managed walkway through the Gaitanes gorge near Málaga, with suspended sections above the river; check booking rules and access conditions before going."
+        },
+        "foodDescriptions": {
+            "Gazpacho": "This chilled Andalusian soup blends tomatoes and other vegetables with olive oil, vinegar and bread.",
+            "Pulpo a la gallega": "Galician-style octopus is cooked, sliced and dressed with olive oil, paprika and coarse salt, often with boiled potatoes.",
+            "Churros con chocolate": "Crisp fried dough is paired with thick hot chocolate for dipping.",
+            "Crema catalana": "This Catalan custard dessert is finished with a brittle layer of caramelized sugar, often above citrus-and-cinnamon-scented cream."
+        }
+    },
+    "portugal": {
+        "intro": "Portugal's Atlantic setting runs through its riverfront squares, maritime monuments and seafood cooking. Lisbon's hills, Coimbra's university and Madeira's irrigation paths offer distinct ways to explore.",
+        "tagline": "Atlantic light, tiled streets and a soundtrack of fado",
+        "capital": "Lisbon",
+        "currency": "Euro (EUR)",
+        "languages": "Portuguese",
+        "tags": [
+            "heritage",
+            "food",
+            "cities",
+            "nature",
+            "beaches"
+        ],
+        "tourismUrl": "https://www.visitportugal.com/en",
+        "tourismLabel": "Visit Portugal",
+        "sources": [
+            {
+                "title": "European Union: Portugal facts",
+                "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/portugal_en"
+            },
+            {
+                "title": "Visit Portugal: discovering Lisbon",
+                "url": "https://www.visitportugal.com/en/content/discovering-lisbon"
+            },
+            {
+                "title": "Visit Portugal: Lisbon's maritime monuments",
+                "url": "https://www.visitportugal.com/en/NR/exeres/F10522EA-0F19-40CF-ADC9-28D6A8C6E9D7"
+            },
+            {
+                "title": "Visit Portugal: Pena Palace and national monuments",
+                "url": "https://www.visitportugal.com/en/encontre-tipo?context=402&f%5B0%5D=im_field_poi_tipo%3A402&visitas=1"
+            },
+            {
+                "title": "Visit Portugal: University of Coimbra",
+                "url": "https://www.visitportugal.com/pt-pt/content/universidade-de-coimbra"
+            },
+            {
+                "title": "Visit Portugal: ten Lisbon experiences",
+                "url": "https://www.visitportugal.com/en/destinos/lisboa/73773"
+            },
+            {
+                "title": "Visit Portugal: Madeira's levadas",
+                "url": "https://www.visitportugal.com/pt-pt/destinos/madeira/73834"
+            },
+            {
+                "title": "Visit Portugal: Portuguese menu",
+                "url": "https://www.visitportugal.com/en/content/the-portuguese-menu-fish-coriander-and-fantasy"
+            },
+            {
+                "title": "Visit Portugal: Porto",
+                "url": "https://www.visitportugal.com/en/content/porto-in-a-few-days"
+            }
+        ],
+        "attractionDescriptions": {
+            "Jerónimos Monastery": "Commissioned by Manuel I in Lisbon's Belém district, this monastery is a major example of Manueline architecture. Its richly carved stonework reflects Portugal's early sixteenth-century royal patronage.",
+            "Belém Tower": "This ornate defensive tower guarded the entrance to the Tagus estuary. Manueline decoration turns a former military bastion into one of Lisbon's most recognizable riverfront landmarks.",
+            "Praça do Comércio": "Opening toward the Tagus, this monumental square occupies the site of Lisbon's former royal palace. Arcaded buildings and a triumphal arch frame the rebuilt city center.",
+            "Pena Palace": "Above Sintra, this colorful nineteenth-century palace combines architectural revivals in a wooded hilltop setting. It occupies the site of an earlier monastery and expresses Romantic ideas about landscape.",
+            "University of Coimbra": "Founded in 1290 and permanently established in Coimbra in 1537, the university anchors the upper town. Its historic precinct includes the ornate Joanina Library and São Miguel Chapel."
+        },
+        "cultureIntro": "Fado pairs expressive singing with guitar accompaniment and has deep roots in Lisbon's neighborhoods. The Fado Museum explores the music's history, while June festivities honor Saint Anthony.",
+        "foodIntro": "Portuguese tables bring together salted cod, leafy soups, Porto's hearty sandwiches and custard-filled pastries.",
+        "activitiesIntro": "Ride Lisbon's historic transport or follow open walking routes beside Madeira's levadas, the island's irrigation channels.",
+        "nightlifeIntro": "Lisbon's viewpoints, fado houses and Bairro Alto streets offer music, conversation and evening panoramas over the city.",
+        "activityDescriptions": {
+            "Tram 28 Lisbon": "Ride the historic tram through hillside neighborhoods such as Graça and Alfama, watching tiled façades and narrow streets pass by.",
+            "Santa Justa Lift": "Experience the iron elevator linking Lisbon's lower streets with the Carmo area, and look across the rooftops from its elevated surroundings.",
+            "Levadas of Madeira": "Walk designated paths beside Madeira's water channels for forest and mountain views, checking the official trail status and selecting a suitable open route."
+        },
+        "foodDescriptions": {
+            "Pastel de nata": "This small pastry has a crisp layered shell filled with baked egg custard and a lightly caramelized surface.",
+            "Bacalhau à Brás": "Shredded salted cod is mixed with finely cut fried potatoes, onion and eggs in this classic Portuguese dish.",
+            "Francesinha": "Porto's substantial sandwich layers meats under melted cheese and a hot tomato-and-beer sauce.",
+            "Caldo verde": "This comforting soup combines a potato base with finely shredded leafy greens and is often served with chouriço."
+        }
+    },
+    "greece": {
+        "intro": "Greece places ancient sanctuaries within a landscape of mountains, islands and coastlines. Athens brings the story close, with archaeological sites, neighborhood streets and museum collections around the Acropolis.",
+        "tagline": "Ancient stones, island coves and tables made for sharing",
+        "capital": "Athens",
+        "currency": "Euro (EUR)",
+        "languages": "Greek",
+        "tags": [
+            "heritage",
+            "beaches",
+            "food",
+            "cities",
+            "nature"
+        ],
+        "tourismUrl": "https://www.visitgreece.gr/en",
+        "tourismLabel": "Visit Greece",
+        "sources": [
+            {
+                "title": "European Union: Greece facts",
+                "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/greece_en"
+            },
+            {
+                "title": "Visit Greece: Acropolis of Athens",
+                "url": "https://www.visitgreece.gr/en/experiences/culture/archaeological-sites-monuments/acropolis-of-athens"
+            },
+            {
+                "title": "Visit Greece: Acropolis Museum",
+                "url": "https://www.visitgreece.gr/en/experiences/architecture/picturesque-villages/acropolis-museum"
+            },
+            {
+                "title": "Visit Greece: neighborhoods around the Acropolis",
+                "url": "https://www.visitgreece.gr/en/inspirations/neighbourhoods-around-the-acropolis-hill"
+            },
+            {
+                "title": "Visit Greece: Delphi",
+                "url": "https://www.visitgreece.gr/en/mainland/sterea/delphi"
+            },
+            {
+                "title": "Visit Greece: Knossos",
+                "url": "https://www.visitgreece.gr/en/experiences/culture/archaeological-sites-monuments/the-palace-of-knossos"
+            },
+            {
+                "title": "Visit Greece: Odeon of Herodes Atticus",
+                "url": "https://www.visitgreece.gr/en/experiences/culture/archaeological-sites-monuments/odeon-of-herodes-atticus"
+            },
+            {
+                "title": "Visit Greece: Navagio Beach access information",
+                "url": "https://www.visitgreece.gr/en/experiences/nature/beaches/navagio-beach"
+            },
+            {
+                "title": "Visit Greece: Greek dishes",
+                "url": "https://www.visitgreece.gr/en/experiences/leisure/shopping/cherished-greek-dishes"
+            },
+            {
+                "title": "Visit Greece: spinach pie",
+                "url": "https://www.visitgreece.gr/en/experiences/architecture/traditional-settlements/spinach-pie"
+            },
+            {
+                "title": "Visit Greece: loukoumades",
+                "url": "https://www.visitgreece.gr/en/experiences/architecture/traditional-settlements/loukoumades"
+            },
+            {
+                "title": "American School of Classical Studies: Ancient Agora",
+                "url": "https://www.ascsa.edu.gr/excavations/athenian-agora/about-the-excavations/visiting-the-site-and-museum"
+            },
+            {
+                "title": "Athens official guide: Lycabettus Hill",
+                "url": "https://www.thisisathens.org/sights/lycabettus-hill"
+            }
+        ],
+        "attractionDescriptions": {
+            "Acropolis of Athens": "Athena's ancient sanctuary crowns a rocky hill above central Athens. The Parthenon, Erechtheion and monumental gateways reveal the scale and craftsmanship of the city's classical building program.",
+            "Acropolis Museum": "Built to display finds from the Acropolis and its slopes, this museum places ancient sculpture in a contemporary setting. Glass floors reveal archaeological remains beneath the building.",
+            "Ancient Agora of Athens": "The Agora was a center of public life, trade and political discussion in ancient Athens. Its archaeological landscape includes the Temple of Hephaestus and the reconstructed Stoa of Attalos.",
+            "Delphi": "On the slopes of Mount Parnassus, Delphi was a sanctuary of Apollo and the seat of his oracle. Temple remains, treasuries and a theater occupy the mountain landscape.",
+            "Knossos": "Near Heraklion on Crete, Knossos preserves a major Minoan palace complex. Courtyards, storerooms and reconstructed spaces connect archaeology with the myths of Minos, the Labyrinth and the Minotaur."
+        },
+        "cultureIntro": "Athens connects ancient sculpture with a continuing performance tradition around the Odeon of Herodes Atticus. The National Archaeological Museum and Museum of Cycladic Art reveal different chapters of Greek art.",
+        "foodIntro": "Greek cooking makes generous use of vegetables, olive oil, herbs and cheese, alongside grilled meats and honey-sweetened pastries.",
+        "activitiesIntro": "Explore Athens's historic neighborhoods and hilltop views, or discover the coastal landscapes of the Ionian islands.",
+        "nightlifeIntro": "Monastiraki and Gazi bring together cafés, bars and music venues, with the illuminated Acropolis forming a backdrop to central Athens.",
+        "activityDescriptions": {
+            "Plaka": "Walk the narrow streets below the Acropolis, looking for neoclassical houses, small churches, shops and café terraces in one of Athens's oldest neighborhoods.",
+            "Mount Lycabettus Funicular": "Use the funicular to reach the upper part of Lycabettus Hill and take in views across Athens toward the Acropolis and the sea.",
+            "Navagio Beach": "Photograph Zakynthos's limestone cove and shipwreck from permitted viewing areas or authorized boat routes; the official tourism site currently states that beach landings are prohibited."
+        },
+        "foodDescriptions": {
+            "Souvlaki": "Small pieces of grilled meat are served on skewers or wrapped in pita with accompaniments such as tomato, onion and tzatziki.",
+            "Greek salad": "Horiatiki combines tomatoes, cucumber, onion, olives and feta with olive oil and oregano.",
+            "Spanakopita": "This savory pie layers spinach, herbs and often feta cheese inside crisp filo pastry.",
+            "Loukoumades": "These small fried dough puffs are traditionally drizzled with honey and sprinkled with cinnamon."
+        }
+    },
+    "united-states": {
+        "intro": "The United States ranges from Manhattan's busy avenues to the layered cliffs of the Grand Canyon. Regional food, museums and music scenes give its cities identities as varied as its landscapes.",
+        "tagline": "Big-city energy, vast landscapes and regional stories",
+        "capital": "Washington, D.C.",
+        "currency": "US dollar (USD)",
+        "languages": "English; Spanish and many other languages are widely spoken",
+        "tags": [
+            "cities",
+            "nature",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://www.visittheusa.com/",
+        "tourismLabel": "Visit the USA",
+        "sources": [
+            {
+                "title": "Visit the USA: official travel guide",
+                "url": "https://www.visittheusa.com/"
+            },
+            {
+                "title": "Washington, DC: international visitor information",
+                "url": "https://washington.org/DC-guide-to/us-entry-requirements-international-travelers"
+            },
+            {
+                "title": "Visit the USA: New York City",
+                "url": "https://www.visittheusa.com/destinations/new-york/new-york-city/"
+            },
+            {
+                "title": "National Park Service: Statue of Liberty history",
+                "url": "https://www.nps.gov/stli/learn/historyculture/index.htm"
+            },
+            {
+                "title": "National Park Service: Grand Canyon day hiking",
+                "url": "https://www.nps.gov/grca/planyourvisit/day-hiking.htm"
+            },
+            {
+                "title": "Golden Gate Bridge district: history",
+                "url": "https://www.goldengate.org/bridge/history-research/"
+            },
+            {
+                "title": "Rockefeller Center: visitor guide",
+                "url": "https://www.rockefellercenter.com/"
+            },
+            {
+                "title": "Visit Philadelphia: cheesesteaks",
+                "url": "https://www.visitphilly.com/articles/philadelphia/top-10-spots-for-authentic-philly-cheesesteaks/"
+            },
+            {
+                "title": "Choose Chicago: local pizza styles",
+                "url": "https://www.choosechicago.com/blog/dining/chicago-pizza-13-must-try-local-spots/"
+            },
+            {
+                "title": "Meet Boston: regional food and Cape Cod",
+                "url": "https://www.meetboston.com/articles/post/things-to-do-on-the-cape/"
+            },
+            {
+                "title": "Yankee Magazine: New England clam chowder",
+                "url": "https://newengland.com/food/clam-chowder-3/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Central Park": "This landscaped public park stretches through the heart of Manhattan. Paths, lawns, lakes and wooded areas create a substantial green space among New York City's dense streets.",
+            "Statue of Liberty": "France presented this monument to the United States as a symbol of friendship and liberty. Standing on Liberty Island, it has welcomed generations of arrivals to New York Harbor.",
+            "Grand Canyon National Park": "The Colorado River carved a vast canyon through northern Arizona's layered rock. Rim viewpoints reveal its scale, while geological formations record a long history of changing landscapes.",
+            "Golden Gate Bridge": "This suspension bridge spans the strait linking San Francisco Bay with the Pacific Ocean. Its International Orange towers connect San Francisco with Marin County and frame sweeping coastal views.",
+            "Rockefeller Center": "This Midtown Manhattan complex brings together Art Deco architecture, public art and performance spaces. Top of the Rock offers skyline views, while the plaza hosts seasonal traditions."
+        },
+        "cultureIntro": "The Metropolitan Museum of Art in New York presents art from many cultures and eras. New Orleans's Mardi Gras and Albuquerque's Balloon Fiesta reveal distinctive forms of public celebration.",
+        "foodIntro": "Regional favorites include New York's foldable pizza slices, Chicago's deep-dish pies, Philadelphia's cheesesteaks and New England's creamy clam chowder.",
+        "activitiesIntro": "Walk New York's harbor crossings and waterfronts, or explore Grand Canyon trails with a plan suited to the terrain and conditions.",
+        "nightlifeIntro": "Broadway theaters around Times Square and the music venues of New Orleans's French Quarter offer very different evenings.",
+        "activityDescriptions": {
+            "Brooklyn Bridge pedestrian walkway": "Walk the elevated pedestrian path between Manhattan and Brooklyn for views of the East River, bridge cables and the harbor skyline.",
+            "Grand Canyon Bright Angel Trail": "Explore an appropriate section of this South Rim trail for closer views of canyon layers; check park alerts and remember that the return climb is strenuous.",
+            "Staten Island Ferry": "Ride between Lower Manhattan and Staten Island for views across New York Harbor, including the Statue of Liberty and the downtown skyline."
+        },
+        "foodDescriptions": {
+            "New York-style pizza": "Large, thin-crusted slices have a flexible center that can be folded, typically beneath tomato sauce and mozzarella.",
+            "Chicago-style pizza": "The city's famous deep-dish version builds a tall crust around generous layers of cheese, fillings and tomato sauce.",
+            "Philly cheesesteak": "Thinly sliced or chopped beef and melted cheese fill a long roll, with sautéed onions a common addition.",
+            "New England clam chowder": "This creamy regional soup combines clams with potatoes and usually onion, often with salt pork or bacon."
+        }
+    },
+    "canada": {
+        "intro": "Canada pairs historic riverfront cities with large protected landscapes. Québec City's stone streets, Toronto's skyline and Newfoundland's glacier-shaped coast show how much changes from one region to another.",
+        "tagline": "Historic riverfronts, striking skylines and room to roam",
+        "capital": "Ottawa",
+        "currency": "Canadian dollar (CAD)",
+        "languages": "English and French",
+        "tags": [
+            "nature",
+            "cities",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://travel.destinationcanada.com/en-us",
+        "tourismLabel": "Destination Canada",
+        "sources": [
+            {
+                "title": "Destination Canada: visitor information",
+                "url": "https://travel.destinationcanada.com/en-us/coming-to-canada"
+            },
+            {
+                "title": "United Nations: Canada country data",
+                "url": "https://data.un.org/legacy/en/iso/ca.html"
+            },
+            {
+                "title": "Government of Canada: official languages",
+                "url": "https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/official-languages/public-services/about-official-languages-regulations.html"
+            },
+            {
+                "title": "Québec City tourism: Château Frontenac",
+                "url": "https://www.quebec-cite.com/en/what-to-do-quebec-city/tour-chateau-frontenac"
+            },
+            {
+                "title": "Québec City tourism: principal sights",
+                "url": "https://www.quebec-cite.com/en/what-to-do-quebec-city/top-things-to-do"
+            },
+            {
+                "title": "CN Tower: common questions",
+                "url": "https://www.cntower.ca/plan-your-visit/at-the-tower/common-questions"
+            },
+            {
+                "title": "Parks Canada: Gros Morne geology",
+                "url": "https://parks.canada.ca/pn-np/nl/grosmorne/nature/enviro/geo"
+            },
+            {
+                "title": "National Capital Commission: Rideau Canal Skateway",
+                "url": "https://ncc-ccn.gc.ca/places/rideau-canal-skateway"
+            },
+            {
+                "title": "Québec City tourism: traditional comfort foods",
+                "url": "https://www.quebec-cite.com/en/restaurants-quebec-city/comfort-food"
+            },
+            {
+                "title": "Destination Ontario: Canadian food",
+                "url": "https://www.destinationontario.com/en-ca/articles/popular-canadian-food-try-ontario"
+            },
+            {
+                "title": "City of Nanaimo: Nanaimo bars",
+                "url": "https://www.nanaimo.ca/about-nanaimo/nanaimo-bars"
+            },
+            {
+                "title": "Niagara Parks: the three falls",
+                "url": "https://www.niagaraparks.com/attractions/hornblower-niagara-cruises/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Château Frontenac": "This grand hotel rises above Old Québec and the St. Lawrence River. Its steep roofs and towers make it a prominent landmark beside the Dufferin Terrace.",
+            "Citadelle of Quebec": "This historic fortress remains an active military base within Québec City's fortifications. Guided visits introduce its defensive architecture and the history of the Royal 22e Régiment.",
+            "Niagara Falls": "On the border between Ontario and New York, the Niagara River plunges over a group of powerful waterfalls. Canada's curving Horseshoe Falls dominates many of the best-known views.",
+            "CN Tower": "Toronto's communications and observation tower rises 553.33 meters above the city. Its elevated viewing areas look across the downtown skyline, Lake Ontario and the surrounding region.",
+            "Gros Morne National Park": "Western Newfoundland's park combines fjords, coastal headlands and exposed ancient rock. The Tablelands reveal material from Earth's mantle, making the landscape especially significant for understanding plate tectonics."
+        },
+        "cultureIntro": "Québec's Winter Carnival celebrates the cold season with outdoor festivities, while Calgary's Stampede draws on western ranching traditions. Ottawa's National Gallery of Canada holds Canadian and international art.",
+        "foodIntro": "Canada's regional comfort foods include Québec's poutine and meat pies, Ontario's butter tarts and British Columbia's layered Nanaimo bars.",
+        "activitiesIntro": "Explore Québec City's riverfront and shopping lanes, or skate on Ottawa's Rideau Canal when the official ice surface opens.",
+        "nightlifeIntro": "Old Montréal offers illuminated historic streets and restaurants, while Vancouver's Granville Street is known for music venues and evening entertainment.",
+        "activityDescriptions": {
+            "Dufferin Terrace": "Stroll the broad boardwalk below Château Frontenac for views of the St. Lawrence River, passing historic structures and the upper entrance to the funicular.",
+            "Petit Champlain": "Explore the lower town's narrow shopping streets, stone buildings and small boutiques around Rue du Petit-Champlain and nearby Place Royale.",
+            "Rideau Canal Skateway": "Skate through central Ottawa when the National Capital Commission opens the natural ice; operating dates and available sections depend on winter weather."
+        },
+        "foodDescriptions": {
+            "Poutine": "Québec's well-known comfort food combines hot fries, cheese curds and gravy.",
+            "Tourtière": "This Québécois savory meat pie has regional variations, including versions with minced meat and deeper pies with meat and potatoes.",
+            "Butter tart": "These small pastry shells hold a rich filling made with butter, sugar and eggs, with raisins or nuts included in some versions.",
+            "Nanaimo bar": "Named for the British Columbia city, this layered square combines a cocoa-crumb base, custard-flavored filling and chocolate topping."
+        }
+    },
+    "mexico": {
+        "intro": "Mexico's living cultures connect ancient cities, modern art and regional cooking. In the capital, monumental plazas and archaeological remains sit within a busy contemporary metropolis.",
+        "tagline": "Ancient cities, vivid art and flavors rooted in place",
+        "capital": "Mexico City",
+        "currency": "Mexican peso (MXN)",
+        "languages": "Spanish and Indigenous languages, including Nahuatl and Maya",
+        "tags": [
+            "heritage",
+            "food",
+            "cities",
+            "nature",
+            "beaches"
+        ],
+        "tourismUrl": "https://visitmexico.com/en/pagina/sobre-mexico",
+        "tourismLabel": "Visit Mexico",
+        "sources": [
+            {
+                "title": "Visit Mexico: country overview",
+                "url": "https://visitmexico.com/en/pagina/sobre-mexico"
+            },
+            {
+                "title": "Visit Mexico: practical information",
+                "url": "https://visitmexico.com/en/pagina/preguntas-frecuentes"
+            },
+            {
+                "title": "Mexico City tourism: principal sights",
+                "url": "https://www.mexicocity.cdmx.gob.mx/e/el-top-de-ciudad-de-mexico/?lang=en"
+            },
+            {
+                "title": "Mexico City tourism: Templo Mayor",
+                "url": "https://mexicocity.cdmx.gob.mx/venues/templo-mayor/"
+            },
+            {
+                "title": "Mexico City tourism: National Museum of Anthropology",
+                "url": "https://www.mexicocity.cdmx.gob.mx/venues/national-museum-of-anthropology/?lang=en"
+            },
+            {
+                "title": "UNESCO: Chichén Itzá",
+                "url": "https://whc.unesco.org/en/list/483"
+            },
+            {
+                "title": "UNESCO: Teotihuacan",
+                "url": "https://whc.unesco.org/en/list/414/"
+            },
+            {
+                "title": "Mexico tourism ministry: Tulum and Gran Cenote",
+                "url": "https://www.gob.mx/sectur/articulos/tulum-quintana-roo?idiom=es"
+            },
+            {
+                "title": "Mexican agriculture ministry: Indigenous and mixed culinary traditions",
+                "url": "https://www.gob.mx/agricultura/articulos/gastronomia-indigena-y-mestiza?idiom=es"
+            }
+        ],
+        "attractionDescriptions": {
+            "Palacio de Bellas Artes": "Mexico City's major arts venue is distinguished by its white marble exterior and colorful dome. Inside, murals and performance spaces connect architecture with Mexican visual and performing arts.",
+            "Templo Mayor": "Excavated remains reveal the principal temple precinct of Mexica Tenochtitlan beside modern Mexico City's central square. The site museum presents objects recovered from the ceremonial complex.",
+            "Zócalo": "Officially the Plaza de la Constitución, this vast square anchors Mexico City's historic center. The Metropolitan Cathedral and National Palace frame a space used for ceremonies and public gatherings.",
+            "Chichén Itzá": "This major Maya city on the Yucatán Peninsula preserves monumental stone architecture, including El Castillo and a large ball court. Its buildings reflect connections with central Mexican traditions.",
+            "Teotihuacan": "Northeast of Mexico City, this ancient urban center is organized around the Avenue of the Dead. The Pyramids of the Sun and Moon dominate its monumental ceremonial landscape."
+        },
+        "cultureIntro": "The National Museum of Anthropology introduces Mexico's many Indigenous civilizations and living communities. Day of the Dead observances around Pátzcuaro and Frida Kahlo's art reveal other distinct cultural perspectives.",
+        "foodIntro": "Mexican regional cooking builds on ingredients such as maize and chiles, with dishes shaped by Indigenous traditions and later cultural exchanges.",
+        "activitiesIntro": "Discover Mexico City's canal landscapes and urban parks, or explore the limestone pools around Tulum.",
+        "nightlifeIntro": "A walk along central Mexico City's pedestrian streets can lead to evening dining, while Arena México presents the spectacle of lucha libre.",
+        "activityDescriptions": {
+            "Xochimilco trajineras": "Travel through Xochimilco's canals in a colorful flat-bottomed boat to see a surviving waterside landscape associated with the city's chinampa farming tradition.",
+            "Gran Cenote Tulum": "Observe the clear-water limestone pool near Tulum, or snorkel in permitted surface areas while following site conservation rules and staff instructions.",
+            "Chapultepec Park": "Spend time among the park's lakes, paths and museums, choosing between a garden walk and cultural stops in Mexico City's large historic green space."
+        },
+        "foodDescriptions": {
+            "Tacos al pastor": "Corn tortillas hold thin slices of marinated spit-roasted pork, commonly finished with pineapple, onion and coriander.",
+            "Mole poblano": "Puebla's complex sauce blends chiles, spices and other ingredients, including chocolate, and is often served over poultry.",
+            "Pozole": "This substantial hominy stew usually includes pork or chicken and is served with fresh garnishes such as cabbage, radish and lime.",
+            "Chiles en nogada": "Poblano peppers are filled with a savory mixture of meat and fruit, then topped with walnut sauce and pomegranate seeds."
+        }
+    },
+    "costa-rica": {
+        "intro": "Costa Rica protects a remarkable range of forests, volcanoes and coastal habitats between two oceans. Cloud-forest trails and wildlife-rich waterways complement the museums and markets of San José.",
+        "tagline": "Cloud forests, volcanic landscapes and a pura vida welcome",
+        "capital": "San José",
+        "currency": "Costa Rican colón (CRC)",
+        "languages": "Spanish",
+        "tags": [
+            "nature",
+            "beaches",
+            "food",
+            "heritage"
+        ],
+        "tourismUrl": "https://www.visitcostarica.com/",
+        "tourismLabel": "Visit Costa Rica",
+        "sources": [
+            {
+                "title": "Costa Rica tourism board: official guide",
+                "url": "https://www.visitcostarica.com/"
+            },
+            {
+                "title": "Visit Costa Rica: practical tips and currency",
+                "url": "https://www.visitcostarica.com/planning-your-trip/tips"
+            },
+            {
+                "title": "Spanish government: Costa Rica country facts",
+                "url": "https://ciudadaniaexterior.inclusion.gob.es/en/w/costa-rica"
+            },
+            {
+                "title": "Visit Costa Rica: national parks",
+                "url": "https://www.visitcostarica.com/things-to-do/ecoturism/national-parks"
+            },
+            {
+                "title": "Visit Costa Rica: Manuel Antonio National Park",
+                "url": "https://es.visitcostarica.com/where-to-go/protected-areas/manuel-antonio-national-park"
+            },
+            {
+                "title": "Visit Costa Rica: Tortuguero National Park",
+                "url": "https://es.visitcostarica.com/where-to-go/protected-areas/tortuguero-national-park"
+            },
+            {
+                "title": "Visit Costa Rica: La Fortuna and Monteverde itinerary",
+                "url": "https://www.visitcostarica.com/planning-your-trip/itineraries/adventure-8-days"
+            },
+            {
+                "title": "SINAC: Poás Volcano National Park",
+                "url": "https://sinac.go.cr/ES/ac/accvc/pnvp/Paginas/default.aspx"
+            },
+            {
+                "title": "Visit Costa Rica: cultural itinerary and waterfall gardens",
+                "url": "https://www.visitcostarica.com/planning-your-trip/itineraries/culture-10-days"
+            },
+            {
+                "title": "Visit Costa Rica: Northern Plains sights",
+                "url": "https://www.visitcostarica.com/where-to-go/northern-plains/tourist-attractions-in-northern-plains"
+            },
+            {
+                "title": "Visit Costa Rica: culinary traditions",
+                "url": "https://www.visitcostarica.com/press/press-releases/culinary/culinary-adventure"
+            },
+            {
+                "title": "Costa Rica tourism board: food and culture press kit",
+                "url": "https://fr-ca.visitcostarica.com/sites/default/files/2024-10/Costa-Rica-Press-Kit-2016.pdf"
+            }
+        ],
+        "attractionDescriptions": {
+            "Manuel Antonio National Park": "On the central Pacific coast, this protected area brings tropical forest close to sandy beaches. Forest trails and coastal viewpoints offer opportunities to observe wildlife without leaving marked routes.",
+            "Monteverde Cloud Forest Reserve": "Moisture-laden cloud forest supports orchids, epiphytes and a rich variety of birds in this mountain reserve. Walking paths introduce the layered vegetation of Costa Rica's highland forests.",
+            "Tortuguero National Park": "Caribbean lowland forests, canals and wetlands form the heart of this protected area. Its coast is an important nesting habitat for green turtles, with visits governed by conservation rules.",
+            "La Fortuna Waterfall": "Near La Fortuna, this tall waterfall drops into a forested gorge. A substantial stairway leads toward the lower viewing area, while the surrounding reserve protects the river landscape.",
+            "Poás Volcano National Park": "This highland national park protects an active volcanic crater and surrounding cloud forest. Views and visitor access depend on weather, volcanic conditions and the park authority's current rules."
+        },
+        "cultureIntro": "San José's National Theatre reflects the capital's nineteenth-century cultural ambitions, while the National Museum explores Costa Rican history. The Central Market offers a closer look at everyday food and commerce.",
+        "foodIntro": "Rice, beans, root vegetables and fresh produce underpin home-style dishes commonly served in Costa Rica's small local restaurants, known as sodas.",
+        "activitiesIntro": "Explore waterfall paths, forest suspension bridges and the distinctive turquoise river landscape of Tenorio's Río Celeste.",
+        "nightlifeIntro": "San José's performance venues include the Teatro Popular Melico Salazar, while Jacó's Pacific waterfront draws visitors for sunset and evening dining.",
+        "activityDescriptions": {
+            "La Paz Waterfall Gardens": "Follow the managed forest paths to viewpoints of several waterfalls, including La Paz and Magia Blanca, within this privately operated nature attraction.",
+            "Arenal hanging bridges": "Walk forest trails and suspension bridges around Arenal to observe different levels of the rainforest, looking for birds and plants along the way.",
+            "Río Celeste hiking": "Follow designated trails in Tenorio Volcano National Park to the waterfall and blue river viewpoints, respecting the protected area's access and conservation rules."
+        },
+        "foodDescriptions": {
+            "Gallo pinto": "Rice and beans are cooked together with ingredients such as onion, sweet pepper and coriander, often for breakfast.",
+            "Casado": "This typical lunch plate brings together rice, beans, salad or vegetables and a chosen protein, with accompaniments varying by kitchen.",
+            "Chifrijo": "This layered bowl combines rice, beans and pieces of pork with pico de gallo, usually accompanied by tortilla chips.",
+            "Olla de carne": "This home-style beef stew includes substantial vegetables and roots such as cassava, potatoes, taro and plantain."
+        }
+    },
+    "jamaica": {
+        "intro": "Jamaica combines Caribbean beaches and terraced waterfalls with a powerful musical heritage. Kingston's museums and historic homes reveal the people and creative traditions behind the island's global influence.",
+        "tagline": "Reggae roots, waterfall country and Caribbean flavor",
+        "capital": "Kingston",
+        "currency": "Jamaican dollar (JMD)",
+        "languages": "English and Jamaican Patois",
+        "tags": [
+            "beaches",
+            "nature",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://www.visitjamaica.com/",
+        "tourismLabel": "Visit Jamaica",
+        "sources": [
+            {
+                "title": "Jamaica Tourism Board: official guide",
+                "url": "https://www.visitjamaica.com/"
+            },
+            {
+                "title": "Jamaica Information Service: country and parish facts",
+                "url": "https://jis.gov.jm/information/parish-profiles/"
+            },
+            {
+                "title": "Visit Jamaica: language and visitor information",
+                "url": "https://www.visitjamaica.com/plan-your-adventure/travel-tips/faq/"
+            },
+            {
+                "title": "Visit Jamaica: Kingston cultural sights",
+                "url": "https://www.visitjamaica.com/resort-areas/kingston/things-to-do/"
+            },
+            {
+                "title": "Visit Jamaica: Dunn's River Falls",
+                "url": "https://www.visitjamaica.com/experiences/natural-wonders/waterfalls-rivers/dunns-river-falls/"
+            },
+            {
+                "title": "Visit Jamaica: Hope Botanical Gardens",
+                "url": "https://www.visitjamaica.com/listing/hope-botanical-gardens/432/"
+            },
+            {
+                "title": "Visit Jamaica: museums and Port Royal",
+                "url": "https://www.visitjamaica.com/experiences/things-to-do/history-museums/"
+            },
+            {
+                "title": "Visit Jamaica: Devon House and Bob Marley Museum",
+                "url": "https://www.visitjamaica.com/blog/post/the-islands-most-instagrammable-spots-for-cruisegoers/"
+            },
+            {
+                "title": "Visit Jamaica: YS Falls",
+                "url": "https://www.visitjamaica.com/listing/ys-falls/260/"
+            },
+            {
+                "title": "Visit Jamaica: Jamaican cuisine",
+                "url": "https://www.visitjamaica.com/discover-jamaica/cuisine/jamaican-food/"
+            },
+            {
+                "title": "Visit Jamaica: ackee and saltfish",
+                "url": "https://www.visitjamaica.com/blog/post/ackee-and-saltfish-in-jamaica/"
+            },
+            {
+                "title": "Visit Jamaica: Kingston and musical heritage",
+                "url": "https://www.visitjamaica.com/cruises/ports/kingston/"
+            },
+            {
+                "title": "Devon House: property history",
+                "url": "https://www.devonhouseja.com/property-history"
+            },
+            {
+                "title": "Emancipation Park: Redemption Song",
+                "url": "https://www.emancipationpark.org.jm/redemption-song"
+            }
+        ],
+        "attractionDescriptions": {
+            "Dunn's River Falls": "Near Ocho Rios, water cascades down a series of natural limestone terraces toward the Caribbean Sea. The forested setting and beach below make this a distinctive coastal waterfall landscape.",
+            "Hope Botanical Gardens": "Also known as the Royal Botanical Gardens, this large green space lies in urban St. Andrew. Specialized gardens, mature trees and ornamental plantings provide a quieter side of Kingston.",
+            "Bob Marley Museum": "Marley's former home at 56 Hope Road in Kingston preserves the setting where he lived and worked. Exhibits introduce the musician's life, recordings and enduring cultural influence.",
+            "Devon House": "Built in 1881 for George Stiebel, Jamaica's first Black millionaire, this Kingston mansion reflects nineteenth-century domestic life. The landscaped grounds also include shops and a well-known ice-cream stop.",
+            "Port Royal": "At the entrance to Kingston Harbour, Port Royal recalls the island's maritime and colonial history. Fort Charles and surviving historic structures help explain the town's strategic importance."
+        },
+        "cultureIntro": "Reggae and dancehall are central to Jamaica's creative identity, with Kingston recognized as a UNESCO Creative City of Music. The National Gallery and Institute of Jamaica broaden the story through art and heritage collections.",
+        "foodIntro": "Jamaican cooking layers African, European and Asian influences through dishes such as jerk chicken, ackee and saltfish, patties and rice and peas.",
+        "activitiesIntro": "Balance Montego Bay's beach time with Kingston's urban green spaces and the garden setting around YS Falls.",
+        "nightlifeIntro": "Kingston's reggae and dancehall scene brings music into the evening, while Negril's west-facing coast provides a setting for sunset views.",
+        "activityDescriptions": {
+            "Doctor's Cave Beach Club": "Spend time on the sand and swim in designated areas at this established Montego Bay beach club, following current beach conditions and staff guidance.",
+            "Emancipation Park, Kingston": "Walk the landscaped paths, see the Redemption Song sculpture and spend time in a public park commemorating emancipation from slavery.",
+            "YS Falls": "Explore garden paths and waterfall viewpoints on Jamaica's South Coast, with seven cascades set within a working estate landscape."
+        },
+        "foodDescriptions": {
+            "Ackee and saltfish": "Jamaica's national dish combines cooked ackee with salted cod, onion, tomato and seasoning.",
+            "Jamaican jerk chicken": "Chicken is seasoned with a spicy aromatic mixture commonly including allspice and Scotch bonnet pepper, then cooked for a smoky flavor.",
+            "Jamaican patty": "A flaky golden pastry encloses a savory filling, often seasoned beef, with chicken and vegetable versions also common.",
+            "Jamaican rice and peas": "Rice cooks with beans or pigeon peas, coconut milk and seasonings to make a staple accompaniment."
+        }
+    },
+    "brazil": {
+        "intro": "Atlantic beaches, Amazon forest and powerful waterfalls give Brazil an extraordinary range of landscapes. In Rio and Salvador, samba, capoeira and distinctive regional cooking bring the country's cultural history into everyday life.",
+        "tagline": "Coastal cities, forest landscapes and the rhythms of samba",
+        "capital": "Brasília",
+        "currency": "Brazilian real (BRL)",
+        "languages": "Portuguese",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.visitbrasil.com/en/",
+        "tourismLabel": "Visit Brasil",
+        "sources": [
+            {
+                "title": "Visit Brasil: Rio de Janeiro",
+                "url": "https://www.visitbrasil.com/en/location/rio-de-janeiro-en/"
+            },
+            {
+                "title": "Visit Brasil: Brasília",
+                "url": "https://www.visitbrasil.com/en/location/brasilia/"
+            },
+            {
+                "title": "Visit Brasil: Currency and exchange",
+                "url": "https://www.visitbrasil.com/en/info/currency-and-exchange/"
+            },
+            {
+                "title": "Visit Brasil: Language",
+                "url": "https://www.visitbrasil.com/en/info/language/"
+            },
+            {
+                "title": "Visit Brasil: Foz do Iguaçu",
+                "url": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/"
+            },
+            {
+                "title": "Visit Brasil: Bahian cooking",
+                "url": "https://www.feel.visitbrasil.com/en/aula-de-culinaria-baiana-2/"
+            },
+            {
+                "title": "Bahia heritage institute: Baianas do Acarajé",
+                "url": "https://www.ba.gov.br/ipac/oficio-das-baianas-do-acaraje"
+            },
+            {
+                "title": "Rio de Janeiro Botanical Garden: Visiting the arboretum",
+                "url": "https://www.gov.br/pt-br/servicos/visitar-o-jardim-botanico-do-rio-de-janeiro"
+            },
+            {
+                "title": "Bahia rural development department: Pão de queijo",
+                "url": "https://www.portalsdr.ba.gov.br/_portal/Sipaf/Produto/read/2723"
+            },
+            {
+                "title": "Goeldi Museum: Afro-Amazonian food traditions",
+                "url": "https://www.gov.br/museugoeldi/pt-br/a-instituicao/difusao-cientifica/publicacao/cartilhas/cartilha-afro-cade-a-cultura-capa-nova.pdf"
+            }
+        ],
+        "attractionDescriptions": {
+            "Christ the Redeemer (statue)": "The Art Deco figure stands on Corcovado above Rio de Janeiro, with its outstretched arms facing the city. Its mountain setting brings together views of Guanabara Bay, beaches and forest.",
+            "Copacabana, Rio de Janeiro": "Copacabana's broad beach curves along one of Rio's best-known neighbourhoods. The patterned promenade, waterfront buildings and beach sports make this a distinctive meeting point between city life and the Atlantic.",
+            "Iguazu Falls": "The Iguaçu River drops over a vast series of falls on the border with Argentina. Brazil's national park provides sweeping views of the cascades within an important Atlantic Forest landscape.",
+            "Brasília Cathedral": "Oscar Niemeyer's cathedral is one of Brasília's signature modernist buildings. Curving concrete supports form a crown around a light-filled interior, expressing the experimental architecture of Brazil's planned capital.",
+            "Escadaria Selarón": "Artist Jorge Selarón transformed these steps between Lapa and Santa Teresa into a colourful mosaic. Tiles from many countries cover the staircase, making it a public artwork woven into Rio's streets."
+        },
+        "cultureIntro": "Rio's samba schools and Bahia's capoeira traditions express distinct strands of Afro-Brazilian culture. Salvador's Pelourinho also connects architecture, music and the heritage of its Black communities.",
+        "foodIntro": "Cassava, beans, seafood and regional ingredients such as dendê palm oil connect Brazil's Indigenous, African and European culinary influences.",
+        "activitiesIntro": "Rio's mountain transport and botanical garden offer several ways to see how the city meets its forested hills.",
+        "nightlifeIntro": "Rio's evenings include Lapa's samba venues, while the Sambadrome becomes a major stage for samba-school parades during Carnival.",
+        "activityDescriptions": {
+            "Sugarloaf Cable Car": "Ride the cable car via Morro da Urca to Sugarloaf for views across Guanabara Bay, Rio's beaches and the surrounding mountains.",
+            "Corcovado Rack Railway": "Travel up Corcovado through Tijuca's forest on the rack railway, then continue to the Christ the Redeemer viewing area.",
+            "Jardim Botânico do Rio de Janeiro": "Explore the arboretum's paths and plant collections to discover a quieter, leafy side of Rio beneath the Corcovado hills."
+        },
+        "foodDescriptions": {
+            "Feijoada brasileira": "Feijoada is a slow-cooked stew of beans and meats, commonly made with black beans and pork and served with rice and accompaniments.",
+            "Pão de queijo": "These small cheese breads use cassava starch, giving the baked crust and soft centre their characteristic texture.",
+            "Moqueca baiana": "Bahia's moqueca is a fish or seafood stew flavoured with coconut milk and dendê palm oil.",
+            "Acarajé": "Acarajé is a fritter of black-eyed peas and onion fried in dendê oil, often split and filled with shrimp, vatapá and other accompaniments."
+        }
+    },
+    "peru": {
+        "intro": "Peru links Pacific coast, Andean mountains and Amazon rainforest with the remains of many ancient societies. Lima's food traditions and the Inca landscapes around Cusco make contrasting starting points for exploring the country.",
+        "tagline": "Andean stonework, coastal flavours and living traditions",
+        "capital": "Lima",
+        "currency": "Sol (PEN)",
+        "languages": "Spanish; Quechua, Aymara and other Indigenous languages",
+        "tags": [
+            "nature",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.peru.travel/en",
+        "tourismLabel": "Peru Travel",
+        "sources": [
+            {
+                "title": "Peru Travel: About Peru",
+                "url": "https://www.peru.travel/es/acerca-de-peru"
+            },
+            {
+                "title": "Peru Travel: Languages of Peru",
+                "url": "https://www.peru.travel/es/inspirate/conoce-algunas-de-las-lenguas-que-se-hablan-en-peru"
+            },
+            {
+                "title": "Peru Travel: Machupicchu",
+                "url": "https://www.peru.travel/attractions/machu-picchu"
+            },
+            {
+                "title": "Peru Travel: World Heritage destinations",
+                "url": "https://www.peru.travel/es/inspirate/que-destinos-peruanos-son-patrimonio-de-la-humanidad"
+            },
+            {
+                "title": "Peru Travel: Nasca Lines",
+                "url": "https://www.peru.travel/attractions/nasca-lines"
+            },
+            {
+                "title": "Peru Travel: Lima's museums and culture",
+                "url": "https://www.peru.travel/news/peru-conquers-canada-and-awakens-the-world-a-destination-that-has-it-all"
+            },
+            {
+                "title": "Peru Travel: Cuisine of Lima",
+                "url": "https://www.peru.travel/gastronomy/en/peruvian-cuisine/cuisine-of-lima.html"
+            },
+            {
+                "title": "Peru Travel: Paragliding in Lima",
+                "url": "https://www.peru.travel/experiences/paragliding-in-lima"
+            }
+        ],
+        "attractionDescriptions": {
+            "Plaza Mayor, Lima": "Lima's historic main square is framed by the cathedral, Government Palace and arcaded civic buildings. It anchors a World Heritage city centre shaped by the Spanish colonial period.",
+            "Larco Museum": "Set in Lima's Pueblo Libre district, the Larco Museum presents pre-Columbian art and archaeology. Its ceramic collections introduce the societies that flourished in Peru long before the Inca Empire.",
+            "Machu Picchu": "Inca terraces and carefully fitted stone buildings occupy a mountain ridge above the Urubamba valley. The site combines agricultural and urban sectors within a protected Andean landscape recognised by UNESCO.",
+            "Sacsayhuamán": "Above Cusco, Sacsayhuamán is known for monumental stone walls assembled from immense, closely fitted blocks. Its archaeological remains form part of the wider landscape of the former Inca capital.",
+            "Nazca Lines": "Animals, geometric shapes and long lines were traced into southern Peru's desert surface by pre-Hispanic communities. These enormous geoglyphs form a World Heritage landscape whose full purposes remain debated."
+        },
+        "cultureIntro": "Cusco's Inti Raymi celebrates the Inca sun tradition, while Puno's Virgen de la Candelaria festival brings together music, dance and religious devotion. Quechua and Aymara communities sustain important strands of living Andean culture.",
+        "foodIntro": "Peruvian cooking draws on coastal seafood, Andean crops and Indigenous, African, European and Asian culinary traditions.",
+        "activitiesIntro": "Explore Lima's Pacific-facing neighbourhoods or follow the Inca routes that connect archaeological sites in the Andes.",
+        "nightlifeIntro": "Barranco's streets and arts venues offer an evening atmosphere distinct from Lima's illuminated fountain displays at the Circuito Mágico del Agua.",
+        "activityDescriptions": {
+            "Larcomar": "Browse the shops and restaurants of this open-air complex built into Miraflores' cliffs, with viewpoints over Lima's Pacific coastline.",
+            "Inca Trail to Machu Picchu": "Follow a permitted guided route through Andean scenery and Inca archaeological sites toward Machu Picchu, with advance planning for access and altitude.",
+            "Paragliding in Miraflores": "Watch paragliders above Miraflores' coastal cliffs, or arrange a tandem flight with a qualified operator when local flying conditions permit."
+        },
+        "foodDescriptions": {
+            "Peruvian ceviche": "Peruvian ceviche combines raw fish marinated in citrus juice with chilli and onion, often accompanied by sweet potato and corn.",
+            "Lomo saltado": "This Chinese-influenced stir-fry combines beef, onion, tomato and soy sauce, usually served with both rice and fried potatoes.",
+            "Ají de gallina": "Shredded chicken is coated in a creamy ají pepper sauce thickened with bread and milk, commonly served with rice and potatoes.",
+            "Causa limeña": "Causa layers seasoned mashed potato around fillings such as chicken, seafood or avocado and is served cold."
+        }
+    },
+    "argentina": {
+        "intro": "Argentina stretches from subtropical forest at Iguazú to glaciers and windswept landscapes in Patagonia. Buenos Aires adds grand theatres, neighbourhood football and tango to a country with strong regional food and wine traditions.",
+        "tagline": "Tango streets, Andean vineyards and Patagonia's vast landscapes",
+        "capital": "Buenos Aires",
+        "currency": "Argentine peso (ARS)",
+        "languages": "Spanish; Indigenous languages are also spoken",
+        "tags": [
+            "nature",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.argentina.travel/en",
+        "tourismLabel": "Visit Argentina",
+        "sources": [
+            {
+                "title": "Visit Argentina: FAQs",
+                "url": "https://www.argentina.travel/en/faqs"
+            },
+            {
+                "title": "Buenos Aires tourism: Plaza de Mayo and Caminito",
+                "url": "https://turismo.buenosaires.gob.ar/es/terminal-de-cruceros/english"
+            },
+            {
+                "title": "Buenos Aires tourism: Recoleta Cemetery",
+                "url": "https://turismo.buenosaires.gob.ar/es/node/50888"
+            },
+            {
+                "title": "Visit Argentina: Perito Moreno Glacier",
+                "url": "https://www.argentina.travel/actividades/glaciar-perito-moreno"
+            },
+            {
+                "title": "Visit Argentina: Los Glaciares National Park",
+                "url": "https://www.argentina.travel/actividades/parque-nacional-los-glaciares"
+            },
+            {
+                "title": "Visit Argentina: Food and landscapes",
+                "url": "https://www.argentina.travel/en/news/las-experiencias-de-otro-planeta-que-se-pueden-vivir-en-argentina-gastronomia-destinos-y-hasta-marcianos"
+            },
+            {
+                "title": "Visit Argentina: Paraná Delta",
+                "url": "https://www.argentina.travel/actividades/delta-del-rio-parana"
+            },
+            {
+                "title": "Buenos Aires tourism: Boca Juniors museum",
+                "url": "https://turismo.buenosaires.gob.ar/es/circuitos-buenos-aires-sur/la-boca-y-san-telmo-deportivo"
+            },
+            {
+                "title": "Visit Argentina: Mendoza and vineyards",
+                "url": "https://www.argentina.travel/en/news/the-close-up-michelin-experience-in-mendoza-from-the-city-to-the-mountains-and-vineyards"
+            }
+        ],
+        "attractionDescriptions": {
+            "Plaza de Mayo": "Buenos Aires' oldest square has been a setting for major political events and public demonstrations. The Casa Rosada, Metropolitan Cathedral and historic Cabildo stand around its edges.",
+            "Caminito": "Caminito is a short street museum in La Boca, known for colourful corrugated-metal houses and its connection with artist Benito Quinquela Martín. Its streetscape recalls the neighbourhood's working-class port history.",
+            "Perito Moreno Glacier": "A great ice front reaches Lago Argentino within Los Glaciares National Park. Viewing walkways reveal the glacier's crevassed surface and the meeting point between ice, lake and Patagonian forest.",
+            "Recoleta Cemetery": "Ornate mausoleums and sculpted memorials form a compact city of tombs in Buenos Aires. Eva Perón's resting place is among the cemetery's best-known sites, alongside many other prominent Argentines.",
+            "Iguazu National Park": "Subtropical forest surrounds the Argentine side of the Iguazú waterfalls. The park protects a rich natural landscape, with visitor walkways offering different perspectives on the river and its cascades."
+        },
+        "cultureIntro": "Tango grew from the urban cultures of the Río de la Plata and remains closely associated with Buenos Aires. Theatre, visual art and football also shape the capital's neighbourhood identities.",
+        "foodIntro": "Argentine food ranges from shared asado grills and regional empanadas to dulce de leche sweets, with Mendoza central to its wine culture.",
+        "activitiesIntro": "Football heritage, river islands and Andean vineyards offer three different ways into Argentina's landscapes and local life.",
+        "nightlifeIntro": "Buenos Aires offers tango performances and late dining, while Puerto Madero's converted docks provide a waterfront setting for an evening stroll.",
+        "activityDescriptions": {
+            "La Bombonera": "Discover Boca Juniors' football history through the stadium museum and available visitor experiences in the club's La Boca neighbourhood.",
+            "Tigre Delta": "Take an organised boat excursion from Tigre through the Paraná Delta's channels to see riverside homes, islands and wetland vegetation.",
+            "Mendoza vineyards": "Visit a Mendoza winery to learn about grape growing and winemaking in the dry Andean foothills, where irrigation sustains the vineyards."
+        },
+        "foodDescriptions": {
+            "Asado argentino": "Asado is both a meal of meats cooked over a grill or embers and a social gathering centred on sharing the food.",
+            "Empanadas argentinas": "These filled pastry turnovers vary by province, with seasoned meat among the most familiar fillings and baking or frying used in different traditions.",
+            "Choripán": "Choripán pairs grilled chorizo sausage with bread and is often dressed with chimichurri.",
+            "Alfajor argentino": "An alfajor sandwiches a sweet filling, commonly dulce de leche, between biscuits, with chocolate or other coatings in many versions."
+        }
+    },
+    "chile": {
+        "intro": "Chile runs between the Andes and the Pacific, taking in Atacama desert landscapes and the lakes and glaciers of Patagonia. Santiago's historic centre and Rapa Nui's monumental heritage reveal very different chapters of the country's story.",
+        "tagline": "Desert skies, Pacific culture and Patagonia's granite peaks",
+        "capital": "Santiago",
+        "currency": "Chilean peso (CLP)",
+        "languages": "Spanish; Indigenous languages include Mapudungun and Rapa Nui",
+        "tags": [
+            "nature",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://chile.travel/en/",
+        "tourismLabel": "Chile Travel",
+        "sources": [
+            {
+                "title": "Chile Travel: Practical travel information",
+                "url": "https://chile.travel/en/blog/pack-your-bags-all-you-need-to-know-for-your-trip-to-chile/"
+            },
+            {
+                "title": "Chile Travel: Santiago historic centre",
+                "url": "https://chile.travel/atractivos/centro-historico/"
+            },
+            {
+                "title": "Chile Travel: Torres del Paine National Park",
+                "url": "https://chile.travel/en/attractions/torres-del-paine-national-park/"
+            },
+            {
+                "title": "UNESCO: Rapa Nui National Park",
+                "url": "https://whc.unesco.org/en/list/715/"
+            },
+            {
+                "title": "Chile Travel: Chile's salt flats",
+                "url": "https://chile.travel/blog/7-salares-de-chile-que-te-sorprenderan-y-como-visitarlos/"
+            },
+            {
+                "title": "Chile Travel: Chilean cuisine",
+                "url": "https://chile.travel/en/blog/chilean-cuisine-day-what-does-chile-taste-like/"
+            },
+            {
+                "title": "Chile Travel: Everyday cultural experiences",
+                "url": "https://chile.travel/en/blog/be-an-honorary-chilean-7-authentic-experiences-from-our-country/"
+            },
+            {
+                "title": "Chile Travel: El Tatio geysers",
+                "url": "https://chile.travel/atractivos/geiseres-del-tatio/"
+            },
+            {
+                "title": "Chile Travel: Valle Nevado",
+                "url": "https://chile.travel/en/attractions/valle-nevado/"
+            }
+        ],
+        "attractionDescriptions": {
+            "Santa Lucía Hill": "This landscaped rocky hill rises within central Santiago, offering paths, terraces and city views. It is closely associated with the Spanish foundation of Santiago in 1541.",
+            "Plaza de Armas, Santiago": "Santiago's main square forms the heart of its historic centre. The Metropolitan Cathedral and important civic buildings frame a public space that connects the city's colonial origins with contemporary street life.",
+            "Torres del Paine National Park": "Granite towers and the Cuernos del Paine rise above lakes, glaciers, forest and Patagonian steppe. The national park's contrasting habitats support wildlife including guanacos, condors and pumas.",
+            "Rapa Nui National Park": "The park preserves monumental moai statues, ceremonial platforms and other traces of Rapa Nui society. Its World Heritage landscape records the distinctive sculpture and architecture developed by the island's Polynesian people.",
+            "Salar de Atacama": "Chile's largest salt flat lies near San Pedro de Atacama. Salt crusts, lagoons and surrounding desert mountains create a stark landscape, with protected wetland areas providing habitat for flamingos."
+        },
+        "cultureIntro": "Chile's cultural landscape includes Mapuche traditions, Rapa Nui's Polynesian heritage and northern festivals such as La Tirana. Santiago's museums and Pablo Neruda's La Chascona add art and literature to the picture.",
+        "foodIntro": "Corn, seafood, pastoral cooking and regional produce shape a cuisine that includes pino-filled empanadas and dishes from both coast and countryside.",
+        "activitiesIntro": "Santiago's hillside transport, Andean ski areas and Atacama's geothermal landscapes show the range of experiences across Chile.",
+        "nightlifeIntro": "Santiago's restaurants and performance venues bring life to the evening, with viewpoints such as Sky Costanera offering another perspective on the illuminated city.",
+        "activityDescriptions": {
+            "Santiago Funicular": "Ride the historic funicular up San Cristóbal Hill in Santiago's Metropolitan Park, then explore the viewpoints and surrounding park paths.",
+            "El Tatio": "Visit the high-altitude geothermal field with an organised excursion to observe steam vents and geysers from designated areas.",
+            "Valle Nevado": "Visit this Andean mountain resort above Santiago for alpine scenery and seasonal skiing or snowboarding when snow conditions and operations allow."
+        },
+        "foodDescriptions": {
+            "Pastel de choclo": "A sweetcorn topping covers a savoury filling that commonly includes beef and onion, with chicken, egg, olives or raisins in different preparations.",
+            "Empanada de pino": "This Chilean pastry encloses a pino filling of seasoned beef and onion, commonly joined by egg and an olive.",
+            "Chorrillana": "Chorrillana piles fried potatoes with meat and other toppings, often including sausage, onion and egg.",
+            "Mote con huesillo": "Cooked wheat grains and dried peaches are served cold in a sweet spiced syrup, making a drink substantial enough to eat with a spoon."
+        }
+    },
+    "colombia": {
+        "intro": "Colombia's Caribbean shores, Andean cities and tropical forests create striking changes of landscape and climate. Cartagena's fortifications and Bogotá's museums introduce a country shaped by Indigenous, African and European histories.",
+        "tagline": "Caribbean fortresses, mountain cities and many regional flavours",
+        "capital": "Bogotá",
+        "currency": "Colombian peso (COP)",
+        "languages": "Spanish; more than 60 Indigenous languages are also spoken",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://colombia.travel/en",
+        "tourismLabel": "Colombia Travel",
+        "sources": [
+            {
+                "title": "Colombia Travel: Practical information",
+                "url": "https://colombia.travel/es/informacion-practica"
+            },
+            {
+                "title": "Colombia Travel: San Felipe Castle",
+                "url": "https://colombia.travel/es/cartagena/el-castillo-de-san-felipe"
+            },
+            {
+                "title": "Colombia Travel: Cartagena historic centre",
+                "url": "https://colombia.travel/en/cartagena/tour-historic-center"
+            },
+            {
+                "title": "Colombia Travel: Zipaquirá Salt Cathedral",
+                "url": "https://colombia.travel/en/bogota/salt-cathedral-zipaquira"
+            },
+            {
+                "title": "Colombia Travel: Religious and spiritual tourism",
+                "url": "https://colombia.travel/en/blog/religious-and-spiritual-tourism-in-colombia"
+            },
+            {
+                "title": "Colombia Travel: Ciudad Perdida",
+                "url": "https://colombia.travel/es/node/4237"
+            },
+            {
+                "title": "Colombia Travel: Regional cooking",
+                "url": "https://colombia.travel/en/blog/travel-magazine/country-regions"
+            },
+            {
+                "title": "Colombia Travel: Traditional Colombian dishes",
+                "url": "https://colombia.travel/en/best-places-colombia-taste-colombian-food"
+            },
+            {
+                "title": "Colombia Travel: Medellín Metrocable",
+                "url": "https://colombia.travel/es/medellin/viaja-en-el-metrocable"
+            },
+            {
+                "title": "Colombia Travel: Guatapé rock",
+                "url": "https://colombia.travel/es/medellin/sube-la-piedra-de-guatape"
+            }
+        ],
+        "attractionDescriptions": {
+            "Castillo San Felipe de Barajas": "Built on Cartagena's San Lázaro hill, this Spanish colonial fortress defended the city's landward approach. Its ramps, walls and underground passages reveal the scale of Cartagena's historic military defences.",
+            "Salt Cathedral of Zipaquirá": "A sequence of chapels and sculpted religious spaces occupies tunnels in a working salt-mining landscape near Bogotá. The underground sanctuary connects modern devotional architecture with Zipaquirá's long history of salt extraction.",
+            "Monserrate": "This mountain sanctuary rises above Bogotá and is both a pilgrimage destination and a viewpoint. Its church, gardens and transport routes bring visitors above the dense city on the plateau.",
+            "Ciudad Perdida": "Stone terraces and stairways survive in the Sierra Nevada de Santa Marta's tropical forest. The archaeological site is associated with the Tairona and lies within a living Indigenous cultural landscape.",
+            "Cartagena Cathedral": "The Cathedral of Santa Catalina de Alejandría stands in Cartagena's historic centre near Parque Bolívar. Construction began in the sixteenth century, and its prominent tower helps define the old city's skyline."
+        },
+        "cultureIntro": "Cartagena's palenquera traditions connect the city with Afro-Colombian heritage, while Bogotá's Gold Museum presents the artistry of pre-Hispanic societies. Fernando Botero's work adds a distinct modern artistic voice.",
+        "foodIntro": "Colombian food changes markedly by region, from Caribbean fried arepas to Bogotá's potato soups and the generous platters of the paisa region.",
+        "activitiesIntro": "Follow Cartagena's walls, ride above Medellín's hills or climb Guatapé's rock for different views of Colombian settlement and landscape.",
+        "nightlifeIntro": "Cartagena's historic squares provide settings for evening dining and music, while Caribbean rhythms are an important part of the city's cultural life.",
+        "activityDescriptions": {
+            "Walls of Cartagena": "Walk accessible sections of Cartagena's historic defensive walls to see the Caribbean, old-city rooftops and the scale of its colonial fortifications.",
+            "Medellín Metrocable": "Use Medellín's aerial cable transport to see the city spread across its valley and gain a different perspective on hillside neighbourhoods.",
+            "El Peñón de Guatapé": "Climb the constructed stairway on this immense rock for views over the islands and inlets of the surrounding reservoir."
+        },
+        "foodDescriptions": {
+            "Bandeja paisa": "This substantial platter commonly combines beans, rice, meat, pork crackling, plantain, egg, avocado and an arepa.",
+            "Ajiaco santafereño": "Bogotá's ajiaco is a chicken soup made with several kinds of potato and the herb guascas, often served with corn and accompaniments.",
+            "Arepa de huevo": "A Caribbean coastal speciality, arepa de huevo is a fried corn cake with an egg enclosed inside.",
+            "Pandebono": "Pandebono is a small cheese bread associated with Valle del Cauca, typically made using cheese and starch-based dough."
+        }
+    },
+    "australia": {
+        "intro": "Australia brings together tropical reefs, vast inland landscapes and cities set around beaches and harbours. Aboriginal and Torres Strait Islander cultures connect people with Country across a continent of remarkable regional variety.",
+        "tagline": "Harbour cities, coral reefs and ancient connections to Country",
+        "capital": "Canberra",
+        "currency": "Australian dollar (AUD)",
+        "languages": "English is the main language; many Indigenous and community languages",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.australia.com/en",
+        "tourismLabel": "Tourism Australia",
+        "sources": [
+            {
+                "title": "Tourism Australia: Key facts",
+                "url": "https://www.australia.com/en/facts-and-planning/about-australia/key-facts-about-australia.html"
+            },
+            {
+                "title": "Tourism Australia: Currency and travel tips",
+                "url": "https://www.australia.com/en-sg/facts-and-planning/about-australia/useful-tips.html"
+            },
+            {
+                "title": "Tourism Australia: Canberra",
+                "url": "https://www.australia.com/en/places/canberra-and-surrounds/guide-to-canberra.html"
+            },
+            {
+                "title": "Tourism Australia: Sydney and reef itinerary",
+                "url": "https://www.australia.com/en/trips-and-itineraries/sydney-and-surrounds/australia-on-a-budget-in-10-days.html"
+            },
+            {
+                "title": "Parks Australia: Kakadu visitor guide",
+                "url": "https://api.parksaustralia.gov.au/sites/default/files/2024-04/document/knp-visitor-guide.pdf"
+            },
+            {
+                "title": "Tourism Australia: Kuranda",
+                "url": "https://www.australia.com/en/places/cairns-and-surrounds/guide-to-kuranda.html"
+            },
+            {
+                "title": "Tourism Australia: Typical Australian foods",
+                "url": "https://www.australia.com/en-us/things-to-do/food-and-drinks/typical-aussie-foods-to-try.html"
+            },
+            {
+                "title": "Australian War Memorial: Anzac biscuit recipes",
+                "url": "https://www.awm.gov.au/articles/encyclopedia/anzac/biscuit/recipe"
+            },
+            {
+                "title": "Tourism Australia: Iconic food experiences",
+                "url": "https://www.australia.com/en-my/things-to-do/food-and-drinks/iconic-food-and-drink-experiences-everyone-must-try.html"
+            }
+        ],
+        "attractionDescriptions": {
+            "Sydney Opera House": "Jørn Utzon's sculptural performing-arts complex occupies Bennelong Point on Sydney Harbour. Its shell-like roof forms are internationally recognised, while the building's theatres host a wide range of performances.",
+            "Bondi Beach": "This sandy ocean beach sits among Sydney's eastern suburbs and has a strong surfing and lifesaving identity. The promenade and coastal walking route connect its seafront with neighbouring bays.",
+            "Great Barrier Reef": "Off Queensland, this immense reef system contains coral reefs, islands and diverse marine habitats. Boat-based experiences introduce its underwater landscapes, with conservation central to visiting this World Heritage ecosystem.",
+            "Sydney Harbour Bridge": "The steel arch bridge links central Sydney with the North Shore across the harbour. Its pedestrian route offers a close view of the structure and perspectives toward the Opera House.",
+            "Kakadu National Park": "Wetlands, sandstone escarpments and Aboriginal rock-art sites form part of Kakadu's World Heritage landscape. Bininj and Mungguy Traditional Owners maintain deep cultural connections with this seasonally changing country."
+        },
+        "cultureIntro": "Aboriginal and Torres Strait Islander peoples hold diverse cultural traditions and connections to Country. Major museums and galleries also present the art, natural history and many communities of contemporary Australia.",
+        "foodIntro": "Australian food includes bakery classics and everyday favourites alongside regional produce, Indigenous ingredients and the cooking traditions of many migrant communities.",
+        "activitiesIntro": "Harbour ferries, coastal road journeys and rainforest railways make the journey itself part of exploring Australia.",
+        "nightlifeIntro": "Sydney's Circular Quay and Darling Harbour combine waterfront dining, cultural venues and evening views of the city.",
+        "activityDescriptions": {
+            "Manly ferry": "Cross Sydney Harbour by ferry to Manly, watching the Opera House, Harbour Bridge and bays before exploring the beachside suburb.",
+            "Great Ocean Road": "Travel Victoria's coastal route between seaside towns, beaches and forest, stopping at designated viewpoints to see the limestone coast.",
+            "Kuranda Scenic Railway": "Ride the heritage railway between Cairns and Kuranda through tropical rainforest, with views of mountain scenery and Barron Gorge."
+        },
+        "foodDescriptions": {
+            "Lamington": "A lamington is a square of sponge cake coated with chocolate icing and desiccated coconut, sometimes filled with jam or cream.",
+            "ANZAC biscuit": "This sweet, eggless biscuit uses rolled oats, butter and golden syrup, with coconut included in many familiar recipes.",
+            "Meat pie (Australia and New Zealand)": "The familiar individual meat pie encloses minced or diced meat and gravy in pastry.",
+            "Vegemite on toast": "Vegemite adds a salty, savoury yeast-extract spread to buttered toast, usually in a thin layer."
+        }
+    },
+    "new-zealand": {
+        "intro": "New Zealand's volcanic plateaus, caves and Southern Alps place very different landscapes within one island country. Māori heritage, contemporary cities and a distinctive filmmaking history add further layers to the journey.",
+        "tagline": "Māori heritage, alpine scenery and imaginative journeys",
+        "capital": "Wellington",
+        "currency": "New Zealand dollar (NZD)",
+        "languages": "English, te reo Māori and New Zealand Sign Language",
+        "tags": [
+            "nature",
+            "heritage",
+            "food",
+            "cities"
+        ],
+        "tourismUrl": "https://www.newzealand.com/int/",
+        "tourismLabel": "Tourism New Zealand",
+        "sources": [
+            {
+                "title": "Tourism New Zealand: Visitor factsheet",
+                "url": "https://businessevents.newzealand.com/assets/Uploads/Resources/Delegate-marketing/TNZ-Visiting-New-Zealand-Factsheets-English.pdf"
+            },
+            {
+                "title": "Tourism New Zealand: Wellington attractions",
+                "url": "https://www.newzealand.com/int/feature/wellington-attractions/"
+            },
+            {
+                "title": "Tourism New Zealand: Glowworms",
+                "url": "https://www.newzealand.com/ca/glow-worms/"
+            },
+            {
+                "title": "Tourism New Zealand: Hobbiton Movie Set",
+                "url": "https://visuals.newzealand.com/asset-page/233520-hobbiton-movie-set-tours-waikato"
+            },
+            {
+                "title": "Tourism New Zealand: Aoraki/Mount Cook",
+                "url": "https://www.newzealand.com/int/aoraki-mount-cook/"
+            },
+            {
+                "title": "Tourism New Zealand: Favourite foods",
+                "url": "https://www.newzealand.com/au/feature/favourite-new-zealand-foods/"
+            },
+            {
+                "title": "Tourism New Zealand: Wellington Cable Car",
+                "url": "https://www.newzealand.com/uk/plan/business/wellington-cable-car/"
+            },
+            {
+                "title": "Tourism New Zealand: Tongariro Alpine Crossing",
+                "url": "https://www.newzealand.com/nz/plan/business/tongariro-alpine-crossing-1/"
+            },
+            {
+                "title": "Tourism New Zealand: Shotover Jet",
+                "url": "https://www.newzealand.com/nz/plan/business/shotover-jet/"
+            },
+            {
+                "title": "Anchor: Lolly cake recipe",
+                "url": "https://www.anchordairy.com/nz/en/recipes/dessert-recipes/lolly-cake.html"
+            }
+        ],
+        "attractionDescriptions": {
+            "Museum of New Zealand Te Papa Tongarewa": "On Wellington's waterfront, Te Papa brings together collections and exhibitions about Aotearoa's people, art and natural environment. Māori taonga and stories sit alongside interpretations of the country's changing society.",
+            "Wellington Botanic Garden": "Paths on the hills above central Wellington connect gardens, native forest and viewpoints over the city. The cable car's Kelburn terminus provides a convenient starting point for exploring the grounds.",
+            "Waitomo Glowworm Caves": "Guided cave experiences reveal limestone formations and tiny lights produced by glowworm larvae. The dark underground setting makes the glowing colonies one of Waitomo's most distinctive natural sights.",
+            "Hobbiton Movie Set": "The film set occupies rolling farmland near Matamata in Waikato. Hobbit holes, gardens and other carefully maintained details recreate the Shire landscapes seen in The Lord of the Rings and The Hobbit.",
+            "Aoraki / Mount Cook": "New Zealand's highest mountain rises in the Southern Alps within a national park of glaciers and alpine valleys. The landscape has deep significance in the traditions of Ngāi Tahu."
+        },
+        "cultureIntro": "Māori culture is central to Aotearoa's identity, with Waitangi, Whakarewarewa and Te Puia offering distinct historical and living cultural perspectives. Te reo Māori, carving and performance remain important forms of expression.",
+        "foodIntro": "New Zealand's food traditions include Māori earth-oven cooking, local dairy and produce, and much-loved baking and confectionery.",
+        "activitiesIntro": "A city cable car, a volcanic walking route and a canyon jet-boat experience reveal different sides of New Zealand.",
+        "nightlifeIntro": "Wellington's Cuba Street and Courtenay Place are established areas for restaurants, bars, performance venues and evening city life.",
+        "activityDescriptions": {
+            "Wellington Cable Car": "Ride from Lambton Quay to Kelburn for city and harbour views, then explore the nearby Botanic Garden or Cable Car Museum.",
+            "Tongariro Alpine Crossing": "Plan this demanding alpine day walk through volcanic terrain using current Department of Conservation guidance, suitable equipment and weather conditions.",
+            "Shotover Jet": "Join an operated jet-boat trip through the Shotover River's narrow canyons near Queenstown, following the operator's participation requirements."
+        },
+        "foodDescriptions": {
+            "Hāngī": "A traditional Māori hāngī cooks meat and vegetables slowly in an earth oven heated with hot stones.",
+            "Hokey pokey ice cream": "Hokey pokey ice cream combines a creamy vanilla base with crunchy pieces of honeycomb toffee.",
+            "Pavlova": "Pavlova is a meringue-based dessert topped with whipped cream and fruit and is popular in both New Zealand and Australia.",
+            "Lolly cake": "This unbaked sweet combines crushed malt biscuits, condensed milk, butter and colourful lollies, commonly finished with a coating of coconut."
+        }
+    },
+    "fiji": {
+        "intro": "Fiji's islands combine coral reefs and tropical coastlines with forested interiors and busy market towns. Indigenous iTaukei and Indo-Fijian traditions help shape the food, faiths and everyday life of this Pacific nation.",
+        "tagline": "Island reefs, garden paths and shared cultural traditions",
+        "capital": "Suva",
+        "currency": "Fijian dollar (FJD)",
+        "languages": "English, iTaukei (Fijian) and Fiji Hindi",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://www.fiji.travel/",
+        "tourismLabel": "Tourism Fiji",
+        "sources": [
+            {
+                "title": "Tourism Fiji: Introduction and quick facts",
+                "url": "https://specialist.fiji.travel/user/courses/introduction-to-fiji"
+            },
+            {
+                "title": "Tourism Fiji: Currency information",
+                "url": "https://www.fiji.travel/things-to-know/transitting-fiji/fiji-layover-guide"
+            },
+            {
+                "title": "Tourism Fiji: Fiji Museum",
+                "url": "https://www.fiji.travel/places-to-go/suva-and-surrounds/locations/a-visit-to-the-fiji-museum-in-suva"
+            },
+            {
+                "title": "Tourism Fiji: Suva",
+                "url": "https://www.fiji.travel/places-to-go/suva-and-surrounds/locations/top-things-to-do-in-suva"
+            },
+            {
+                "title": "Tourism Fiji: Nadi",
+                "url": "https://www.fiji.travel/places-to-go/nadi/locations/top-things-to-do-in-nadi"
+            },
+            {
+                "title": "Tourism Fiji: Market foods and duruka",
+                "url": "https://www.fiji.travel/things-to-do/local-eats/unusual-fijian-foods"
+            },
+            {
+                "title": "Tourism Fiji: Kokoda",
+                "url": "https://www.fiji.travel/things-to-do/local-eats/how-to-make-fijian-kokoda"
+            },
+            {
+                "title": "Tourism Fiji: Kava",
+                "url": "https://www.fiji.travel/things-to-do/arts/a-travellers-guide-to-drinking-kava-in-fiji"
+            },
+            {
+                "title": "Tourism Fiji: Cloudbreak",
+                "url": "https://www.fiji.travel/things-to-do/surfing/beginners-guide-to-surfing-cloudbreak"
+            },
+            {
+                "title": "Tourism Fiji: Great Astrolabe Reef",
+                "url": "https://www.fiji.travel/places-to-go/kadavu-island/locations/exploring-kavadu-s-great-astrolabe-reef"
+            },
+            {
+                "title": "Tourism Fiji: Fiji Culture Village and lovo",
+                "url": "https://www.fiji.travel/deals-and-offers/experiences/fiji-culture-village"
+            }
+        ],
+        "attractionDescriptions": {
+            "Fiji Museum": "Within Suva's Thurston Gardens, the Fiji Museum explores the islands' archaeology and cultural histories. Exhibits introduce early seafaring settlement, iTaukei heritage and the experiences of Indo-Fijian communities.",
+            "Thurston Gardens": "These established botanical gardens form a leafy public space in Suva and contain the Fiji Museum. Their paths and tropical planting offer a quieter setting close to central civic landmarks.",
+            "Sri Siva Subramaniya Temple": "This colourful Hindu temple stands at the southern end of Nadi town. Its South Indian architectural forms and painted details reflect the religious and cultural heritage of Fiji's Indian communities.",
+            "Garden of the Sleeping Giant": "Set below the Sabeto hills near Nadi, this garden grew from actor Raymond Burr's orchid collection. Walking paths lead among orchids, tropical planting and shaded landscaped areas.",
+            "Albert Park, Suva": "Albert Park is a prominent open green space beside Suva's civic buildings and near Thurston Gardens. It has hosted sporting events and major public occasions, including Fiji's independence ceremony."
+        },
+        "cultureIntro": "Meke combines song, dance and storytelling in iTaukei tradition, while Navala's bure architecture and Suva's markets reveal other aspects of local life. Indo-Fijian communities contribute important religious and culinary traditions.",
+        "foodIntro": "Fijian food brings together root crops, coconut, seafood and earth-oven cooking, alongside the spices and dishes of Indo-Fijian kitchens.",
+        "activitiesIntro": "Reef excursions, surf viewing and Sabeto's geothermal pools offer varied ways to experience Fiji beyond its towns.",
+        "nightlifeIntro": "Suva's restaurants and bars offer a city evening, while harbour views and cultural performances provide quieter ways to spend time after sunset.",
+        "activityDescriptions": {
+            "Cloudbreak, Fiji": "Watch this celebrated Mamanuca reef break from an organised boat outing; surfing here requires experience suited to powerful waves and shallow reef.",
+            "Great Astrolabe Reef": "Arrange a guided snorkelling or diving excursion around Kadavu to explore reef habitats, with sites selected for your ability and current sea conditions.",
+            "Sabeto Hot Springs": "Visit Sabeto's geothermal bathing area near Nadi to experience the mud pools and warm-water pools within the locally operated site."
+        },
+        "foodDescriptions": {
+            "Fijian lovo": "A lovo cooks foods such as meat, fish and root vegetables in an earth oven heated with stones.",
+            "Fijian kokoda": "Kokoda combines fish marinated in citrus juice with coconut milk and chopped vegetables and herbs.",
+            "Duruka Fiji": "Duruka is the unopened flower of a sugarcane relative, often cooked in coconut milk or included in curry.",
+            "Fijian kava": "Known locally as yaqona, this earthy drink is prepared from the roots of the kava plant mixed and strained with water."
+        }
+    },
+    "samoa": {
+        "intro": "Samoa's volcanic islands hold lava fields, waterfalls and coastal villages surrounded by tropical vegetation. Fa'a Samoa, the Samoan way of life, gives family, community and cultural practice a central place in the country's identity.",
+        "tagline": "Volcanic landscapes and the living traditions of Fa'a Samoa",
+        "capital": "Apia",
+        "currency": "Samoan tālā (WST)",
+        "languages": "Samoan and English",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://www.samoa.travel/",
+        "tourismLabel": "Samoa Tourism Authority",
+        "sources": [
+            {
+                "title": "Samoa Tourism: FAQs",
+                "url": "https://www.samoa.travel/samoa-travel-advice/faqs/"
+            },
+            {
+                "title": "Samoa Tourism: Culture",
+                "url": "https://www.samoa.travel/discover/our-culture/"
+            },
+            {
+                "title": "Samoa Tourism: Vailima National Reserve",
+                "url": "https://www.samoa.travel/plan-book/activities/vailima-national-reserve/"
+            },
+            {
+                "title": "Samoa Tourism: To-Sua Ocean Trench",
+                "url": "https://www.samoa.travel/plan-book/activities/to-sua-ocean-trench/"
+            },
+            {
+                "title": "Samoa Tourism: Piula Cave Pool",
+                "url": "https://www.samoa.travel/plan-book/activities/piula-fatumea-cave-pool/"
+            },
+            {
+                "title": "Samoa Tourism: Saleaula Lava Field",
+                "url": "https://www.samoa.travel/plan-book/activities/saleaula-lava-field"
+            },
+            {
+                "title": "Samoa Tourism: Sopoaga Waterfall",
+                "url": "https://www.samoa.travel/plan-book/activities/sopoaga-waterfall/"
+            },
+            {
+                "title": "Samoa Tourism: Samoan food",
+                "url": "https://www.samoa.travel/discover/our-food-and-cuisine/samoan-food/"
+            },
+            {
+                "title": "Samoa Tourism: Mount Vaea",
+                "url": "https://www.samoa.travel/plan-book/activities/mt-vaea/"
+            },
+            {
+                "title": "Samoa Tourism: Nature and walking experiences",
+                "url": "https://www.samoa.travel/experience/mature-travellers/"
+            },
+            {
+                "title": "US National Park Service: Samoan food culture",
+                "url": "https://www.nps.gov/npsa/learn/historyculture/samoan-food-and-culture.htm"
+            },
+            {
+                "title": "Museum of New Zealand Te Papa: Pisupo",
+                "url": "https://collections.tepapa.govt.nz/object/235630"
+            },
+            {
+                "title": "Wikimedia Commons: Pisupo and supoketi photograph",
+                "url": "https://commons.wikimedia.org/wiki/File:Pisupo_and_supoketi.jpg"
+            }
+        ],
+        "attractionDescriptions": {
+            "Robert Louis Stevenson Museum (Samoa)": "Stevenson's former Vailima home near Apia is now a museum set in gardens. It tells the story of the Scottish author's final years in Samoa, where he was known as Tusitala.",
+            "To-Sua Ocean Trench": "A deep natural swimming hole opens within tropical gardens at Lotofaga on Upolu's south coast. A steep ladder leads to the water, with the coastal setting adding to the site's distinctive appearance.",
+            "Piula Cave Pool": "This freshwater spring pool and cave formed in an old lava tube at Piula Theological College. Its clear water sits beneath the college chapel on Upolu's north coast.",
+            "Saleaula Lava Fields": "Lava from Mount Matavanu's 1905–1911 eruption engulfed villages on Savai'i. Visitors can see dark lava flows and partly buried church remains that document the eruption's effect on local communities.",
+            "Sopoaga Falls": "Sopoaga's waterfall drops into a lush valley near Lotofaga on Upolu. A garden path leads to the viewing area, with plants labelled in Samoan and by their scientific names."
+        },
+        "cultureIntro": "Fa'a Samoa places strong emphasis on family, community and respect. Siva dance, siva afi fireknife performance, siapo barkcloth and the ceremonial sharing of 'ava are distinct expressions of Samoan culture.",
+        "foodIntro": "Samoan meals often combine taro or breadfruit with coconut, fish, pork or chicken, with umu cooking important for shared feasts.",
+        "activitiesIntro": "Forest trails, volcanic coastal scenery and Savai'i's waterfalls offer ways to explore Samoa's island landscapes.",
+        "nightlifeIntro": "Fiafia evenings bring together food, music and dance, often including siva afi; current programmes vary between venues.",
+        "activityDescriptions": {
+            "Mount Vaea": "Follow the forest trail from Vailima toward Robert Louis Stevenson's tomb and viewpoints over Apia, allowing for steep and slippery terrain.",
+            "O Le Pupu-Puʿe National Park": "Explore the park's designated walking routes through tropical vegetation and along volcanic coastal scenery, using current local access guidance.",
+            "Afu Aau Waterfall": "Visit this rainforest waterfall on southeastern Savai'i and spend time at its freshwater pool, observing local site rules and water conditions."
+        },
+        "foodDescriptions": {
+            "Samoan umu": "An umu uses heated stones to cook a shared meal that can include taro, breadfruit, fish and meats.",
+            "Pisupo and supoketi": "This meal combines canned corned beef and spaghetti, served with white rice.",
+            "Samoan kava": "Called 'ava in Samoa, this drink made from the kava plant has a formal place in ceremonial hospitality.",
+            "Palusami and breadfruit": "Palusami wraps coconut cream in young taro leaves for cooking, while starchy breadfruit provides a familiar accompaniment."
+        }
+    },
+    "vanuatu": {
+        "intro": "Vanuatu's islands combine coral-fringed coastlines, freshwater blue holes and volcanic landscapes. Ni-Vanuatu kastom, including oral traditions, village customs and distinctive arts, remains an important part of life across the archipelago.",
+        "tagline": "Blue holes, island coastlines and the traditions of kastom",
+        "capital": "Port Vila",
+        "currency": "Vatu (VUV)",
+        "languages": "Bislama, English and French; many Indigenous island languages",
+        "tags": [
+            "nature",
+            "beaches",
+            "heritage",
+            "food"
+        ],
+        "tourismUrl": "https://www.vanuatu.travel/en",
+        "tourismLabel": "Vanuatu Tourism Office",
+        "sources": [
+            {
+                "title": "Vanuatu Government: Country facts",
+                "url": "https://www.gov.vu/index.php/about/about-vanuatu"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Travel tips",
+                "url": "https://www.vanuatu.travel/en/things-to-know/travel-tips"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Understanding kastom",
+                "url": "https://www.vanuatu.travel/en/about-vanuatu/understanding-kastom"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Cultural Centre and National Museum",
+                "url": "https://www.vanuatu.travel/en/things-to-do/culture/vanuatu-cultural-center"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Shefa",
+                "url": "https://www.vanuatu.travel/en/about-vanuatu/provinces/shefa"
+            },
+            {
+                "title": "UNESCO: Chief Roi Mata's Domain",
+                "url": "https://whc.unesco.org/en/list/1280"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Beaches",
+                "url": "https://www.vanuatu.travel/en/things-to-do/beaches"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Erakor Island",
+                "url": "https://www.vanuatu.travel/en/erakor-island-resort-and-spa"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Blue holes",
+                "url": "https://www.vanuatu.travel/en/things-to-do/blue-holes"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Local food",
+                "url": "https://www.vanuatu.travel/en/about-vanuatu/local-eats"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Kava",
+                "url": "https://www.vanuatu.travel/en/about-vanuatu/kava"
+            },
+            {
+                "title": "Vanuatu Tourism Office: Food and drink",
+                "url": "https://www.vanuatu.travel/en/plan/food-drinks"
+            },
+            {
+                "title": "Wikimedia Commons: Beef curry with boiled taro photograph",
+                "url": "https://commons.wikimedia.org/wiki/File:Vanuatu_Beef_Curry_with_Boiled_Taro.jpg"
+            },
+            {
+                "title": "Wikimedia Commons: Nem spring rolls photograph",
+                "url": "https://commons.wikimedia.org/wiki/File:Vanuatu_Nem_Spring_Rolls.jpg"
+            }
+        ],
+        "attractionDescriptions": {
+            "National Museum of Vanuatu": "The museum in Port Vila presents objects and stories from Vanuatu's diverse island cultures. Traditional arts, archaeology and sand drawing help introduce the knowledge preserved through the Vanuatu Cultural Centre.",
+            "Mele Cascades": "A sequence of cascades and natural pools lies in tropical vegetation near Mele on Efate. Walking paths reveal the stream and waterfall landscape beyond Port Vila's urban waterfront.",
+            "Chief Roi Mata's Domain": "This World Heritage cultural landscape links sites on Efate, Lelepa and Artok with the life and death of Chief Roi Mata. Archaeology and oral tradition together preserve the chief's enduring significance.",
+            "Champagne Beach (Vanuatu)": "On Espiritu Santo, Champagne Beach curves around a bay with pale sand and clear blue water. Its coastal setting is one of the island's best-known natural landmarks.",
+            "Erakor Island": "This small island sits in a lagoon beside Efate near Port Vila. Beaches, palms and surrounding shallow-water habitats give it a different setting from the nearby capital's busy waterfront."
+        },
+        "cultureIntro": "Kastom carries ancestral knowledge through ceremonies, stories, art and community practice, with different traditions across Vanuatu's islands. Pentecost's nagol land diving and Vanuatu sand drawing are two distinctive examples.",
+        "foodIntro": "Root crops, coconut cream, banana leaves and hot-stone cooking are central to ni-Vanuatu food, alongside seafood and dishes shaped by outside influences.",
+        "activitiesIntro": "Snorkelling excursions and Santo's spring-fed blue holes offer ways to explore Vanuatu's marine and freshwater environments.",
+        "nightlifeIntro": "Port Vila's waterfront offers evening dining and sunset views, while nakamals have a distinct place in the social tradition of sharing kava.",
+        "activityDescriptions": {
+            "Hideaway Island": "Arrange a snorkelling or diving visit to the marine setting off Mele Bay, where the underwater post box is a distinctive feature.",
+            "Blue Hole, Espiritu Santo": "Visit Nanda's clear, spring-fed pool on Espiritu Santo, with tropical greenery around the water and places to pause beside it.",
+            "Nanda Blue Hole": "Visit Nanda, also called Jackie's Blue Hole, to see intensely blue freshwater surrounded by tropical vegetation on Espiritu Santo."
+        },
+        "foodDescriptions": {
+            "Laplap": "Laplap combines grated root crops such as taro, yam or cassava with coconut cream, traditionally wrapped in leaves and cooked with hot stones.",
+            "Vanuatu Beef Curry with Boiled Taro": "Beef curry is served with boiled taro, a starchy root crop widely used in Pacific cooking.",
+            "Vanuatu Nem Spring Rolls": "These Vanuatu-style nems are deep-fried spring rolls filled with minced beef.",
+            "Vanuatu kava": "Vanuatu's kava drink is prepared from the plant's roots and water and is traditionally shared at gathering places known as nakamals."
+        }
+    }
+}
